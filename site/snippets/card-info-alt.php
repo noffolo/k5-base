@@ -20,24 +20,7 @@
     <h2><?= $item->title() ?></h2>
 </div>
 
-<?php if ($item->deadline()->isNotEmpty()): ?>
-    <?php $deadline_exist = "on" ?>
-<?php endif; ?>
-<?php if ($item->deadline()->isNotEmpty() && strtotime($item->deadline()) >= strtotime('today')): ?>
-    <?php $deadline_toggle = "on" ?>
-    <hr style="margin: 0; margin-top: 30px; border: none; border-bottom: 1px solid;">
-    <?php $deadline = $item->deadline() ?>
-    <div class="cards-dates" style="display: flex; width: 100%; justify-content: center; flex-wrap:wrap; text-align: center;">
-        <?php 
-        $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
-        $formatter->setPattern('d MMM Y'); // Modello simile a %d – %b – %Y;
-        ?>
-        <span id="deadline" class="center" style="min-width: fit-content; max-width: 100%; text-transform: uppercase; text-align: center; padding-top: 15px; padding-bottom: 15px;" class="time"><strong>ISCRIVITI ENTRO</strong> → <strong><?= $formatter->format($deadline->toDate()) ?></strong></span>
-    </div>
-    <hr style="margin: 0; margin-bottom: 15px; border: none; border-top: 1px solid;">
-<?php else: ?>
-    <hr style="margin: 0; border: none;">
-<?php endif; ?>
+
 
 <div class="cards-text">
     <?php echo $item->descrizione()->kirbytext(); ?>
@@ -61,10 +44,30 @@
 
 <?php endif; ?>
 
+
+<?php if ($item->deadline()->isNotEmpty()): ?>
+    <?php $deadline_exist = "on" ?>
+<?php endif; ?>
+<?php if ($item->deadline()->isNotEmpty() && strtotime($item->deadline()) >= strtotime('today')): ?>
+    <?php $deadline_toggle = "on" ?>
+    <hr style="margin: 0; margin-top: 30px; border: none; border-bottom: 1px solid; opacity: 1;">
+    <?php $deadline = $item->deadline() ?>
+    <div class="cards-dates" style="display: flex; width: 100%; justify-content: center; flex-wrap:wrap; text-align: center;">
+        <?php 
+        $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
+        $formatter->setPattern('d MMM Y'); // Modello simile a %d – %b – %Y;
+        ?>
+        <span id="deadline" class="center" style="min-width: fit-content; max-width: 100%; text-transform: uppercase; text-align: center; padding-top: 15px; padding-bottom: 15px;" class="time"><strong>ISCRIVITI ENTRO</strong> → <strong><?= $formatter->format($deadline->toDate()) ?></strong></span>
+    </div>
+    <hr style="margin: 0; margin-bottom: 15px; border: none; border-top: 1px solid; opacity: 1;">
+<?php else: ?>
+    <hr style="margin: 0; border: none;">
+<?php endif; ?>
+
+
 <?php if($item->appuntamenti()->isNotEmpty()): ?>
     <div>
-        <div class="team-label"><p style="width: 100%; text-align: center; margin: 0 auto; margin-top: 15px; margin-bottom: 0;"><strong>SAVE THE DATE</strong></p></div>
-        <hr style="margin: 0; margin-top: 15px; border: none; border-bottom: 1px solid; opacity: 1;">
+        <hr style="margin: 0; margin-top: 15px; border: none; border-bottom: 1px solid; opacity: 1; opacity: 1;">
         <?php $appuntamenti = $item->appuntamenti()->toStructure() ?>
         <div class="cards-dates" style="display: flex; width: 100%; justify-content: space-between; flex-wrap:wrap;">
             <?php foreach($appuntamenti as $appuntamento): ?>
@@ -72,7 +75,7 @@
             $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
             $formatter->setPattern('d MMM Y'); // Modello simile a %d – %b – %Y;
             ?>
-            <span style="border: none; border-bottom: 1px solid; text-transform: uppercase; padding-top: 15px; padding-bottom: 15px; text-align: center;" class="time"><strong><?= $formatter->format($appuntamento->giorno()->toDate()) ?></strong></span>  <span class="time" style="border: none; border-bottom: 1px solid; text-align: center; border-left: 1px solid; padding-top: 15px; padding-bottom: 15px;"><?= $appuntamento->orario_inizio()->toDate('H:i') ?> <?php if($appuntamento->orario_fine()->isNotEmpty()): ?>→ <?= $appuntamento->orario_fine()->toDate('H:i') ?><?php endif; ?></span>
+            <span style="border: none; border-bottom: 1px solid; opacity: 1; text-transform: uppercase; padding-top: 15px; padding-bottom: 15px; text-align: center;" class="time"><strong><?= $formatter->format($appuntamento->giorno()->toDate()) ?></strong></span>  <span class="time" style="border: none; border-bottom: 1px solid; opacity: 1; text-align: center; border-left: 1px solid; padding-top: 15px; padding-bottom: 15px;"><?= $appuntamento->orario_inizio()->toDate('H:i') ?> <?php if($appuntamento->orario_fine()->isNotEmpty()): ?>→ <?= $appuntamento->orario_fine()->toDate('H:i') ?><?php endif; ?></span>
             <?php endforeach; ?>
         </div>
         <hr style="margin: 0; margin-bottom: 0; border: none!important;">
@@ -94,14 +97,12 @@
 
         <?php if($page->parent() !== NULL AND $page->parent()->collection_options() == "calendar"): ?>
             <?php if(strtotime($page->deadline()) >= strtotime('today')): ?>
-            <hr style="margin: 0; margin-top: 15px; margin-bottom: 15px; border: none; border-bottom: 1px solid;">
             <?php snippet('form-request-counter',[
             'page' => $page,
             ])?>
             <?php endif; ?>
         <?php else: ?>
             <?php if(strtotime($item->deadline()) >= strtotime('today')): ?>
-            <hr style="margin: 0; margin-top: 15px; margin-bottom: 15px; border: none; border-bottom: 1px solid;">
             <?php snippet('form-request-counter',[
             'page' => $item,
             ])?>
@@ -143,10 +144,10 @@ if (!$deadline && $current->appuntamenti()->isNotEmpty()) {
 
 ?>
 <?php if (($incoming_deadline_bool || $incoming_appointment_bool) && $hasAvailableSeats): ?>
-    <span class="bollino_manca_poco" style="z-index: 4; padding: 24px 17px; border-radius: 100vw; text-align: center">MANCA<br>POCO!</span>
+    <span id="bollino" class="bollino_manca_poco">MANCA<br>POCO!</span>
 <?php elseif ($deadline_toggle == "on" && $deadline_bool && $hasAvailableSeats): ?>
-    <span class="bollino_iscriviti" style="z-index: 3; padding: 24px 8px; border-radius: 100vw; text-align: center">ISCRIZIONI<br>APERTE</span>
+    <span id="bollino" class="bollino_iscriviti">ISCRIZIONI<br>APERTE</span>
 <?php elseif ($deadline_exist == "on"): ?>
-    <span class="bollino_chiuse" style="z-index: 3; padding: 24px 8px; border-radius: 100vw; text-align: center">ISCRIZIONI<br>CHIUSE</span>
+    <span id="bollino" class="bollino_chiuse">ISCRIZIONI<br>CHIUSE</span>
 <?php endif; ?>
 </div>

@@ -190,9 +190,15 @@ a.related span {
 }
 .cards-details {
   &.orange{
-    *{
-      color: $color-theme!important;
+    *:not(#bollino){
+      color: $color-theme;
       border-color: $color-theme!important;
+    }
+    * span.tag{
+      color: $color-theme!important;
+    }
+    * span.parent {
+      color: $color-white!important;
     }
   }
   text-align: left;
@@ -233,69 +239,46 @@ span#deadline.laptop {
   max-width: fit-content;
   min-width: 0;
   z-index: 99;
+  text-align: center; 
+  line-height: 1em;
+
 }
-span.bollino_update {
-  @include bollino-base;
-  color: $color-black !important;
-  background-color: $color-theme-bis !important;
-  animation: updated 1s infinite alternate;
-  transform: rotate(5deg);
-}
+
 span.bollino_iscriviti {
   @include bollino-base;
   color: $color-black !important;
   background-color: $color-theme;
-  animation: iscriviti 1s infinite alternate;
+  animation: balla 1s infinite alternate;
+  z-index: 3; 
 }
 span.bollino_manca_poco {
   @include bollino-base;
   color: $color-black !important;
-  background-color: $color-theme-bis;
-  animation: manca_poco 1s infinite alternate;
+  background-color: $color-hover;
+  animation: balla 1s infinite alternate;
+  z-index: 4; 
 }
 span.bollino_chiuse {
   @include bollino-base;
   color: $color-white !important;
-  background-color: $color-theme;
+  background-color: $color-theme-bis;
+  z-index: 3; 
 }
 // =========================
 // Keyframes Animazioni
 // =========================
-@keyframes manca_poco {
+@keyframes balla {
   0% {
-    outline: 2px solid $color-white;
-    border: 2px solid $color-theme-bis;
     transform: scale(0.95) rotate(-15deg);
+    filter: blur(100%); // ⚠️ valuta se necessario
   }
   100% {
-    border: 2px solid $color-white;
-    outline: 2px solid $color-theme-bis;
     transform: scale(1.05) rotate(15deg);
+    filter: blur(100%); // ⚠️ valuta se necessario
   }
 }
-@keyframes iscriviti {
-  0% {
-    outline: 2px solid $color-white;
-    border: 2px solid $color-theme;
-    transform: scale(0.95);
-  }
-  100% {
-    border: 2px solid $color-white;
-    outline: 2px solid $color-theme;
-    transform: scale(1.05);
-  }
-}
-@keyframes updated {
-  0% {
-    outline: 2px solid $color-white;
-    border: 2px solid $color-theme-bis;
-  }
-  100% {
-    border: 2px solid $color-white;
-    outline: 2px solid $color-theme-bis;
-    transform: rotate(-5deg);
-  }
-}
+
+
 // =========================
 // Responsive .location
 // =========================
