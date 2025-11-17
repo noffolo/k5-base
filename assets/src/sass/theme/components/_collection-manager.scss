@@ -199,6 +199,12 @@
 * #secondary * .card-master {
   flex-direction: column!important;
 }
+* #secondary .card-master .card-image-container {
+  padding-top: 50%;
+  img{
+    object-fit: cover;
+  }
+}
 
 * .card-master {
   @include media-breakpoint-down(md) {
