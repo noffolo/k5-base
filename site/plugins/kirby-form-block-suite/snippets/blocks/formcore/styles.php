@@ -1,0 +1,1 @@
+<?= css(kirby()->url('media') . '/plugins/plain/formblock/formblock.css') ?>

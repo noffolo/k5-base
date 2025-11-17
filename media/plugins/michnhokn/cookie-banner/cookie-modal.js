@@ -1,0 +1,1 @@
+/Users/ff3300/Desktop/SITI/k5-boiler-base/site/plugins/kirby3-cookie-banner/assets/cookie-modal.js
