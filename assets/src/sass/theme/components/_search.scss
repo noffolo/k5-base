@@ -5,19 +5,19 @@
 /* CSS relativo al componente BARRA DI RICERCA */
 @keyframes backgroundColorPalette {
   0% {
-    background: $color-primary;
+    background: $color-white;
   }
   25% {
-    background: $color-secondary;
+    background: $color-theme;
   }
   50% {
-    background: $color-primary;
+    background: $color-white;
   }
   75% {
-    background: $color-secondary;
+    background: $color-theme;
   }
   100% {
-    background: $color-primary;
+    background: $color-white;
   }
 }
 .search-header{

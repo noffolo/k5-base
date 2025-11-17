@@ -2,8 +2,8 @@
 @use "typography" as *;
 
 * .active {
-  background-color: $color-hover !important;
-  color: $color-white !important;
+  background-color: $color-white !important;
+  color: $color-theme !important;
 }
 
 * figure.video {
@@ -74,10 +74,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow: visible !important;
   overflow-x: hidden !important;
-  background-color: $color-primary;
+  background-color: $color-white;
 
   &.no-scroll {
     overflow: hidden !important;
     position: relative;
+  }
+}
+.nws{
+  &:hover{
+    *{
+      color: $color-hover!important;
+    }
   }
 }

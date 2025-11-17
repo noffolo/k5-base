@@ -2,7 +2,7 @@
 <?php $deadline_toggle = "off"; ?>
 <?php $deadline = $item->deadline() OR NULL ?>
 <?php $facilitato = false ?>
-<div class="cards-details" style="<?php if($page->parent() !== NULL): ?>padding: 30px; max-width: 1280px; min-width: fit-content; margin: 0 auto!important;<?php else: ?>padding: 15px;<?php endif; ?> margin: 0;" class="cards-info" <?php  if($direction == "row"): ?>style="margin-left: 15px"<?php endif; ?>>
+<div class="cards-details orange" style="<?php if($page->parent() !== NULL): ?>padding: 30px; max-width: 1280px; min-width: fit-content; margin: 0 auto!important;<?php else: ?>padding: 15px;<?php endif; ?> margin: 0;" class="cards-info" <?php  if($direction == "row"): ?>style="margin-left: 15px"<?php endif; ?>>
 
 <?php if($tag_toggle == true AND $item->child_category_selector()->isNotEmpty()): ?>
 <div class="cards-categories">
@@ -17,10 +17,7 @@
 <?php endif; ?>
 
 <div class="cards-title" style="margin:0!important;">
-    <?php snippet('freaky-title',[
-        'input' => $item->title(),
-        'big' => $big ?? true,
-    ]); ?>
+    <h2><?= $item->title() ?></h2>
 </div>
 
 <?php if ($item->deadline()->isNotEmpty()): ?>
@@ -28,7 +25,7 @@
 <?php endif; ?>
 <?php if ($item->deadline()->isNotEmpty() && strtotime($item->deadline()) >= strtotime('today')): ?>
     <?php $deadline_toggle = "on" ?>
-    <hr style="margin: 0; margin-top: 30px; border: none; border-bottom: 1px solid gray;">
+    <hr style="margin: 0; margin-top: 30px; border: none; border-bottom: 1px solid;">
     <?php $deadline = $item->deadline() ?>
     <div class="cards-dates" style="display: flex; width: 100%; justify-content: center; flex-wrap:wrap; text-align: center;">
         <?php 
@@ -37,7 +34,7 @@
         ?>
         <span id="deadline" class="center" style="min-width: fit-content; max-width: 100%; text-transform: uppercase; text-align: center; padding-top: 15px; padding-bottom: 15px;" class="time"><strong>ISCRIVITI ENTRO</strong> → <strong><?= $formatter->format($deadline->toDate()) ?></strong></span>
     </div>
-    <hr style="margin: 0; margin-bottom: 15px; border: none; border-top: 1px solid gray;">
+    <hr style="margin: 0; margin-bottom: 15px; border: none; border-top: 1px solid;">
 <?php else: ?>
     <hr style="margin: 0; border: none;">
 <?php endif; ?>
@@ -66,8 +63,8 @@
 
 <?php if($item->appuntamenti()->isNotEmpty()): ?>
     <div>
-        <div class="team-label"><p style="margin: 0 auto; margin-top: 15px; margin-bottom: 0;"><strong>Appuntamenti:</strong></p></div>
-        <hr style="margin: 0; margin-top: 15px; border: none; border-bottom: 1px solid black;">
+        <div class="team-label"><p style="width: 100%; text-align: center; margin: 0 auto; margin-top: 15px; margin-bottom: 0;"><strong>SAVE THE DATE</strong></p></div>
+        <hr style="margin: 0; margin-top: 15px; border: none; border-bottom: 1px solid; opacity: 1;">
         <?php $appuntamenti = $item->appuntamenti()->toStructure() ?>
         <div class="cards-dates" style="display: flex; width: 100%; justify-content: space-between; flex-wrap:wrap;">
             <?php foreach($appuntamenti as $appuntamento): ?>
@@ -75,7 +72,7 @@
             $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
             $formatter->setPattern('d MMM Y'); // Modello simile a %d – %b – %Y;
             ?>
-            <span style="border: none; border-bottom: 1px solid gray; text-transform: uppercase; padding-top: 15px; padding-bottom: 15px; text-align: center;" class="time"><strong><?= $formatter->format($appuntamento->giorno()->toDate()) ?></strong></span>  <span class="time" style="border: none; border-bottom: 1px solid gray; text-align: center; border-left: 1px solid gray; padding-top: 15px; padding-bottom: 15px;"><?= $appuntamento->orario_inizio()->toDate('H:i') ?> → <?= $appuntamento->orario_fine()->toDate('H:i') ?></span>
+            <span style="border: none; border-bottom: 1px solid; text-transform: uppercase; padding-top: 15px; padding-bottom: 15px; text-align: center;" class="time"><strong><?= $formatter->format($appuntamento->giorno()->toDate()) ?></strong></span>  <span class="time" style="border: none; border-bottom: 1px solid; text-align: center; border-left: 1px solid; padding-top: 15px; padding-bottom: 15px;"><?= $appuntamento->orario_inizio()->toDate('H:i') ?> <?php if($appuntamento->orario_fine()->isNotEmpty()): ?>→ <?= $appuntamento->orario_fine()->toDate('H:i') ?><?php endif; ?></span>
             <?php endforeach; ?>
         </div>
         <hr style="margin: 0; margin-bottom: 0; border: none!important;">
@@ -97,14 +94,14 @@
 
         <?php if($page->parent() !== NULL AND $page->parent()->collection_options() == "calendar"): ?>
             <?php if(strtotime($page->deadline()) >= strtotime('today')): ?>
-            <hr style="margin: 0; margin-top: 15px; margin-bottom: 15px; border: none; border-bottom: 1px solid gray;">
+            <hr style="margin: 0; margin-top: 15px; margin-bottom: 15px; border: none; border-bottom: 1px solid;">
             <?php snippet('form-request-counter',[
             'page' => $page,
             ])?>
             <?php endif; ?>
         <?php else: ?>
             <?php if(strtotime($item->deadline()) >= strtotime('today')): ?>
-            <hr style="margin: 0; margin-top: 15px; margin-bottom: 15px; border: none; border-bottom: 1px solid gray;">
+            <hr style="margin: 0; margin-top: 15px; margin-bottom: 15px; border: none; border-bottom: 1px solid;">
             <?php snippet('form-request-counter',[
             'page' => $item,
             ])?>

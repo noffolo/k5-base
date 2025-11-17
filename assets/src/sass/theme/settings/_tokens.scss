@@ -4,72 +4,70 @@ $font-regular: 400;
 $font-medium: 600;
 $font-bold: 700;
 $font-extrabold: 800;
+$font-black: 900;
+
+@font-face {
+  font-family: "bold";
+  src: url("../fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght" $font-bold;
+}
 
 @font-face {
   font-family: "extrabold";
-  src: url("../fonts/InstrumentSans.ttf") format("truetype");
+  src: url("../fonts/roboto-flex.ttf") format("truetype");
   font-variation-settings: "wght" $font-extrabold;
 }
 
 @font-face {
   font-family: "black";
-  src: url("../fonts/InstrumentSans.ttf") format("truetype");
-  font-variation-settings: "wght" $font-bold;
+  src: url("../fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght" $font-black;
 }
 
 @font-face {
   font-family: "medium";
-  src: url("../fonts/InstrumentSans.ttf") format("truetype");
+  src: url("../fonts/roboto-flex.ttf") format("truetype");
   font-variation-settings: "wght" $font-medium;
 }
 
 @font-face {
   font-family: "light";
-  src: url("../fonts/InstrumentSans.ttf") format("truetype");
+  src: url("../fonts/roboto-flex.ttf") format("truetype");
   font-variation-settings: "wght" $font-regular;
 }
 
 $color-white: #fff;
 $color-black: #000;
-$color-primary: #fff;
-$color-secondary: #fff;
-$color-theme: #b6d71d;
-$color-theme-bis: #ce0058;
-$color-hover: #9157f3;
-$color-yellow: #ffcc34;
-$color-magenta: #e55185;
-$color-cyan: #059fdb;
-$color-green: #b6d71d;
-$color-red: #d2195a;
-$color-purple: #9157f3;
-$color-neutral-dark: #9c9b9b;
+$color-theme: #FF2E17;
+$color-theme-bis: #dedede;
+$color-hover: #ffcc34;
 $color-filter-bar: #e1e1e1;
 
-$micro: 10px;
-$extrasmall: 12px;
+$micro: 12px;
+$extrasmall: 14px;
 $small: 16px;
-$medium: 20px;
-$large: 24px;
-$extralarge: 32px;
-$ultralarge: 40px;
-$massive: 48px;
+$medium: 18px;
+$large: 21px;
+$extralarge: 26px;
+$ultralarge: 32px;
+$massive: 38px;
 
 $micro-xl: 14px;
 $extrasmall-xl: 16px;
-$small-xl: 20px;
-$medium-xl: 24px;
-$large-xl: 32px;
-$extralarge-xl: 40px;
-$ultralarge-xl: 48px;
-$massive-xl: 64px;
+$small-xl: 18px;
+$medium-xl: 20px;
+$large-xl: 24px;
+$extralarge-xl: 30px;
+$ultralarge-xl: 36px;
+$massive-xl: 42px;
 
 $micro-sm: 10px;
 $extrasmall-sm: 12px;
-$small-sm: 15px;
-$medium-sm: 18px;
-$large-sm: 22px;
-$extralarge-sm: 28px;
-$ultralarge-sm: 32px;
+$small-sm: 14px;
+$medium-sm: 16px;
+$large-sm: 20px;
+$extralarge-sm: 24px;
+$ultralarge-sm: 30px;
 $massive-sm: 36px;
 
 $micro-lineh: 1.15;

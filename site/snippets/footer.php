@@ -1,9 +1,15 @@
+<div class="footer_nav" style="display: flex; justify-content: space-around;">
+<?php
+$timestamp = time(); $currentDate = gmdate('Y', $timestamp);
+?>
+<footer style="">
+Copyright © <?= $currentDate; ?> <?php if($site->copyright()->isNotEmpty()): ?>— <?= $site->copyright() ?><?php else: ?> <?php endif; ?>
+</footer>
 
-    <div id="footer" class="footer_nav">
-    <?php
-    $timestamp = time(); $currentDate = gmdate('Y', $timestamp);
-    ?>
-    </div>
+<footer style="">
+<a style="text-decoration: none!important; color:#ff3300;  cursor: pointer!important; z-index:95!important;" class="credits" href="https://www.ff3300.com" title="FF3300 → Strategy + Design" target="_blank">FF3300</a> → Strategy + Design
+</footer>
+</div>
 
     <?php snippet('cookie-modal', [
         'assets' => true,

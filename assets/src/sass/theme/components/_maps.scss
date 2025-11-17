@@ -57,7 +57,7 @@
   .mapboxgl-popup-content {
     margin: 0;
     padding: $spacer / 2;
-    background: $color-primary;
+    background: $color-white;
     border-radius: $spacer;
     @include media-breakpoint-up(xl) {
       padding: $spacer-xl / 2;
@@ -94,7 +94,7 @@
 }
 // Triangolino dell'anchor
 .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
-  border-top-color: $color-primary;
+  border-top-color: $color-white;
 }
 // Marker
 .marker {

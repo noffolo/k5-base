@@ -129,27 +129,35 @@
 }
 
 * strong {
-  font-variation-settings: "wght" $font-bold;
+  font-variation-settings: "wght" $font-black;
 }
 
 h1 {
   @extend %massive;
+  font-variation-settings: "wght" $font-bold;
+  & strong {
+    font-variation-settings: "wght" $font-black;
+  }
 }
 
 h2 {
-  @extend %ultralarge;
+  @extend %extralarge;
+  font-variation-settings: "wght" $font-bold;
+  & strong {
+    font-variation-settings: "wght" $font-black;
+  }
 }
 
 h3 {
-  @extend %extralarge;
-}
-
-h4 {
   @extend %large;
 }
 
-h5 {
+h4 {
   @extend %medium;
+}
+
+h5 {
+  @extend %small;
 }
 
 h1,
@@ -157,18 +165,15 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0px $spacer * 3;
-  margin-top: 0;
+  margin: 0;
   margin-bottom: $spacer;
-  color: $color-black;
+  color: $color-theme;
 
   @include media-breakpoint-up(xl) {
-    margin: 0px $spacer-xl * 3;
     margin-bottom: $spacer-xl;
   }
 
   @include media-breakpoint-down(sm) {
-    margin: 0px $spacer-sm * 3;
     margin-bottom: $spacer-sm;
   }
 }

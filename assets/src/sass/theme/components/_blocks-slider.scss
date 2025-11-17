@@ -94,7 +94,7 @@ hr {
       color: $color-black;
       margin-bottom: $spacer / 2;
       &:not(:first-child) {
-        border-top: 1px solid $color-primary;
+        border-top: 1px solid $color-white;
       }
       a {
         color: $color-white;
@@ -164,7 +164,7 @@ hr {
         height: $spacer-sm * 4;
       }
       &::after {
-        color: $color-yellow;
+        color: $color-theme-bis;
         position: relative;
         font-size: $spacer * 1.5;
         @include media-breakpoint-up(xl) {
@@ -358,7 +358,7 @@ hr {
           bottom: $spacer-sm * 3;
         }
         &::after {
-          color: $color-yellow;
+          color: $color-theme-bis;
           font-size: $spacer * 1.5;
           @include media-breakpoint-up(xl) {
             font-size: $spacer-xl * 1.5;
@@ -515,7 +515,7 @@ hr {
     }
   }
   .text-column {
-    background-color: $color-yellow;
+    background-color: $color-theme-bis;
     padding: $spacer * 3;
     @include media-breakpoint-up(xl) {
       padding: $spacer-xl * 3;
@@ -691,7 +691,7 @@ hr {
     }
     &.placeholder-image {
       a {
-        background-color: $color-yellow;
+        background-color: $color-theme-bis;
         .overlay {
           display: none;
         }
@@ -709,7 +709,7 @@ hr {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: $color-yellow;
+        background-color: $color-theme-bis;
         mix-blend-mode: multiply;
         opacity: 0;
         transition: opacity 0.15s linear;
@@ -759,7 +759,7 @@ hr {
 .block-slider-cards {
   margin-bottom: $spacer * 3;
   padding-bottom: $spacer * 3;
-  background-color: $color-primary;
+  background-color: $color-white;
   @include media-breakpoint-up(xl) {
     margin-bottom: $spacer-xl * 3;
     padding-bottom: $spacer-xl * 3;

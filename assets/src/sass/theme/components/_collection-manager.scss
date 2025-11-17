@@ -133,18 +133,13 @@
     }
 }
 .cm-grid .single-cards, .cm-grid .col-lg-4 {
-    max-width: calc(32.5vw - $spacer)!important;
+    max-width: calc(50% - $spacer)!important;
     width: auto!important;
-    margin: calc($spacer/2)!important;
+    margin: 0!important;
     margin-bottom: $spacer!important;
-    margin-top: 0!important;
-    @include media-breakpoint-down(md) { 
-    max-width: calc(48.5vw - $spacer)!important;
-    }
+
     @include media-breakpoint-down(sm) { 
-    margin: calc($spacer-sm/2)!important;
     margin-bottom: $spacer-sm!important;
-    margin-top: 0!important;
     min-width: calc(100% - $spacer-sm)!important;
     }
 }
@@ -204,3 +199,10 @@
 * #secondary * .card-master {
   flex-direction: column!important;
 }
+
+* .card-master {
+  @include media-breakpoint-down(sm) {
+    flex-direction: column!important;
+  }
+}
+

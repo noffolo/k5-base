@@ -6,17 +6,12 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: $spacer / 3 $spacer * 2;
-  margin-bottom: $spacer * 2;
-  @include media-breakpoint-up(xl) {
-    padding: $spacer-xl / 3 $spacer-xl * 2;
-    margin-bottom: $spacer-xl * 2;
-  }
+  padding: 4px 8px;
+  border-radius: 0;
+  margin: 0;
   @include media-breakpoint-down(sm) {
     flex-direction: column;
     align-items: flex-start;
-    padding: $spacer-sm / 3 $spacer-sm * 2;
-    margin-bottom: $spacer-sm * 2;
   }
   a {
     display: inline-block;
@@ -26,9 +21,8 @@
     @extend %button;
     @extend %small;
     font-weight: 700;
-    font-family: "extrabold";
-    border: 2px solid $color-black;
-    
+    font-family: "medium";
+    border: 2px solid $color-theme;
     margin: $spacer/3 $spacer/6;
     padding: $spacer / 1.5 $spacer * 1.5;
     @include media-breakpoint-up(xl) {
@@ -40,9 +34,9 @@
       padding: $spacer-sm / 1.5 $spacer-sm * 1.5;
     }
     &:hover {
-      color: $color-white!important;
+      color: $color-black!important;
       background-color: $color-hover!important;
-      border-color: $color-hover!important;
+      border-color: $color-black!important;
     }
     // Varianti
     &.square {
@@ -52,19 +46,19 @@
       border-radius: 100vw;
     }
     &.positive {
-      color: $color-black;
+      color: $color-theme;
       background-color: $color-white;
       &:hover {
         color: $color-white;
-        background-color: $color-hover;
+        background-color: $color-theme;
       }
     }
     &.negative {
       color: $color-white;
-      background-color: $color-black;
+      background-color: $color-theme;
       &:hover {
         color: $color-white;
-        background-color: $color-hover;
+        background-color: $color-theme;
       }
     }
   }

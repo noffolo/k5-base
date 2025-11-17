@@ -5,6 +5,7 @@
 // =========================
 // Card Master
 // =========================
+
 .card-master {
   display: flex;
   flex-direction: column;
@@ -21,31 +22,31 @@
   }
   @include media-breakpoint-down(sm) {
     margin: 0;
+    flex-direction: column!important;
   }
   &:hover {
     text-decoration: none;
-    * {
-      color: $color-hover;
-    }
-    .cards-categories span.tag {
-      background-color: $color-hover;
-    }
+    background-color: $color-hover;
   }
   .cards-title {
     margin-top: 0;
   }
   .cards-text p {
-    margin-top: $spacer / 2;
   }
   .cards-dates span,
   .cards-place span {
     font-size: 18px;
     width: auto;
   }
+  * #secondary .card-master {
+  .card-image-container img {
+    padding-top: 66%;
+  }
+}
   .card-image-container {
     position: relative;
     width: 100%;
-    padding-top: 115%; // Aspect ratio 16:9
+    padding-top: 75%; // Aspect ratio 16:9
     overflow: hidden;
     img {
       position: absolute;
@@ -59,6 +60,9 @@
     }
   }
 }
+
+
+
 .card-master *,
 .card-master * * {
   color: $color-black;
@@ -81,7 +85,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin-bottom: $spacer;
+  margin-bottom: 0;
 }
 .related-content-container {
   margin-bottom: $spacer * 1.5;
@@ -118,18 +122,20 @@ span.tag {
   font-size: 75%;
   min-width: 0;
   flex-grow: 0;
-  margin: $spacer-sm / 2 $spacer $spacer-sm / 2 0;
-  border-radius: 100vw;
-  padding: 7.5px 10px 6px;
-  background-color: gray;
-  color: $color-white !important;
-  border: 1px solid gray !important;
+  margin: 0;
+  margin-right: $spacer;
+  margin-bottom: $spacer;
+  border-radius: 0;
+  padding: 4px 8px;
+  background-color: $color-white;
+  color: $color-black !important;
+  border: 1px solid $color-black !important;
   font-weight: 700;
   text-transform: uppercase;
   &.parent {
-    background-color: $color-white !important;
-    color: gray !important;
-    border-color: gray !important;
+    background-color: $color-theme !important;
+    color: $color-white !important;
+    border-color: $color-theme !important;
   }
 }
 // =========================
@@ -183,6 +189,13 @@ a.related span {
   }
 }
 .cards-details {
+  &.orange{
+    *{
+      color: $color-theme!important;
+      border-color: $color-theme!important;
+    }
+  }
+  text-align: left;
   position: relative;
   width: 100%;
   @include media-breakpoint-down(sm) {
@@ -224,7 +237,7 @@ span#deadline.laptop {
 span.bollino_update {
   @include bollino-base;
   color: $color-black !important;
-  background-color: $color-yellow !important;
+  background-color: $color-theme-bis !important;
   animation: updated 1s infinite alternate;
   transform: rotate(5deg);
 }
@@ -237,13 +250,13 @@ span.bollino_iscriviti {
 span.bollino_manca_poco {
   @include bollino-base;
   color: $color-black !important;
-  background-color: $color-yellow;
+  background-color: $color-theme-bis;
   animation: manca_poco 1s infinite alternate;
 }
 span.bollino_chiuse {
   @include bollino-base;
   color: $color-white !important;
-  background-color: $color-purple;
+  background-color: $color-theme;
 }
 // =========================
 // Keyframes Animazioni
@@ -251,12 +264,12 @@ span.bollino_chiuse {
 @keyframes manca_poco {
   0% {
     outline: 2px solid $color-white;
-    border: 2px solid $color-yellow;
+    border: 2px solid $color-theme-bis;
     transform: scale(0.95) rotate(-15deg);
   }
   100% {
     border: 2px solid $color-white;
-    outline: 2px solid $color-yellow;
+    outline: 2px solid $color-theme-bis;
     transform: scale(1.05) rotate(15deg);
   }
 }
@@ -275,11 +288,11 @@ span.bollino_chiuse {
 @keyframes updated {
   0% {
     outline: 2px solid $color-white;
-    border: 2px solid $color-yellow;
+    border: 2px solid $color-theme-bis;
   }
   100% {
     border: 2px solid $color-white;
-    outline: 2px solid $color-yellow;
+    outline: 2px solid $color-theme-bis;
     transform: rotate(-5deg);
   }
 }
