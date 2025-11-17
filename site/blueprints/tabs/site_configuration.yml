@@ -109,3 +109,20 @@ sections:
       #
       footer: fields/footer_layout
   
+  # Qua ci va il footer…
+  section_extra:
+    headline: Extra 
+    type: fields
+    fields:
+      #
+      separator_4:
+        type: line
+      #
+      extra_headline:
+        type: headline
+        label: Extra
+        width: 1/1
+      #
+      mapbox_token: 
+        type: text
+        label: Mapbox token

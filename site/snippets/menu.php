@@ -16,7 +16,6 @@
       <div class="navigation-mobile-flexbox">
         <?php snippet('mobile-menuitem-list', ['items' => $items, 'accordion__item' => true]) ?>
       </div>
-      <h2 class="title" font-size><span class="zero_uno">®</span></h2>
     </div>
     <?php endif ?>
 </nav>

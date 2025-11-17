@@ -284,3 +284,10 @@ span.bollino_chiuse {
     border-right: none !important;
   }
 }
+
+* #nomarginmobile{
+  @include media-breakpoint-down(lg) {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+  }
+}

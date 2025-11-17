@@ -11,7 +11,7 @@
   @include media-breakpoint-up(xl) {
     --cm-gap: #{$spacer-xl};
   }
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     --cm-gap: #{$spacer-sm};
   }
 }
@@ -24,7 +24,7 @@
   margin: $spacer/3;
 
   @include media-breakpoint-up(xl) { margin: $spacer-xl/3; }
-  @include media-breakpoint-down(sm) { margin: $spacer-sm/3; }
+  @include media-breakpoint-down(md) { margin: $spacer-sm/3; }
 }
 
 * .row .blocks .cm-block__title {
@@ -83,7 +83,7 @@
   padding: $spacer $spacer*1.25;
 
   @include media-breakpoint-up(xl) { padding: $spacer-xl $spacer-xl*1.25; }
-  @include media-breakpoint-down(sm) { padding: $spacer-sm $spacer-sm*1.25; }
+  @include media-breakpoint-down(md) { padding: $spacer-sm $spacer-sm*1.25; }
 }
 
 .cm-card__title {
@@ -92,7 +92,7 @@
   margin: 0 0 $spacer/4 0;
 
   @include media-breakpoint-up(xl) { margin-bottom: $spacer-xl/4; }
-  @include media-breakpoint-down(sm) { margin-bottom: $spacer-sm/4; }
+  @include media-breakpoint-down(md) { margin-bottom: $spacer-sm/4; }
 }
 
 .cm-card__excerpt {
@@ -108,7 +108,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  @include media-breakpoint-down(sm) { 
+  @include media-breakpoint-down(md) { 
     flex-direction: column;
   }
 }
@@ -128,7 +128,7 @@
     @include media-breakpoint-up(xl) { 
     min-width: 27vw!important;
     }
-    @include media-breakpoint-down(sm) { 
+    @include media-breakpoint-down(md) { 
     min-width: 75vw!important;
     }
 }
@@ -138,9 +138,9 @@
     margin: 0!important;
     margin-bottom: $spacer!important;
 
-    @include media-breakpoint-down(sm) { 
+    @include media-breakpoint-down(md) { 
     margin-bottom: $spacer-sm!important;
-    min-width: calc(100% - $spacer-sm)!important;
+    min-width: fit-content!important;
     }
 }
 .cm-carousel__track {
@@ -191,7 +191,7 @@
   user-select: none;
 
   @include media-breakpoint-up(xl) { width: $spacer-xl*3; height: $spacer-xl*3; }
-  @include media-breakpoint-down(sm) { display: none; } // su mobile basta lo swipe
+  @include media-breakpoint-down(md) { display: none; } // su mobile basta lo swipe
 }
 .cm-carousel__prev { left: $spacer*1.5; }
 .cm-carousel__next { right: $spacer*1.5; }
@@ -201,7 +201,7 @@
 }
 
 * .card-master {
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     flex-direction: column!important;
   }
 }
