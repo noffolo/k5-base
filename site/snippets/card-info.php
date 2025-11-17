@@ -52,7 +52,7 @@
     <?php endif; ?>
     
     <?php foreach($item->team()->toStructure() as $team_member): ?>
-        <p class="team" style="margin-top:0; margin-bottom: 5px;">✨ <strong><?= $team_member->persona() ?></strong> / <?= $team_member->ruolo() ?></p>
+        <p class="team" style="margin-top:0; margin-bottom: 5px;">→ <strong><?= $team_member->persona() ?></strong> / <?= $team_member->ruolo() ?></p>
     <?php endforeach; ?>
 
     <div class="cards-team" style="display: flex; width: 100%; justify-content: center; flex-wrap:wrap; text-align: center;">

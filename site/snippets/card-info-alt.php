@@ -20,31 +20,6 @@
     <h2><?= $item->title() ?></h2>
 </div>
 
-
-
-<div class="cards-text">
-    <?php echo $item->descrizione()->kirbytext(); ?>
-</div>
-
-<?php if ($item->team()->isNotEmpty()): ?>
-
-    <?php if($facilitato == false): ?>
-        <div class="team-label"><p style="margin: 0; margin-top: 15px; margin-bottom: 15px;">Con la partecipazione di:</p></div>
-    <?php else: ?>
-        <div class="team-label"><p style="margin: 0; margin-top: 15px; margin-bottom: 7.5px;">Attività facilitata da:</p></div>
-    <?php endif; ?>
-    
-    <?php foreach($item->team()->toStructure() as $team_member): ?>
-        <p class="team" style="margin-top:0; margin-bottom: 5px;">✨ <strong><?= $team_member->persona() ?></strong> / <?= $team_member->ruolo() ?></p>
-    <?php endforeach; ?>
-
-    <div class="cards-team" style="display: flex; width: 100%; justify-content: center; flex-wrap:wrap; text-align: center;">
-    
-    </div>
-
-<?php endif; ?>
-
-
 <?php if ($item->deadline()->isNotEmpty()): ?>
     <?php $deadline_exist = "on" ?>
 <?php endif; ?>
@@ -62,6 +37,28 @@
     <hr style="margin: 0; margin-bottom: 15px; border: none; border-top: 1px solid; opacity: 1;">
 <?php else: ?>
     <hr style="margin: 0; border: none;">
+<?php endif; ?>
+
+<div class="cards-text">
+    <?php echo $item->descrizione()->kirbytext(); ?>
+</div>
+
+<?php if ($item->team()->isNotEmpty()): ?>
+    <hr style="margin: 0; margin-top: 15px; border: none; border-bottom: 1px solid; opacity: 1;">
+    <?php if($facilitato == false): ?>
+        <div class="team-label"><p style="margin: 0; margin-top: 15px; margin-bottom: 15px;">Con la partecipazione di:</p></div>
+    <?php else: ?>
+        <div class="team-label"><p style="margin: 0; margin-top: 15px; margin-bottom: 7.5px;">Attività facilitata da:</p></div>
+    <?php endif; ?>
+    
+    <?php foreach($item->team()->toStructure() as $team_member): ?>
+        <p class="team" style="margin-top:0; margin-bottom: 5px;">→ <strong><?= $team_member->persona() ?></strong> / <?= $team_member->ruolo() ?></p>
+    <?php endforeach; ?>
+
+    <div class="cards-team" style="display: flex; width: 100%; justify-content: center; flex-wrap:wrap; text-align: center;">
+    
+    </div>
+
 <?php endif; ?>
 
 
@@ -144,7 +141,7 @@ if (!$deadline && $current->appuntamenti()->isNotEmpty()) {
 
 ?>
 <?php if (($incoming_deadline_bool || $incoming_appointment_bool) && $hasAvailableSeats): ?>
-    <span id="bollino" class="bollino_manca_poco">MANCA<br>POCO!</span>
+    <span id="bollino" class="bollino_manca_poco">ISCRIZIONI<br>IN CHIUSURA</span>
 <?php elseif ($deadline_toggle == "on" && $deadline_bool && $hasAvailableSeats): ?>
     <span id="bollino" class="bollino_iscriviti">ISCRIZIONI<br>APERTE</span>
 <?php elseif ($deadline_exist == "on"): ?>
