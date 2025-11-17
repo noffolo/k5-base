@@ -6,11 +6,6 @@ $font-bold: 700;
 $font-extrabold: 800;
 
 @font-face {
-  font-family: "freak";
-  src: url("../fonts/FREAKGroteskNext-Bold.ttf") format("truetype");
-}
-
-@font-face {
   font-family: "extrabold";
   src: url("../fonts/InstrumentSans.ttf") format("truetype");
   font-variation-settings: "wght" $font-extrabold;

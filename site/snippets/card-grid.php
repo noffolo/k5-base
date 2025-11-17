@@ -38,7 +38,7 @@
       <?php endif ?>
     </div>
 
-    <?php snippet('card-info', [
+    <?php snippet('card-info-alt', [
       'item'       => $item,
       'direction'  => $direction,
       'tag_toggle' => $tag_toggle,

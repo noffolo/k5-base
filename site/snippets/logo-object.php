@@ -11,9 +11,7 @@
 <?php elseif($site->logo_switch() == "logotype"): ?>
   <div class="logotype_container">
     <a href="<?= $site->url() ?>" title="<?= $site->logotype() ?>">
-      <?php snippet('freaky-logo',[
-        'input' => $site->logotype(),
-      ]); ?>
+          <h2><?= $site->logotype() ?></h2>
     </a>
   </div>
 <?php endif; ?>

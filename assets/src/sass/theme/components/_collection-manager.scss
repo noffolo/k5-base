@@ -201,3 +201,6 @@
 .cm-carousel__prev { left: $spacer*1.5; }
 .cm-carousel__next { right: $spacer*1.5; }
 */
+* #secondary * .card-master {
+  flex-direction: column!important;
+}

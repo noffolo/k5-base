@@ -55,7 +55,7 @@ Per la build di produzione usare `npm run build` e distribuire `kirby/`, `site/`
 
 ## Personalizzare i settings base del frontend
 Le impostazioni chiave di tipografia e colore sono centralizzate in `assets/src/sass/theme/settings/_tokens.scss`. Qui si definiscono:
-- Peso e font-face custom (famiglia `freak`, varianti di `Instrument Sans`).
+- Peso e font-face custom (famiglia `…`, varianti di `Instrument Sans`).
 - Tavolozza cromatica del tema (`$color-theme`, `$color-theme-bis`, `$color-hover`, ecc.).
 - Scala tipografica per viewports differenti e spaziature base.
 - Breakpoint della griglia responsive.【F:assets/src/sass/theme/settings/_tokens.scss†L1-L86】

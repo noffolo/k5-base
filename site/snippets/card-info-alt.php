@@ -17,7 +17,10 @@
 <?php endif; ?>
 
 <div class="cards-title" style="margin:0!important;">
-    <h2><?= $item->title() ?></h2>
+    <?php snippet('freaky-title',[
+        'input' => $item->title(),
+        'big' => $big ?? true,
+    ]); ?>
 </div>
 
 <?php if ($item->deadline()->isNotEmpty()): ?>

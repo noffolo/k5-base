@@ -31,7 +31,6 @@ fields:
         type: group
         fieldsets:
           - heading
-          - titles
           - text
           - cta
           - markdown
