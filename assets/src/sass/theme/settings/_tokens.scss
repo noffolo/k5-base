@@ -109,3 +109,15 @@ $grid-breakpoints: (
   xl: 1400px,
 );
 
+
+/* Standard */
+::selection {
+  background: $color-hover; /* colore evidenziazione */
+  color: inherit;      /* colore del testo selezionato */
+}
+
+/* Firefox (per sicurezza) */
+::-moz-selection {
+  background: $color-hover;
+  color: inherit;
+}
