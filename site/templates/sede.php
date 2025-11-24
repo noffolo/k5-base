@@ -15,23 +15,25 @@
         <?= $page->indirizzo() ?>
         <?php if($page->mail()->isNotEmpty()): ?>
             <br><br>
-            <strong>Email:</strong> <?= $page->mail() ?>
+            <strong>Email:</strong><br> <?= $page->mail() ?>
         <?php endif; ?>
         <?php if($page->tel()->isNotEmpty()): ?>
-            <br>
-            <strong>Tel:</strong> <?= str_replace("'", "’", str_replace("-"," ", str_replace("tel.","", str_replace("_", " ", strtolower($page->tel()))))) ?>
+            <br><br>
+            <strong>Tel:</strong><br> <?= str_replace("'", "’", str_replace("-"," ", str_replace("tel.","", str_replace("_", " ", strtolower($page->tel()))))) ?>
         <?php endif; ?>
         </p>
         <?php if($page->tel()->isNotEmpty() OR $page->mail()->isNotEmpty() ): ?>
-        <div class="cta" style="margin-top: 15px;">
-            <?php if($page->tel()->isNotEmpty()): ?>
-            <a style="display: inline-block;" class="tags" href="tel:<?= str_replace("'", "’", str_replace("-"," ", str_replace("tel.","", str_replace("_", " ", strtolower($page->tel()))))) ?>" target="_blank" title="tel">CHIAMA LA LEGA</a>
-            <?php endif; ?>
+        <div class="block-cta" style="width: 100%; display: flex; justify-content: flex-start!important; align-items: flex-start!important; margin: 0; padding: 0; flex-direction: column;">
+            <a  class="cta-block__item sede" 
+                target="_blank"
+                href="tel:<?= str_replace("'", "’", str_replace("-"," ", str_replace("tel.","", str_replace("_", " ", strtolower($page->tel()))))) ?>" 
+                title="tel">CHIAMA LA LEGA</a>
 
-            <?php if($page->mail()->isNotEmpty()): ?>
-            <a style="display: inline-block;" class="tags" href="mailto:<?= $page->mail() ?>" target="_blank" title="email">SCRIVI ALLA LEGA</a>
-            <?php endif; ?>
-        </div>
+            <a  class="cta-block__item sede" 
+                target="_blank"
+                href="mailto:<?= $page->mail() ?>" 
+                title="email">SCRIVI ALLA LEGA</a>
+        </div> 
         <?php endif; ?>
     </div>
 </div>

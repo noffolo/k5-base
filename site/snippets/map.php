@@ -41,7 +41,7 @@ $mapData = [
     'token'        => $token,
     'style'        => $styleUrl,
     'center'       => ['lng' => $lng, 'lat' => $lat],
-    'zoom'         => 13,
+    'zoom'         => 16,
     'showControls' => (bool)$parent?->mapbox_show_controls()->toBool(),
 ];
 
@@ -179,11 +179,6 @@ $textHtml      = "<strong>{$titleHtml}</strong><br>{$indirizzoHtml}";
         .setLngLat(feature.geometry.coordinates)
         .addTo(map);
 
-      const popup = new mapboxgl.Popup({ closeButton: false, closeOnClick: false });
-      el.addEventListener('mouseenter', () => {
-        popup.setLngLat(feature.geometry.coordinates).setHTML(feature.properties.text).addTo(map);
-      });
-      el.addEventListener('mouseleave', () => popup.remove());
     }
 
     function bindInteractions(layerId) {

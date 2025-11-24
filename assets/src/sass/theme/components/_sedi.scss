@@ -68,3 +68,33 @@ form.sedi{
     border-top-color: $color-hover!important;
     background-color: none!important;
 }
+.sede_cover{
+    position: relative;
+    .meta_informations{
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 30px;
+        height: 100%;
+        max-width: 33%;
+        @include media-breakpoint-down(lg) {
+            max-width: 100%;
+            height: fit-content;
+        }
+        h2{
+            font-family: 'black';
+            @extend %massive;
+            font-variation-settings: 'wght' 900, 'opsz' 100, 'wdth' 120, 'GRAD' -0.5,    'slnt' 0, 'XTRA' 468.6, 'XOPQ' 96.56, 'YOPQ' 78.9, 'YTLC' 514.56,    'YTUC' 711.28, 'YTAS' 749.45, 'YTDE' -203.57, 'YTFI' 737.84!important;
+            text-transform: uppercase;
+        }
+        p{
+            font-family: 'medium';
+            @extend %large;
+            color: $color-theme;
+        }
+    }
+}
+
+* .sede {
+    background-color: $color-white; color: $color-theme; padding: 4px 12px!important; padding-top: 6px!important; max-width: fit-content;
+}
