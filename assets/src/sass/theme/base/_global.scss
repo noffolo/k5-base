@@ -70,6 +70,7 @@ a {
 body {
   font-family: "medium", Helvetica, Arial, sans-serif;
   @extend %small;
+  line-height: 1.2em!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: visible !important;

@@ -1,5 +1,5 @@
 
-<div class="container newsletter" style="padding: 60px 15px; margin: 15px 0;">
+<div class="container newsletter" style="padding: 60px 15px; margin: 0;">
     
     <div class="ns_title" style="margin-bottom: 15px;">
       <h2 class="title" style="margin-top: 0;">

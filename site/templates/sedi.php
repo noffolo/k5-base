@@ -13,21 +13,39 @@
 <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 
-<div class="map-container" style="position: relative;">
-  <form class="sedi" action="<?= $page->url() ?>/" method="get" style="margin-bottom:1rem;">
-    <label class="label" for="provincia">Cerca la sede più vicina a te</label>
-    <div class="selector" style="display:flex;gap:.5rem;align-items:center;">
-      <select name="provincia" id="provincia">
-        <option value="tutte" <?= (!$param || $param === '' || $param === 'tutte') ? 'selected' : '' ?>>Vedi tutte</option>
-        <?php foreach ($province as $code => $name): ?>
-          <option value="<?= esc($code) ?>" <?= ($param === $code) ? 'selected' : '' ?>>
-            <?= esc($name) ?>
-          </option>
-        <?php endforeach; ?>
-      </select>
-      <input id="button" type="submit" value="CERCA">
+<div class="blocks-container">
+  <div class="blocks-container-inner">
+    <div class="row" style="margin-bottom: 0;">
+      <div class="column col-lg-12">
+        <div class="blocks">
+          <h2 style="font-size: 60px; width: 100%; text-align: center;">
+            <span style="font-family: 'black'; font-variation-settings: 'wght' 900, 'opsz' 100, 'wdth' 120, 'GRAD' -0.5,    'slnt' 0, 'XTRA' 468.6, 'XOPQ' 96.56, 'YOPQ' 78.9, 'YTLC' 514.56,    'YTUC' 711.28, 'YTAS' 749.45, 'YTDE' -203.57, 'YTFI' 737.84!important;">
+              DOVE SIAMO
+            </span>
+          </h2>
+        </div>
+      </div>
     </div>
-  </form>
+  </div>
+</div>
+
+<div class="map-container" style="position: relative;">
+  <div class="select-input">
+    <form class="sedi" action="<?= $page->url() ?>/" method="get" style="margin-bottom:1rem;">
+      <label class="label" for="provincia">Cerca la sede più vicina a te</label>
+      <div class="selector" style="display:flex;gap:.5rem;align-items:center;">
+        <select name="provincia" id="provincia">
+          <option value="tutte" <?= (!$param || $param === '' || $param === 'tutte') ? 'selected' : '' ?>>Tutte le province</option>
+          <?php foreach ($province as $code => $name): ?>
+            <option value="<?= esc($code) ?>" <?= ($param === $code) ? 'selected' : '' ?>>
+              <?= esc($name) ?>
+            </option>
+          <?php endforeach; ?>
+        </select>
+        <input id="button" type="submit" value="CERCA">
+      </div>
+    </form>
+  </div>
 
   <div id="map1" style="width:100%; min-height:77vh; border-radius:.5rem; overflow:hidden;"></div>
 </div>

@@ -1,0 +1,70 @@
+@use "../shared" as *;
+@import "../base/typography";
+
+.select-input{
+    padding: $spacer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+}
+form.sedi{
+    @extend %small;
+    background-color: $color-theme-bis;
+    padding: $spacer * 2;
+    margin-bottom: 0!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    flex-direction: row;
+    font-variation-settings: 'wght' 666;
+    .selector{
+        gap: 0!important;
+        align-items: stretch!important;
+    }
+    label {
+        color: $color-theme;
+    }    
+    select {
+        @extend %small;
+        color: $color-theme;
+        margin-left: $spacer;
+        font-variation-settings: 'wght' 666;
+        border: 2px solid $color-theme;
+        outline: none;
+        &:focus{
+        outline: 2px solid $color-hover;
+        }
+    }
+    input#button {
+        @extend %small;
+        margin-left: $spacer;
+        padding: 0 8px;
+        background-color: $color-black;
+        color: $color-white;
+        font-variation-settings: 'wght' 666;
+        border: 2px solid $color-black;
+        &:hover{
+            background-color: $color-hover;
+            color: $color-black;
+        }
+        &:focus{
+            outline: none!important;
+        }
+    }
+}
+.mapboxgl-popup-content{
+    border-radius: 0!important;
+    *{
+        color: $color-black;
+    }
+    color: $color-black!important;
+    background-color: $color-hover!important;
+}
+.mapboxgl-popup-tip{
+    border-top-color: $color-hover!important;
+    background-color: none!important;
+}
