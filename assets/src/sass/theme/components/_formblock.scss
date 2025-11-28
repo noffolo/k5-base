@@ -11,7 +11,7 @@
     justify-content: space-between;
     margin: $spacer * 3 0;
     margin-bottom: 0 !important;
-    background-color: $color-filter-bar;
+    background-color: $color-theme;
 
     @include media-breakpoint-up(xl) {
         padding: $spacer-xl*3 !important;
@@ -22,7 +22,7 @@
     @include media-breakpoint-down(sm) {
         flex-direction: column;
         margin: $spacer-sm * 3 0;
-        padding: $spacer-sm !important;
+        padding: $spacer-sm*3 !important;
         margin-bottom: 0 !important;
     }
 
@@ -44,9 +44,9 @@
     .formfield__container {
         display: flex;
         flex-direction: column;
-        min-width: 50%;
+        min-width: 32%;
         max-width: 100%;
-        flex-grow: 1;
+        flex-grow: 0;
 
         margin-bottom: $spacer;
 
@@ -54,59 +54,80 @@
             margin-bottom: $spacer-xl;
         }
 
+        @include media-breakpoint-down(lg) {
+            min-width: 48% !important;
+        }
+
         @include media-breakpoint-down(sm) {
             margin-bottom: $spacer-sm;
         }
+    }
 
-        label {
-            text-transform: uppercase;
-            @extend %extrasmall;
-            width: calc(100% - $spacer*2);
-            margin: $spacer;
-        }
-
-        input,
-        textarea {
-            background-color: $color-white;
-            border: 2px solid $color-black;
-            padding: math.div($spacer, 2);
-            border-radius: 100vw;
-            @extend %micro;
-            width: auto !important;
-            min-width: calc(100% - 30px) !important;
-
-            &.formfield__radio,
-            &.formfield__checkbox {
-                min-width: auto !important;
-            }
-
-            margin: 0 auto;
-            font-size: 120%;
-
-            @include media-breakpoint-up(xl) {
-                padding: math.div($spacer-xl, 2);
-            }
-
-            @include media-breakpoint-down(sm) {
-                padding: math.div($spacer-sm, 2);
-                margin: math.div($spacer-sm, 2) !important;
-            }
-        }
-
-        textarea {
-            border-radius: 0 !important;
-            min-width: fit-content !important;
-            font-size: $small !important;
-            margin: 0 $spacer !important;
+    .formfield__container[data-id="oggetto"] {
+        @include media-breakpoint-down(lg) {
+            min-width: 100% !important;
+            flex-grow: 1;
         }
     }
 
+    .formfield__container[data-id="messaggio"] {
+        min-width: 100% !important;
+    }
+
+    label {
+        text-transform: uppercase;
+        @extend %extrasmall;
+        width: calc(100% - $spacer*2);
+        margin: 0;
+        margin-bottom: $spacer;
+    }
+
+    input,
+    textarea {
+        background-color: $color-white;
+        border: 2px solid $color-black;
+        padding: math.div($spacer, 2);
+        border-radius: 0;
+        @extend %micro;
+        width: auto !important;
+        margin: 0 !important;
+
+        &.formfield__radio,
+        &.formfield__checkbox {
+            min-width: auto !important;
+        }
+
+        margin: 0 auto;
+        font-size: 120%;
+
+        @include media-breakpoint-up(xl) {
+            padding: math.div($spacer-xl, 2);
+        }
+
+        @include media-breakpoint-down(sm) {
+            padding: math.div($spacer-sm, 2);
+            margin: 0 !important;
+        }
+
+        &:focus {
+            border-color: $color-black !important;
+            outline: 2px solid $color-hover !important;
+        }
+    }
+
+    textarea {
+        border-radius: 0 !important;
+        min-width: fit-content !important;
+        font-size: $small !important;
+    }
+
     .formblock__submit {
-        width: 100%;
+        width: fit-content;
         display: flex;
         justify-content: center;
         margin-top: $spacer;
         margin-bottom: $spacer;
+        align-items: center;
 
         input {
             @extend %button;
@@ -119,6 +140,7 @@
             padding: math.div($spacer, 2) $spacer*1.5;
             text-transform: uppercase;
             font-family: 'extrabold', Helvetica, Arial, sans-serif;
+            height: fit-content;
 
             @include media-breakpoint-up(xl) {
                 margin: 0px $spacer-xl;
@@ -218,7 +240,6 @@
     justify-content: center;
     flex-direction: column;
     font-size: 24px;
-    padding: $spacer !important;
 
     .formblock_field__label {
         text-transform: uppercase !important;
@@ -227,6 +248,7 @@
     input {
         transform: scale(1.5);
         margin-right: math.div($spacer, 2) !important;
+        margin-left: math.div($spacer, 3) !important;
     }
 }
 
@@ -238,10 +260,20 @@
 * .formblock .formblock__submit input {
     text-transform: capitalize !important;
     font-weight: 700 !important;
+    color: $color-white !important;
+
+    &:hover {
+        color: $color-black !important;
+    }
 }
 
 * label.formfield__option__label {
     display: flex !important;
     flex-direction: row !important;
     margin: 0 !important;
+    align-items: center !important;
+
+    a {
+        color: $color-white;
+    }
 }

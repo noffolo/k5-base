@@ -173,8 +173,8 @@ h3,
 h4,
 h5 {
   margin: 0;
-  margin-bottom: $spacer;
   color: $color-theme;
+  margin-bottom: $spacer;
 
   @include media-breakpoint-up(xl) {
     margin-bottom: $spacer-xl;
@@ -182,6 +182,19 @@ h5 {
 
   @include media-breakpoint-down(sm) {
     margin-bottom: $spacer-sm;
+  }
+
+  span {
+    display: inline-block;
+    margin-bottom: $spacer*1;
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: $spacer-xl*1;
+    }
+
+    @include media-breakpoint-down(sm) {
+      margin-bottom: $spacer-sm*4;
+    }
   }
 }
 
@@ -193,4 +206,13 @@ hr {
   opacity: 1;
   border: none;
   border-top: 1px solid $color-theme;
+  width: 100%;
+}
+
+* a {
+  color: $color-theme;
+
+  &:hover {
+    color: $color-hover;
+  }
 }

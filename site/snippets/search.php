@@ -3,9 +3,6 @@
     <h2 style="text-align: center!important; min-width: 100%!important; margin-bottom: 15px">Hai cercato "<?= $query ?>"</h2>
 </div>
 <?php else: ?>
-<div class="search-header">
-    <h2 style="text-align: center!important; min-width: 100%!important; margin-bottom: 15px">Cosa cerchi?</h2>
-</div>
 <?php endif; ?>
 
 <div class="search-bar" 
@@ -33,7 +30,7 @@
 <div class="blocks related-content-container" style="padding:0!important; margin:0!important; border: none;">
     <?php if($results->isNotEmpty()): ?>
 
-        <?php snippet('collection-grid',[
+        <?php snippet('search-grid',[
             'collection' => $results,
             'category_color' => false,
         ]) ?>

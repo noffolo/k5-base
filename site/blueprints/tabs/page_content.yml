@@ -39,6 +39,7 @@ fields:
           - markdown
           - list
           - line
+          - accordion
       media:
         label: Media
         type: group

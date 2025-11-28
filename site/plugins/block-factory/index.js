@@ -6,12 +6,22 @@ panel.plugin("cookbook/block-factory", {
           return this.field("collection");
         },
       },
-      template: 
-      ` 
+      template:
+        ` 
         <div class="k-block-type-map">
           MAP
         </div>
       `
+    },
+    accordion: {
+      computed: {
+        summary() {
+          return this.field("summary").value;
+        },
+        details() {
+          return this.field("details").value;
+        }
+      }
     },
     cta: {
       computed: {
@@ -213,7 +223,7 @@ panel.plugin("cookbook/block-factory", {
           return this.field("text").value; // Use .value to access the field value
         },
       },
-      template: 
+      template:
         `
         <p>Image + text</p>
         <div class="k-block-type-image-text" :class="'layout-' + layout">
@@ -282,7 +292,7 @@ panel.plugin("cookbook/block-factory", {
         }
       }
     },
-    slider:{
+    slider: {
       data() {
         return {
           text: "No text value"
@@ -290,7 +300,7 @@ panel.plugin("cookbook/block-factory", {
       },
       computed: {
         pages() {
-            return this.content.pages || {};
+          return this.content.pages || {};
         },
       },
       template: `
@@ -298,6 +308,6 @@ panel.plugin("cookbook/block-factory", {
         <h2 class="k-block-type-card-heading">Slider</h2>
       </div>
     `
-    },  
+    },
   }
 });

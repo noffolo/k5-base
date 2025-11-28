@@ -7,6 +7,10 @@
 // Card Master
 // =========================
 
+.cards-title h2 {
+  font-variation-settings: 'wght' 1000, 'opsz' 100, 'wdth' 120, 'GRAD' -0.5, 'slnt' 0, 'XTRA' 468.6, 'XOPQ' 96.56, 'YOPQ' 78.9, 'YTLC' 514.56, 'YTUC' 711.28, 'YTAS' 749.45, 'YTDE' -203.57, 'YTFI' 737.84 !important;
+}
+
 .card-master {
   display: flex;
   flex-direction: column;
@@ -148,7 +152,7 @@ span.tag {
   margin-right: $spacer;
   margin-bottom: $spacer;
   border-radius: 0;
-  padding: 4px 8px;
+  padding: 0px 8px;
   background-color: $color-white;
   color: $color-black !important;
   border: 1px solid $color-black !important;
@@ -204,7 +208,7 @@ a.related span {
     margin: 0 $spacer-xl;
     margin-bottom: $spacer-xl * 2;
     min-width: calc(20% - $spacer-sm*2);
-    max-width: calc(25% - $spacer-sm*2);
+    max-width: calc(32% - $spacer-sm*2);
   }
 
   @include media-breakpoint-down(md) {
@@ -238,6 +242,43 @@ a.related span {
   }
 
   text-align: left;
+  position: relative;
+  width: 100%;
+
+  @include media-breakpoint-down(sm) {
+    padding: $spacer-sm * 1.5;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .location {
+    margin-top: $spacer;
+  }
+}
+
+.page-details {
+  &.orange {
+    *:not(#bollino) {
+      color: $color-theme;
+      border-color: $color-theme !important;
+    }
+
+    * span.tag {
+      color: $color-theme !important;
+    }
+
+    * span.parent {
+      color: $color-white !important;
+    }
+  }
+
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   position: relative;
   width: 100%;
 

@@ -779,28 +779,32 @@ hr {
 }
 
 .label-grid {
+
+    background-color: $color-theme-bis;
+    color: $color-black;
+    width: auto;
+    text-align: center;
+    margin: 0 22px;
+    margin-bottom: 15px;
+
     padding: math.div($spacer, 3) $spacer;
-    background-color: $color-black;
-    color: $color-white;
     text-transform: uppercase;
-    text-align: left;
-    width: fit-content;
-    margin: $spacer;
-    margin-top: 0;
 
     &.new {
         background-color: $color-theme;
-        color: $color-black;
+        color: $color-white;
     }
 
     &.old {
         background-color: $color-theme-bis;
-        color: $color-white;
+        color: $color-black;
     }
 
-    @include media-breakpoint-up(xl) {
-        margin: $spacer-xl;
-        margin-top: 0;
+    &.correlati {
+        background-color: $color-hover;
+        color: $color-black !important;
+        max-width: fit-content;
+        margin: 30px auto;
     }
 
     @include media-breakpoint-down(sm) {

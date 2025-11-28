@@ -1,0 +1,13 @@
+name: Accordion
+icon: list-bullet
+preview: fields
+wysiwyg: true
+
+fields:
+  summary:
+    label: Summary
+    type: writer
+    inline: true
+  details:
+    label: Details
+    type: writer

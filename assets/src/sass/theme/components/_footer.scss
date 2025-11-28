@@ -25,6 +25,7 @@ footer {
   padding: $spacer-sm 0;
   background-color: #000;
   color: white;
+  font-size: 14px;
 
   &.first {
     justify-content: center;
@@ -88,7 +89,7 @@ footer {
     }
   }
 
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     padding: 0;
 
     figure {

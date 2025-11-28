@@ -9,6 +9,7 @@ Kirby::plugin('cookbook/block-factory', [
     'blocks/cards'              => __DIR__ . '/blueprints/blocks/cards.yml',
     'blocks/collection_manager' => __DIR__ . '/blueprints/blocks/collection_manager.yml',
     'blocks/cta'                => __DIR__ . '/blueprints/blocks/cta.yml',
+    'blocks/accordion'          => __DIR__ . '/blueprints/blocks/accordion.yml',
   ],
   'snippets' => [
     'blocks/map'                => __DIR__ . '/snippets/blocks/map.php',
@@ -20,6 +21,7 @@ Kirby::plugin('cookbook/block-factory', [
     'blocks/slidercards'        => __DIR__ . '/snippets/blocks/slidercards.php',
     'blocks/cta'                => __DIR__ . '/snippets/blocks/cta.php',
     'blocks/imagetextbuttons'   => __DIR__ . '/snippets/blocks/imagetextbuttons.php',
+    'blocks/accordion'          => __DIR__ . '/snippets/blocks/accordion.php',
   ],
   // 👇 questa riga fa sparire "Invalid field type"
   'fields' => [

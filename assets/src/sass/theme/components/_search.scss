@@ -51,28 +51,50 @@
     width: 100%;
     justify-content: center;
     flex-direction: row;
+    align-items: center;
   }
 
   input#bar {
-    border: 2px solid black;
-    padding: 0 $spacer-sm;
-    margin-right: $spacer-sm;
-    border-radius: 100vw;
-    text-align: center;
-    min-width: 10vw;
 
-    @media screen and (max-width: 750px) {
+    background-color: $color-white;
+    border: 2px solid $color-black;
+    padding: math.div($spacer, 2);
+    border-radius: 0;
+    @extend %micro;
+    width: auto !important;
+    min-width: 66%;
+    margin: 0 !important;
+
+    &.formfield__radio,
+    &.formfield__checkbox {
+      min-width: auto !important;
+    }
+
+    margin: 0 auto;
+    font-size: 120%;
+
+    @include media-breakpoint-up(xl) {
+      padding: math.div($spacer-xl, 2);
+    }
+
+    @include media-breakpoint-down(sm) {
+      padding: math.div($spacer-sm, 2);
       min-width: 200px;
     }
 
-    @media screen and (min-width: 1600px) {
-      min-width: fit-content;
+    &:focus {
+      border-color: $color-black !important;
+      outline: 2px solid $color-hover !important;
     }
 
     &::placeholder {
       color: gray;
       text-align: center;
       width: 100%;
+    }
+
+    &:focus {
+      outline: 2px solid $color-hover !important;
     }
   }
 
@@ -85,20 +107,19 @@
     font-weight: 700;
     text-transform: uppercase;
     font-family: "extrabold", Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: math.div($spacer, 2) $spacer * 1.5;
+    padding: 6px 12px !important;
+    margin: 0 $spacer;
 
     @include media-breakpoint-up(xl) {
       margin: 0 $spacer-xl;
-      padding: math.div($spacer-xl, 2) $spacer-xl * 1.5;
     }
 
     @include media-breakpoint-down(sm) {
       margin: 0 $spacer-sm;
-      padding: math.div($spacer-sm, 2) $spacer-sm * 1.5;
     }
 
     &:hover {
+      color: $color-black;
       background-color: $color-hover;
     }
   }
@@ -157,19 +178,11 @@ a.result {
   text-transform: uppercase;
   font-family: "extrabold", Helvetica, Arial, sans-serif;
   padding: 7.5px 11.5px !important;
-  margin: 0 $spacer;
-
-  @include media-breakpoint-up(xl) {
-    margin: 0 $spacer-xl;
-  }
-
-  @include media-breakpoint-down(sm) {
-    margin: 0 $spacer-sm;
-  }
+  margin: 0;
 
   &:hover {
     background-color: $color-hover;
-    color: $color-white;
+    color: $color-black !important;
   }
 }
 

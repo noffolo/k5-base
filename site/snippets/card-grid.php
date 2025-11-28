@@ -10,7 +10,7 @@
           $image = $item->thumbnail()->toFile();
           $ratio = $image->width() / $image->height();
         ?>
-        <div class="card-image-container">
+        <div class="card-image-container" <?php if(isset($padding_top)): ?>style="padding-top: <?= $padding_top ?>"<?php endif; ?>>
           <img
             class="lazyload"
             data-sizes="auto"

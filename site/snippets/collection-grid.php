@@ -18,7 +18,7 @@ if (!empty($activeCategories)) {
 ?>
 <?php if ($filtered->isNotEmpty()): ?>
     <?php $card_counter = 0; ?>
-    <?php foreach ($filtered->sortBy('appuntamenti', 'desc') as $child): ?>
+    <?php foreach ($filtered as $child): ?>
         <?php $card_counter++; ?>
     <?php endforeach; ?>
     <?php if($card_counter <= 2 AND $card_counter != 0): ?>
@@ -30,13 +30,14 @@ if (!empty($activeCategories)) {
     <?php endif; ?>
 
     <div class="block-grid-a-list">        
-        <?php foreach ($filtered->sortBy('appuntamenti', 'desc') as $child): ?>
+        <?php foreach ($filtered->sortBy('date', 'desc') as $child): ?>
             <?php snippet('card-grid', [
                 'item' => $child,
-                'thumb_toggle' => false, 
+                'thumb_toggle' => true, 
                 'tag_toggle' => true,
                 'direction' => 'column',
                 'category_color' => $category_color ?? false,
+                'padding_top' => $padding_top ?? NULL,
             ]) ?> 
         <?php endforeach; ?>
     </div>

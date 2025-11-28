@@ -7,42 +7,67 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  margin-bottom: $spacer * 2;
+  position: relative;
+
   @include media-breakpoint-down(sm) {
-    flex-direction: column!important;
+    flex-direction: column !important;
   }
+
   .cover-first-element {
-    width: 40%;
-    @include media-breakpoint-down(sm) {
-      width: 100%;
-      img {
-        max-height: 50vh;
-        min-width: 100vw;
-      }
-    }
-    img {
-      padding-right: $spacer * 2;
-      @include media-breakpoint-down(sm) {
-        padding-right: 0;
-      }
-    }
-  }
-  .page-informations {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     flex-grow: 0;
+
+    img {
+      min-width: 100%;
+    }
+
     @include media-breakpoint-down(sm) {
       width: 100%;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    p {
-      width: fit-content;
-      margin: 0;
-    }
+  }
+}
+
+* .column.col-lg-12 {
+  margin: 30px auto;
+  max-width: 1080px;
+  box-sizing: border-box;
+  padding: $spacer;
+  width: calc(100% - $spacer*2);
+
+  @include media-breakpoint-down(sm) {
+    margin: 0px auto;
+  }
+}
+
+.page-informations {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 0;
+  align-items: center;
+  justify-content: center;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  box-sizing: border-box;
+
+  @include media-breakpoint-down(sm) {
+    width: 100%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    width: fit-content;
+    margin: 0;
+  }
+
+  .cards-text {
+    margin-top: 15px
   }
 }

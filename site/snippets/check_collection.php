@@ -7,10 +7,6 @@
             'collection_parent' => $page,
             'collection' => $collection
         ]) ?>
-        <?php snippet('collection-grid',[
-        'collection' => $collection->sortBy('child_category_selector', 'desc'),
-        'category_color' => true,
-        ]) ?>
     <!-- se la COLLECTION ha una vista BLOG -->
     <?php elseif($page->collection_options() == 'blog'): ?>
         <?php snippet('collection-blog-view',[

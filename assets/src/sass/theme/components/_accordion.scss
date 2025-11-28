@@ -1,0 +1,80 @@
+@use "../shared" as *;
+
+.accordion-block {
+  border-bottom: 1px solid $color-black;
+  margin-bottom: 0;
+
+  * {
+    font-size: $small;
+
+    @include media-breakpoint-down(sm) {
+      font-size: $extrasmall;
+    }
+  }
+
+  summary {
+    cursor: pointer;
+    padding: $spacer 0;
+    font-weight: $font-bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.2s ease;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:hover {
+      color: $color-theme;
+    }
+
+    &::after {
+      content: '+';
+      font-weight: $font-regular;
+      transition: transform 0.2s ease;
+    }
+  }
+
+  &[open] {
+    summary {
+      &::after {
+        transform: rotate(45deg);
+      }
+    }
+  }
+
+  .accordion-details {
+    padding-bottom: $spacer;
+    animation: slideDown 0.3s ease-out;
+
+    a {
+      color: $color-theme;
+
+      &:hover {
+        color: $color-hover;
+      }
+    }
+
+    p {
+      margin-bottom: $spacer;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,7 +1,17 @@
+
+
 <?php if (!$page->parents()->toArray()): ?>
   <!-- Nessuna azione se non ci sono genitori -->
 <?php else: ?>
-  <div class="cover-container" style="flex-direction: row-reverse"> <!-- Apertura div cover-container -->
+  <div <?php if(!$page->thumbnail()->isNotEmpty()): ?> style="flex-grow: 1;"<?php endif; ?> class="page-informations <?= strtolower($page->child_category_selector()) ?>"> <!-- Apertura div page-informations -->
+    <?php snippet('page-info',[
+      'item' => $page,
+      'direction' => 'column',
+      'tag_toggle' => true,
+    ])?>
+  </div> <!-- Chiusura div page-informations -->
+
+  <div class="cover-container" style="flex-direction: column;"> <!-- Apertura div cover-container -->
       <?php if ($page->parent()->collection_options() == 'map'): ?>
         <div class="cover-first-element"> <!-- Apertura div cover-first-element -->
           <?php snippet('page-cover-map', [
@@ -18,15 +28,6 @@
           ]) ?>
         </div> <!-- Chiusura div cover-first-element -->
       <?php endif; ?>
-
-    <div <?php if(!$page->thumbnail()->isNotEmpty()): ?> style="flex-grow: 1"<?php endif; ?> class="page-informations <?= strtolower($page->child_category_selector()) ?>"> <!-- Apertura div page-informations -->
-      <?php snippet('card-info-alt',[
-              'item' => $page,
-              'direction' => 'column',
-              'tag_toggle' => true,
-          ])?>
-    </div> <!-- Chiusura div page-informations -->
-
   </div> <!-- Chiusura div cover-container -->
 
   <?php
@@ -53,4 +54,3 @@
   }
   ?>
 <?php endif; ?>
-

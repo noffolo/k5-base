@@ -6,6 +6,7 @@
 <?php snippet('collection-grid',[
     'collection' => $collection,
     'category_color' => false,
+    'padding_top' => '50%',
 ]) ?>
 
 

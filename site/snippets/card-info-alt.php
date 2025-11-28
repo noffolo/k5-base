@@ -3,7 +3,7 @@
 <?php $deadline_toggle = "off"; ?>
 <?php $deadline = $item->deadline() OR NULL ?>
 <?php $facilitato = false ?>
-<div class="cards-details orange" style="<?php if($page->parent() !== NULL): ?>padding: 30px; max-width: 1280px; min-width: fit-content; margin: 0 auto!important;<?php else: ?>padding: 15px;<?php endif; ?> margin: 0;" class="cards-info" <?php  if($direction == "row"): ?>style="margin-left: 15px"<?php endif; ?>>
+<div class="cards-details orange" style="<?php if($page->parent() !== NULL): ?>padding: 15px; min-width: fit-content; margin: 0 auto!important;<?php else: ?>padding: 15px;<?php endif; ?> margin: 0;" class="cards-info" <?php  if($direction == "row"): ?>style="margin-left: 15px"<?php endif; ?>>
 
 <?php if($tag_toggle == true AND $item->child_category_selector()->isNotEmpty()): ?>
 <div class="cards-categories">
@@ -19,28 +19,87 @@
 <?php endif; ?>
 
 <div>
-    <div class="cards-dates" style="display: flex; width: 100%; flex-direction: row; justify-content: space-between; flex-wrap:nowrap;">
+    <div class="cards-dates" style="display: flex; width: 100%; flex-direction: column;">
         <?php if($item->appuntamenti()->isNotEmpty()): ?>
-            <?php $appuntamenti = $item->appuntamenti()->toStructure() ?>
-            <?php foreach($appuntamenti as $appuntamento): ?>
             <?php 
-            $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
-            $formatter->setPattern('d MMMM Y'); // Modello simile a %d – %b – %Y;
+            $appuntamenti = $item->appuntamenti()->toStructure();
+            $groups = [];
+            $currentGroup = null;
+
+            foreach($appuntamenti as $appuntamento) {
+                $date = $appuntamento->giorno()->toDate();
+                $monthYear = date('Y-m', $date);
+                $startTime = $appuntamento->orario_inizio()->toDate('H:i');
+                $endTime = $appuntamento->orario_fine()->isNotEmpty() ? $appuntamento->orario_fine()->toDate('H:i') : '';
+                $timeString = $startTime . ($endTime ? ' → ' . $endTime : '');
+                
+                if ($currentGroup && $currentGroup['monthYear'] === $monthYear) {
+                    $currentGroup['items'][] = [
+                        'date' => $date,
+                        'time' => $timeString
+                    ];
+                    // Check if time is different from others in group
+                    if ($currentGroup['uniformTime'] && $currentGroup['commonTime'] !== $timeString) {
+                        $currentGroup['uniformTime'] = false;
+                    }
+                } else {
+                    if ($currentGroup) {
+                        $groups[] = $currentGroup;
+                    }
+                    $currentGroup = [
+                        'monthYear' => $monthYear,
+                        'monthYearDate' => $date,
+                        'items' => [[
+                            'date' => $date,
+                            'time' => $timeString
+                        ]],
+                        'uniformTime' => true,
+                        'commonTime' => $timeString
+                    ];
+                }
+            }
+            if ($currentGroup) {
+                $groups[] = $currentGroup;
+            }
             ?>
-            <span style="width: fit-content; min-width: fit-content;" class="">
-                <strong><?= $formatter->format($appuntamento->giorno()->toDate()) ?></strong>
-            </span>  
-            <span style="width: fit-content; min-width: fit-content;" class="">
-                <?= $appuntamento->orario_inizio()->toDate('H:i') ?><?php if($appuntamento->orario_fine()->isNotEmpty()): ?> → <?= $appuntamento->orario_fine()->toDate('H:i') ?><?php endif; ?>
-            </span>
+            <?php foreach($groups as $group): ?>
+            <div class="appuntamento" style="display: flex; width: 100%; flex-direction: row; justify-content: space-between; flex-wrap:nowrap;">
+                <?php 
+                $formatterDay = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
+                $formatterDay->setPattern('d');
+                
+                $formatterMonthYear = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
+                $formatterMonthYear->setPattern('MMM Y');
+                ?>
+                <span style="width: fit-content; min-width: fit-content; text-transform: uppercase;" class="">
+                    <?php 
+                    $count = count($group['items']);
+                    $i = 0;
+                    foreach($group['items'] as $groupItem): 
+                        $i++;
+                    ?>
+                        <strong><?= $formatterDay->format($groupItem['date']) ?></strong>
+                        <?php if (!$group['uniformTime']): ?>
+                             (<?= $groupItem['time'] ?>)
+                        <?php endif; ?>
+                        <?php if ($i < $count): ?>, <?php endif; ?>
+                    <?php endforeach; ?>
+                    <strong> <?= $formatterMonthYear->format($group['monthYearDate']) ?></strong>
+                </span>  
+                <span style="width: fit-content; min-width: fit-content; text-transform: uppercase;" class="">
+                    <?php if($group['uniformTime']): ?>
+                        <?= $group['commonTime'] ?>
+                    <?php endif; ?>
+                </span>
+            </div>
             <?php endforeach; ?>
         <?php endif; ?>
-        <?php if($item->dove()->isNotEmpty()): ?>
-            <span style="width: fit-content; min-width: fit-content;" class="">
-                ⏷ <?= $item->dove() ?>
-            </span>
-        <?php endif; ?>
     </div>
+    <?php if($item->dove()->isNotEmpty()): ?>
+        <span style="width: fit-content; min-width: fit-content;" class="">
+            ⏷ <?= $item->dove() ?>
+        </span>
+    <?php endif; ?>
 </div>
 
 <?php if($item->appuntamenti()->isNotEmpty() OR $item->dove()->isNotEmpty()): ?>
@@ -96,20 +155,15 @@
             $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
             $formatter->setPattern('d MMMM Y'); // Modello simile a %d – %b – %Y;
             ?>
-            <span id="deadline" class="center" style="width: fit-content; display: flex; justify-content: space-between;" class="time">
-                <strong style="min-width: fit-content;">DEADLINE</strong> 
-                → 
-                <strong style="min-width: fit-content;"><?= $formatter->format($deadline->toDate()) ?></strong>
+            <span id="deadline" class="center" style="width: 100%; display: flex; justify-content: center;" class="time">
+                <strong style="min-width: fit-content;">Iscriviti entro il <u><?= $formatter->format($deadline->toDate()) ?></u></strong>
             </span>
         </div>
-    <?php else: ?>
-    <?php endif; ?>
 
-
-    <?php 
-    $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
-    $formatter->setPattern('d MMM Y'); // Modello simile a %d – %b – %Y;
-    ?>
+        <?php 
+        $formatter = new IntlDateFormatter('it_IT', IntlDateFormatter::NONE, IntlDateFormatter::NONE);
+        $formatter->setPattern('d MMM Y'); // Modello simile a %d – %b – %Y;
+        ?>
 
         <?php if($page->parent() !== NULL AND $page->parent()->collection_options() == "calendar"): ?>
             <?php if(strtotime($page->deadline()) >= strtotime('today')): ?>
@@ -125,42 +179,7 @@
             <?php endif; ?>
         <?php endif; ?>
 
-
-
-
-        <?php
-
-// Data di oggi
-$today = date('Y-m-d', strtotime('today'));
-
-// Deadline in formato corretto (Y-m-d)
-$deadline = $item->deadline()->isNotEmpty() ? $item->deadline()->toDate('Y-m-d') : null;
-
-// deadline è definita e successiva o uguale a oggi?
-$deadline_bool = $deadline && ($deadline >= $today);
-
-// Data tra tre giorni
-$next_three_days = date('Y-m-d', strtotime('+3 days'));
-
-// deadline è entro i prossimi 3 giorni e non nel passato?
-$incoming_deadline_bool = $deadline && ($deadline >= $today && $deadline <= $next_three_days);
-
-$current = $item ?? $page;
-$formData = $formData($current);
-$hasAvailableSeats = !isset($formData['available']) || $formData['available'] > 0;
-
-// Controlla appuntamenti imminenti solo se non c'è deadline
-$incoming_appointment_bool = false;
-if (!$deadline && $current->appuntamenti()->isNotEmpty()) {
-    foreach ($current->appuntamenti()->toStructure() as $appuntamento) {
-        $giorno_appuntamento = $appuntamento->giorno()->toDate('Y-m-d');
-        if ($giorno_appuntamento >= $today && $giorno_appuntamento <= $next_three_days) {
-            $incoming_appointment_bool = true;
-            break;
-        }
-    }
-}
-
-?>
+    <?php else: ?>
+    <?php endif; ?>
 
 </div>

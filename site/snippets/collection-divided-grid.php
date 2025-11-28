@@ -13,10 +13,10 @@
                 }
             </style>
         <?php endif; ?>
-        <?php foreach ($futureEvents->sortBy('appuntamenti.giorno', 'asc') as $child): ?>
+        <?php foreach ($futureEvents->sortBy('appuntamenti', 'asc') as $child): ?>
             <?php snippet('card-grid', [
                 'item' => $child,
-                'thumb_toggle' => false,
+                'thumb_toggle' => true,
                 'tag_toggle' => true,
                 'direction' => 'column',
                 'category_color' => null,
@@ -32,10 +32,10 @@
     <?php endif; ?>
     <h5 class="label-grid old"><strong>PASSATE</strong></h5>
     <div class="block-grid-a-list" style="justify-content: space-evenly; display: flex;">
-        <?php foreach ($pastEvents->sortBy('appuntamenti.giorno', 'desc') as $child): ?>
+        <?php foreach ($pastEvents->sortBy('appuntamenti', 'desc') as $child): ?>
             <?php snippet('card-grid', [
                 'item' => $child,
-                'thumb_toggle' => false,
+                'thumb_toggle' => true,
                 'tag_toggle' => true,
                 'direction' => 'column',
                 'category_color' => null,

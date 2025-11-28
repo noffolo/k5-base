@@ -39,7 +39,7 @@ iframe {
 }
 
 figure {
-  @include media-breakpoint-down(md) {
+  @include media-breakpoint-down(lg) {
     text-align: center;
     margin-bottom: 15px !important;
   }
@@ -84,5 +84,13 @@ body {
     * {
       color: $color-hover !important;
     }
+  }
+}
+
+* {
+  &.full-width {
+    width: auto !important;
+    min-width: fit-content !important;
+    max-width: unset !important;
   }
 }

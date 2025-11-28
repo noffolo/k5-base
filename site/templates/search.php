@@ -4,8 +4,11 @@
 
 <?php snippet('check_banner',['posizione' => 'sopra',]); ?>
 
-<?php snippet('search',[]) ?> 
 <!-- ?php snippet('page_navigator') ? -->
+
+<?php snippet('layouts', ['layout_content' => $page->contenuto(),]); ?>
+
+<?php snippet('search',[]) ?> 
 
 <?php snippet('check_banner',['posizione' => 'sotto',]); ?>
 

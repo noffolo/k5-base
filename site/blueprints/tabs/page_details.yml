@@ -7,6 +7,10 @@ fields:
     label: Dettagli del contenuto
     type: headline
 
+  descrizione:
+    extends: fields/descrizione
+    width: 1/1
+
   immagine:
     extends: fields/immagine
     label: Seo image
@@ -22,8 +26,12 @@ fields:
     width: 1/2
     max: 1
 
-  descrizione:
-    extends: fields/descrizione
+  date:
+    extends: fields/date
+    label: Data di pubblicazione del contenuto
+    width: 1/2  
+    default: now
+    whenQuery: collection_toggle = false && parent_collection_options = 'blog' &&  parent_collection_options != NULL
 
   dove:
     extends: fields/dove

@@ -6,25 +6,23 @@
 .container-collection {
   position: sticky;
   z-index: 200;
-  top: 66px !important;
+  top: 120px !important;
 
   @include media-breakpoint-up(xl) {
-    top: 75px !important;
+    top: 130px !important;
   }
 
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     top: 50px !important;
   }
 
   .collection-filters {
-    background-color: $color-filter-bar;
+    background-color: $color-theme-bis;
     padding: 0 $spacer * 3;
     display: flex;
     justify-content: center;
     margin-top: -2px;
     margin-bottom: $spacer;
-    border-top: 2px solid $color-black;
-    border-bottom: 2px solid $color-black;
 
     @include media-breakpoint-up(xl) {
       padding: 0 $spacer-xl * 3;
@@ -40,10 +38,10 @@
 }
 
 .single-filter {
-  background-color: $color-black;
-  padding: 4px 8px;
+  color: $color-black ;
+  background-color: $color-hover ;
+  padding: 0px 8px;
   border-radius: 100vw;
-  color: $color-white;
   margin: $spacer-sm;
   display: inline-block;
   text-transform: uppercase;
@@ -54,20 +52,22 @@
 
   &:hover {
     transition: all 0.3s;
+    border: none;
     color: $color-black !important;
-    background-color: $color-hover !important;
-    border: none !important;
     outline: 2px solid $color-black !important;
   }
 
+  &.active {
+    background-color: $color-theme;
+    color: $color-white;
+    transition: all 0.3s;
+    outline: 2px solid $color-theme;
+  }
+
   &.white {
-    color: $color-black;
-    background-color: $color-white;
 
     &:hover {
-      transition: all 0.3s;
-      color: $color-white;
-      background-color: $color-black;
+      transition: all 0.3s
     }
   }
 }
