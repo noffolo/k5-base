@@ -88,3 +88,204 @@ Stack trace:
 )
 
 [09-Dec-2025 10:04:31 UTC] FORM BLOCK DEBUG: Attempting to send email via kirby()->email()
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Starting notification process
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: disable_notify option: false
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: isFatal: false
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: enable_notify field: true
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Calling sendNotification()
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Notification TO: Array
+(
+    [alessandro@ff3300.com] => 
+)
+
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Notification FROM: Array
+(
+    [no-reply@spi.cgil.it] => 
+)
+
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Attempting to send email via kirby()->email()
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Email Data: Array
+(
+    [from] => Array
+        (
+            [no-reply@spi.cgil.it] => 
+        )
+
+    [to] => Array
+        (
+            [alessandro@ff3300.com] => 
+        )
+
+    [subject] => richiesta da sito SPI
+    [attachments] => Array
+        (
+        )
+
+    [body] => Array
+        (
+            [html] => <p>alberto ha inviato una richiesta:</p><p><table><tr><td valign='top'>Nome e cognome</td><td>alberto</td></tr><tr><td valign='top'>Email</td><td>alberto@ff3300.com</td></tr><tr><td valign='top'>Oggetto</td><td>provone</td></tr><tr><td valign='top'>Messaggio</td><td>ciao ciao</td></tr><tr><td valign='top'>Privacy policy</td><td>Dichiaro di aver preso visione dell'<a href="/privacy-policy" title="privacy policy">informativa sulla privacy</a> e acconsento al trattamento dei dati.</td></tr></table></p>
+            [text] => alberto ha inviato una richiesta:Nome e cognomealbertoEmailalberto@ff3300.comOggettoprovoneMessaggiociao ciaoPrivacy policyDichiaro di aver preso visione dell'informativa sulla privacy e acconsento al trattamento dei dati.
+        )
+
+    [replyTo] => alberto@ff3300.com
+)
+
+[09-Dec-2025 10:08:32 UTC] FORM BLOCK DEBUG: Email sent successfully (method returned)
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Starting notification process
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: disable_notify option: false
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: isFatal: false
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: enable_notify field: true
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Calling sendNotification()
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Notification TO: Array
+(
+    [fulvio.venanzetti@spi.cgil.it] => 
+    [sito@spi.cgil.it] => 
+    [a.alb.guerra@gmail.com] => 
+    [alberto@ff3300.com] => 
+)
+
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Notification FROM: Array
+(
+    [no-reply@spi.cgil.it] => 
+)
+
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Attempting to send email via kirby()->email()
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Email Data: Array
+(
+    [from] => Array
+        (
+            [no-reply@spi.cgil.it] => 
+        )
+
+    [to] => Array
+        (
+            [fulvio.venanzetti@spi.cgil.it] => 
+            [sito@spi.cgil.it] => 
+            [a.alb.guerra@gmail.com] => 
+            [alberto@ff3300.com] => 
+        )
+
+    [subject] => prova ff3300 richiesta da sito SPI
+    [attachments] => Array
+        (
+        )
+
+    [body] => Array
+        (
+            [html] => <p>prova ff3300 ha inviato una richiesta:</p><p><table><tr><td valign='top'>Nome e cognome</td><td>prova ff3300</td></tr><tr><td valign='top'>Email</td><td>alberto@ff3300.com</td></tr><tr><td valign='top'>Oggetto</td><td>prova ff3300</td></tr><tr><td valign='top'>Messaggio</td><td>prova ff33000</td></tr><tr><td valign='top'>Privacy policy</td><td></td></tr></table></p>
+            [text] => prova ff3300 ha inviato una richiesta:Nome e cognomeprova ff3300Emailalberto@ff3300.comOggettoprova ff3300Messaggioprova ff33000Privacy policy
+        )
+
+    [replyTo] => alberto@ff3300.com
+)
+
+[09-Dec-2025 10:10:24 UTC] FORM BLOCK DEBUG: Email sent successfully (method returned)
+[09-Dec-2025 10:22:27 UTC] Kirby\Exception\NotFoundException: L'utente non è stato trovato in /home/xm33adxh/public_html/kirby/src/Cms/Auth.php:547
+Stack trace:
+#0 /home/xm33adxh/public_html/kirby/src/Cms/Auth.php(409): Kirby\Cms\Auth->validatePassword()
+#1 /home/xm33adxh/public_html/kirby/config/api/routes/auth.php(78): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/xm33adxh/public_html/kirby/src/Api/Api.php(189): Closure->call()
+#4 /home/xm33adxh/public_html/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/xm33adxh/public_html/kirby/src/Api/Api.php(461): Kirby\Cms\Api->call()
+#6 /home/xm33adxh/public_html/kirby/config/routes.php(43): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/xm33adxh/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/xm33adxh/public_html/kirby/src/Cms/App.php(342): Kirby\Http\Router->call()
+#10 /home/xm33adxh/public_html/kirby/src/Cms/App.php(1190): Kirby\Cms\App->call()
+#11 /home/xm33adxh/public_html/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[09-Dec-2025 10:22:35 UTC] Kirby\Exception\NotFoundException: L'utente non è stato trovato in /home/xm33adxh/public_html/kirby/src/Cms/Auth.php:547
+Stack trace:
+#0 /home/xm33adxh/public_html/kirby/src/Cms/Auth.php(409): Kirby\Cms\Auth->validatePassword()
+#1 /home/xm33adxh/public_html/kirby/config/api/routes/auth.php(78): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/xm33adxh/public_html/kirby/src/Api/Api.php(189): Closure->call()
+#4 /home/xm33adxh/public_html/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/xm33adxh/public_html/kirby/src/Api/Api.php(461): Kirby\Cms\Api->call()
+#6 /home/xm33adxh/public_html/kirby/config/routes.php(43): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/xm33adxh/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/xm33adxh/public_html/kirby/src/Cms/App.php(342): Kirby\Http\Router->call()
+#10 /home/xm33adxh/public_html/kirby/src/Cms/App.php(1190): Kirby\Cms\App->call()
+#11 /home/xm33adxh/public_html/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[09-Dec-2025 10:22:37 UTC] Kirby\Exception\NotFoundException: L'utente non è stato trovato in /home/xm33adxh/public_html/kirby/src/Cms/Auth.php:547
+Stack trace:
+#0 /home/xm33adxh/public_html/kirby/src/Cms/Auth.php(409): Kirby\Cms\Auth->validatePassword()
+#1 /home/xm33adxh/public_html/kirby/config/api/routes/auth.php(78): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/xm33adxh/public_html/kirby/src/Api/Api.php(189): Closure->call()
+#4 /home/xm33adxh/public_html/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/xm33adxh/public_html/kirby/src/Api/Api.php(461): Kirby\Cms\Api->call()
+#6 /home/xm33adxh/public_html/kirby/config/routes.php(43): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/xm33adxh/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/xm33adxh/public_html/kirby/src/Cms/App.php(342): Kirby\Http\Router->call()
+#10 /home/xm33adxh/public_html/kirby/src/Cms/App.php(1190): Kirby\Cms\App->call()
+#11 /home/xm33adxh/public_html/index.php(5): Kirby\Cms\App->render()
+#12 {main}
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Starting notification process
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: disable_notify option: false
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: isFatal: false
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: enable_notify field: true
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Calling sendNotification()
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Notification TO: Array
+(
+    [fulvio.venanzetti@spi.cgil.it] => 
+    [sito@spi.cgil.it] => 
+    [alberto@ff3300.com] => 
+    [alessandro@ff300.com] => 
+)
+
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Notification FROM: Array
+(
+    [no-reply@spi.cgil.it] => 
+)
+
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Attempting to send email via kirby()->email()
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Email Data: Array
+(
+    [from] => Array
+        (
+            [no-reply@spi.cgil.it] => 
+        )
+
+    [to] => Array
+        (
+            [fulvio.venanzetti@spi.cgil.it] => 
+            [sito@spi.cgil.it] => 
+            [alberto@ff3300.com] => 
+            [alessandro@ff300.com] => 
+        )
+
+    [subject] => alberto richiesta da sito SPI
+    [attachments] => Array
+        (
+        )
+
+    [body] => Array
+        (
+            [html] => <p>alberto ha inviato una richiesta:</p><p><table><tr><td valign='top'>Nome e cognome</td><td>alberto</td></tr><tr><td valign='top'>Email</td><td>alberto@ff3300.com</td></tr><tr><td valign='top'>Oggetto</td><td>ff3300</td></tr><tr><td valign='top'>Messaggio</td><td>fulvio la vedi la mail?</td></tr><tr><td valign='top'>Privacy policy</td><td>Dichiaro di aver preso visione dell'<a href="/privacy-policy" title="privacy policy">informativa sulla privacy</a> e acconsento al trattamento dei dati.</td></tr></table></p>
+            [text] => alberto ha inviato una richiesta:Nome e cognomealbertoEmailalberto@ff3300.comOggettoff3300Messaggiofulvio la vedi la mail?Privacy policyDichiaro di aver preso visione dell'informativa sulla privacy e acconsento al trattamento dei dati.
+        )
+
+    [replyTo] => alberto@ff3300.com
+)
+
+[09-Dec-2025 10:22:43 UTC] FORM BLOCK DEBUG: Email sent successfully (method returned)
+[09-Dec-2025 10:22:45 UTC] Kirby\Exception\NotFoundException: L'utente non è stato trovato in /home/xm33adxh/public_html/kirby/src/Cms/Auth.php:547
+Stack trace:
+#0 /home/xm33adxh/public_html/kirby/src/Cms/Auth.php(409): Kirby\Cms\Auth->validatePassword()
+#1 /home/xm33adxh/public_html/kirby/config/api/routes/auth.php(78): Kirby\Cms\Auth->login()
+#2 [internal function]: Kirby\Cms\Api->{closure}()
+#3 /home/xm33adxh/public_html/kirby/src/Api/Api.php(189): Closure->call()
+#4 /home/xm33adxh/public_html/kirby/src/Cms/Api.php(49): Kirby\Api\Api->call()
+#5 /home/xm33adxh/public_html/kirby/src/Api/Api.php(461): Kirby\Cms\Api->call()
+#6 /home/xm33adxh/public_html/kirby/config/routes.php(43): Kirby\Api\Api->render()
+#7 [internal function]: Kirby\Http\Route->{closure}()
+#8 /home/xm33adxh/public_html/kirby/src/Http/Router.php(122): Closure->call()
+#9 /home/xm33adxh/public_html/kirby/src/Cms/App.php(342): Kirby\Http\Router->call()
+#10 /home/xm33adxh/public_html/kirby/src/Cms/App.php(1190): Kirby\Cms\App->call()
+#11 /home/xm33adxh/public_html/index.php(5): Kirby\Cms\App->render()
+#12 {main}

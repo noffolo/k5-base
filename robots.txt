@@ -1,4 +1,4 @@
-Sitemap: https://www.lascuolaopensource.xyz/sitemap
+Sitemap: https://www.spi.cgil.it/sitemap
 
 User-agent: *
 

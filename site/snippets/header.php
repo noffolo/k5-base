@@ -101,12 +101,12 @@
 
   <!-- Analytics -->
   <?php if (isFeatureAllowed('analytics')): ?>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9BY4J15RYX"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NJ9HR4P"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-9BY4J15RYX');
+      gtag('config', 'GTM-NJ9HR4P');
     </script>
   <?php endif; ?>
 </head>
