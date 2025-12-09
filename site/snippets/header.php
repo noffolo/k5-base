@@ -110,5 +110,7 @@
     </script>
   <?php endif; ?>
 </head>
+<script id="iaw-script" src="https://app.indigo.ai/widget.js?token=e4dbb0c1-a10d-4a85-957a-07615e0cbb67&v=2&trigger=on"></script> 
+<script>IndigoAIChat.setOpen(true)</script>
 
 <body>

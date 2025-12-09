@@ -509,6 +509,12 @@ static function translate($key, $default, $replace = [], $fallback = null) {
         $to ??= $this->parseEmail(
             $this->message('notify_email', [], "")
         );
+        
+        // Verifica che ci sia almeno un destinatario
+        if (empty($to)) {
+            $this->setError("Notification email not configured");
+            return;
+        }
 
         $from = $this->parseEmail(
             $this->message('notify_from', [], "")
@@ -551,7 +557,11 @@ static function translate($key, $default, $replace = [], $fallback = null) {
             $this->request->update(['notify-send' => date('Y-m-d H:i:s', time())]);
 
         } catch (\Throwable $error) {
-            $this->setError("Error sending notification: " . $error->getMessage());
+            $errorMsg = "Error sending notification: " . $error->getMessage();
+            $this->setError($errorMsg);
+            
+            // Log error anche se debug è disattivato
+            kirby()->log('error', $errorMsg);
         }
   
     }
@@ -616,9 +626,11 @@ static function translate($key, $default, $replace = [], $fallback = null) {
             $this->request->update(['confirm-send' => date('Y-m-d H:i:s', time())]);
             
         } catch (\Throwable $error) {
-
-            $this->setError("Error sending confirmation: " . $error->getMessage());
-
+            $errorMsg = "Error sending confirmation: " . $error->getMessage();
+            $this->setError($errorMsg);
+            
+            // Log error anche se debug è disattivato
+            kirby()->log('error', $errorMsg);
         }
     }
 
