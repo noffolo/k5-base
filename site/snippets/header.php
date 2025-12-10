@@ -106,7 +106,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'GTM-NJ9HR4P');
+      gtag('config', 'G-YX40K8BVEP');
     </script>
   <?php endif; ?>
 </head>

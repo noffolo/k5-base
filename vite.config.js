@@ -31,9 +31,10 @@ export default defineConfig(({ command }) => {
         output: {
           entryFileNames: 'js/[name].js', // Custom name for JS files
           assetFileNames: (assetInfo) => {
-            if (assetInfo.name.endsWith('.css')) {
+            if (assetInfo.name && assetInfo.name.endsWith('.css')) {
               return 'css/[name][extname]'; // Custom name for CSS files
             }
+            return 'assets/[name][extname]'; // Default for other assets
           },
         },
       },

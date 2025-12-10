@@ -75,7 +75,7 @@
         text-transform: uppercase;
         @extend %extrasmall;
         width: calc(100% - $spacer*2);
-        margin: $spacer/2 0;
+        margin: math.div($spacer, 2) 0;
     }
 
     input,
