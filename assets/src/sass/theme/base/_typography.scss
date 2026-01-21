@@ -1,6 +1,10 @@
 @use "sass:math";
 @use "../settings" as *;
 
+* {
+  font-family: "medium";
+}
+
 %micro {
   font-size: $micro;
   line-height: $micro-lineh;

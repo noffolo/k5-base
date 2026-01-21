@@ -510,11 +510,11 @@ static function translate($key, $default, $replace = [], $fallback = null) {
             $this->message('notify_email', [], "")
         );
         
-        error_log("FORM BLOCK DEBUG: Notification TO: " . print_r($to, true));
+        $this->log("Notification TO: " . print_r($to, true));
 
         // Verifica che ci sia almeno un destinatario
         if (empty($to)) {
-            error_log("FORM BLOCK DEBUG: ERROR - Notification email not configured (empty TO)");
+            $this->log("ERROR - Notification email not configured (empty TO)");
             $this->setError("Notification email not configured");
             return;
         }
@@ -523,13 +523,13 @@ static function translate($key, $default, $replace = [], $fallback = null) {
             $this->message('notify_from', [], "")
         );
         
-        error_log("FORM BLOCK DEBUG: Notification FROM: " . print_r($from, true));
+        $this->log("Notification FROM: " . print_r($from, true));
 
         $body ??= $this->message('notify_body');
 
         try {
 
-            error_log("FORM BLOCK DEBUG: Attempting to send email via kirby()->email()");
+            $this->log("Attempting to send email via kirby()->email()");
 
             $emailData = [
                 'from' => $from,
@@ -559,17 +559,18 @@ static function translate($key, $default, $replace = [], $fallback = null) {
                 $emailData['bcc'] = $bcc;
             }
 
-            error_log("FORM BLOCK DEBUG: Email Data: " . print_r($emailData, true));
+            $this->log("Email Data keys: " . print_r(array_keys($emailData), true));
+            $this->log("Transport config: " . print_r(kirby()->option('email.transport'), true));
 
             site()->kirby()->email($emailData);
             
-            error_log("FORM BLOCK DEBUG: Email sent successfully (method returned)");
+            $this->log("Email sent successfully (method returned)");
 
             $this->request->update(['notify-send' => date('Y-m-d H:i:s', time())]);
 
         } catch (\Throwable $error) {
             $errorMsg = "Error sending notification: " . $error->getMessage();
-            error_log("FORM BLOCK DEBUG: EXCEPTION CAUGHT: " . $errorMsg);
+            $this->log("EXCEPTION CAUGHT: " . $errorMsg);
             $this->setError($errorMsg);
             
             // Log error anche se debug è disattivato
@@ -776,19 +777,9 @@ static function translate($key, $default, $replace = [], $fallback = null) {
             if(!is_null($request)) {
 
                 $this->attachments = $this->request->uploadFiles($this->attachmentFields());
-                
-                // DEBUG TRACE
-                error_log("FORM BLOCK DEBUG: Starting notification process");
-                error_log("FORM BLOCK DEBUG: disable_notify option: " . (option('plain.formblock.disable_notify') ? 'true' : 'false'));
-                error_log("FORM BLOCK DEBUG: isFatal: " . ($this->isFatal() ? 'true' : 'false'));
-                error_log("FORM BLOCK DEBUG: enable_notify field: " . ($this->enable_notify()->isTrue() ? 'true' : 'false'));
-
                 // Send notification mail
                 if (!option('plain.formblock.disable_notify') && !$this->isFatal() && $this->enable_notify()->isTrue()) {
-                    error_log("FORM BLOCK DEBUG: Calling sendNotification()");
                     $this->sendNotification();
-                } else {
-                    error_log("FORM BLOCK DEBUG: Skipping sendNotification - conditions not met");
                 }
                 
                 // Send confirmation mail
@@ -824,5 +815,4 @@ static function translate($key, $default, $replace = [], $fallback = null) {
             'next'    => $this->next()
         ];
     }
-
 }

@@ -19,7 +19,7 @@ export default defineConfig(({ command }) => {
 
   return {
     root: 'assets/src', // Set root folder to 'src'
-    base: '/', // Base URL for development
+    base: './', // Base URL for development
     build: {
       outDir: '../build', // Compiled output folder
       emptyOutDir: false,
@@ -33,6 +33,9 @@ export default defineConfig(({ command }) => {
           assetFileNames: (assetInfo) => {
             if (assetInfo.name && assetInfo.name.endsWith('.css')) {
               return 'css/[name][extname]'; // Custom name for CSS files
+            }
+            if (assetInfo.name && /\.(ttf|woff|woff2|eot)$/.test(assetInfo.name)) {
+              return 'fonts/[name][extname]'; // Custom name for Font files
             }
             return 'assets/[name][extname]'; // Default for other assets
           },

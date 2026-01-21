@@ -8,32 +8,32 @@ $font-black: 900;
 
 @font-face {
   font-family: "bold";
-  src: url("../fonts/roboto-flex.ttf") format("truetype");
-  font-variation-settings: "wght" $font-bold;
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght"$font-bold;
 }
 
 @font-face {
   font-family: "extrabold";
-  src: url("../fonts/roboto-flex.ttf") format("truetype");
-  font-variation-settings: "wght" $font-extrabold;
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght"$font-extrabold;
 }
 
 @font-face {
   font-family: "black";
-  src: url("../fonts/roboto-flex.ttf") format("truetype");
-  font-variation-settings: "wght" $font-black;
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght"$font-black;
 }
 
 @font-face {
   font-family: "medium";
-  src: url("../fonts/roboto-flex.ttf") format("truetype");
-  font-variation-settings: "wght" $font-medium;
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght"$font-medium;
 }
 
 @font-face {
   font-family: "light";
-  src: url("../fonts/roboto-flex.ttf") format("truetype");
-  font-variation-settings: "wght" $font-regular;
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+  font-variation-settings: "wght"$font-regular;
 }
 
 $color-white: #fff;
@@ -112,8 +112,10 @@ $grid-breakpoints: (
 
 /* Standard */
 ::selection {
-  background: $color-hover; /* colore evidenziazione */
-  color: inherit;      /* colore del testo selezionato */
+  background: $color-hover;
+  /* colore evidenziazione */
+  color: inherit;
+  /* colore del testo selezionato */
 }
 
 /* Firefox (per sicurezza) */

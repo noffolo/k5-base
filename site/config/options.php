@@ -2,7 +2,7 @@
 return [
   'site.charset' => 'UTF-8',
   'debug'        => true,   // false in produzione
-  'cache'        => true,
+  'cache'        => false,
   'panel.install'=> false,
   'languages'    => true,
   'locale'       => 'it_IT.utf8',
@@ -21,4 +21,21 @@ return [
 
   // Opzioni mappa sito (usate dai routes)
   'sitemap.ignore' => ['error'],
+
+  // Configurazione Email (SMTP)
+  // IMPORTANTE: Sostituire con i parametri reali del provider di posta
+  'email' => [
+    'transport' => [
+      'type' => 'smtp',
+      'host' => 'authsmtp.securemail.pro', // INSERIRE HOST REALE (es. smtp.googlemail.com)
+      'port' => 465,                // 465 per SSL, 587 per TLS
+      'security' => true,           // true per SSL, false (o tb 'tls') per TLS
+      'auth' => true,
+      'username' => 'no-reply@spicgil.it', // INSERIRE UTENTE REALE
+      'password' => 'Sp1Frnt2@25',           // INSERIRE PASSWORD REALE
+    ]
+  ],
+
+  // Form Block Suite: Usa lo stesso indirizzo autenticato per l'invio
+  'plain.formblock.from_email' => 'no-reply@spicgil.it',
 ];

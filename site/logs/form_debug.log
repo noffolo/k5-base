@@ -1,0 +1,37 @@
+[2025-12-19 09:40:33] Starting notification process. isFatal: false
+[2025-12-19 09:40:33] Calling sendNotification()
+[2025-12-19 09:40:33] Notification TO: Array
+(
+    [fulvio.venanzetti@spi.cgil.it] => 
+    [sito@spi.cgil.it] => 
+    [alessandro@ff3300.com] => 
+)
+
+[2025-12-19 09:40:33] Notification FROM: Array
+(
+    [no-reply@spi.cgil.it] => 
+)
+
+[2025-12-19 09:40:33] Attempting to send email via kirby()->email()
+[2025-12-19 09:40:33] Email Data keys: Array
+(
+    [0] => from
+    [1] => to
+    [2] => subject
+    [3] => attachments
+    [4] => body
+    [5] => replyTo
+)
+
+[2025-12-19 09:40:33] Transport config: Array
+(
+    [type] => smtp
+    [host] => smtps.provider.it
+    [port] => 465
+    [security] => 1
+    [auth] => 1
+    [username] => no-reply@spi.cgil.it
+    [password] => ...
+)
+
+[2025-12-19 09:40:34] EXCEPTION CAUGHT: Error sending notification: SMTP Error: Could not connect to SMTP host. Failed to connect to server
