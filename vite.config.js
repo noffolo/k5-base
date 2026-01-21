@@ -25,7 +25,11 @@ export default defineConfig(({ command }) => {
       },
     },
     root: 'assets/src', // Set root folder to 'src'
+<<<<<<< HEAD
     base: isProduction ? '/assets/build/' : '/', // Base URL for development
+=======
+    base: './', // Base URL for development
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
     build: {
       outDir: '../build', // Compiled output folder
       emptyOutDir: false,
@@ -37,13 +41,20 @@ export default defineConfig(({ command }) => {
         output: {
           entryFileNames: 'js/[name].js', // Custom name for JS files
           assetFileNames: (assetInfo) => {
-            if (assetInfo.name.endsWith('.css')) {
+            if (assetInfo.name && assetInfo.name.endsWith('.css')) {
               return 'css/[name][extname]'; // Custom name for CSS files
             }
+<<<<<<< HEAD
             if (/\.(woff2?|eot|ttf|otf)$/i.test(assetInfo.name)) {
               return 'fonts/[name][extname]'; // Custom name for font files
             }
             return 'assets/[name][extname]';
+=======
+            if (assetInfo.name && /\.(ttf|woff|woff2|eot)$/.test(assetInfo.name)) {
+              return 'fonts/[name][extname]'; // Custom name for Font files
+            }
+            return 'assets/[name][extname]'; // Default for other assets
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
           },
         },
       },

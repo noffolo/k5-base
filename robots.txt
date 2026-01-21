@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Sitemap: https://www.spazio13.eu/sitemap
+=======
+Sitemap: https://www.spi.cgil.it/sitemap
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
 
 User-agent: *
 

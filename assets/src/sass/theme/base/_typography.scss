@@ -2,11 +2,15 @@
 @use "../settings" as *;
 
 * {
+<<<<<<< HEAD
   font-family: "regular";
 
   & strong {
     font-family: "black";
   }
+=======
+  font-family: "medium";
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
 }
 
 %micro {

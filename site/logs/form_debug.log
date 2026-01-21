@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [2025-12-15 18:55:48] Processing form submission for ID: 96d52ddb-58a4-4f1c-b4bb-375e7368e0e3
 [2025-12-15 18:55:48] Settings: disable_notify=false, isFatal=false, enable_notify_field=true
 [2025-12-15 18:55:48] Conditions met for notification. Calling sendNotification...
@@ -48,3 +49,42 @@ Eventuali allegati a-difesa-casa-auto-degli-italiani.jpgTipologia di attivitàAl
 )
 
 [2025-12-15 18:55:48] Email sent successfully (method returned)
+=======
+[2025-12-19 09:40:33] Starting notification process. isFatal: false
+[2025-12-19 09:40:33] Calling sendNotification()
+[2025-12-19 09:40:33] Notification TO: Array
+(
+    [fulvio.venanzetti@spi.cgil.it] => 
+    [sito@spi.cgil.it] => 
+    [alessandro@ff3300.com] => 
+)
+
+[2025-12-19 09:40:33] Notification FROM: Array
+(
+    [no-reply@spi.cgil.it] => 
+)
+
+[2025-12-19 09:40:33] Attempting to send email via kirby()->email()
+[2025-12-19 09:40:33] Email Data keys: Array
+(
+    [0] => from
+    [1] => to
+    [2] => subject
+    [3] => attachments
+    [4] => body
+    [5] => replyTo
+)
+
+[2025-12-19 09:40:33] Transport config: Array
+(
+    [type] => smtp
+    [host] => smtps.provider.it
+    [port] => 465
+    [security] => 1
+    [auth] => 1
+    [username] => no-reply@spi.cgil.it
+    [password] => ...
+)
+
+[2025-12-19 09:40:34] EXCEPTION CAUGHT: Error sending notification: SMTP Error: Could not connect to SMTP host. Failed to connect to server
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0

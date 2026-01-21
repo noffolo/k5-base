@@ -23,11 +23,17 @@
         min-width: fit-content;
         white-space: nowrap;
         @extend %button;
+<<<<<<< HEAD
         @extend %medium;
         font-variation-settings: 'wght' 700;
         font-family: "medium";
         color: $color-black !important;
         border: 2px solid $color-black !important;
+=======
+        @extend %small;
+        font-weight: 700;
+        border: 2px solid $color-theme;
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
         margin: math.div($spacer, 3) math.div($spacer, 6);
         padding: math.div($spacer, 1.5) $spacer * 1.5;
         box-shadow: 3px 3px 0 $color-black !important;

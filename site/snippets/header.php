@@ -98,8 +98,19 @@
 
   <!-- Analytics -->
   <?php if (isFeatureAllowed('analytics')): ?>
+<<<<<<< HEAD
 
     <?php endif; ?>
+=======
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-NJ9HR4P"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YX40K8BVEP');
+    </script>
+  <?php endif; ?>
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
 </head>
 
 <body>

@@ -74,6 +74,7 @@
         @extend %extrasmall;
         width: calc(100% - $spacer*2);
         margin: math.div($spacer, 2) 0;
+<<<<<<< HEAD
     }
 
     select {
@@ -108,6 +109,8 @@
             border-color: $color-black !important;
             outline: 2px solid $color-hover !important;
         }
+=======
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
     }
 
     input,
@@ -157,7 +160,7 @@
         justify-content: center;
         margin-top: $spacer;
         margin-bottom: $spacer;
-        align-items: center;
+        align-items: flex-end;
 
         input {
             @extend %button;

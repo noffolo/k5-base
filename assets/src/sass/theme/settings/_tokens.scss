@@ -8,31 +8,52 @@ $font-black: 700;
 
 @font-face {
   font-family: "bold";
+<<<<<<< HEAD
   src: url("@/sass/theme/fonts/spacegrotesk.ttf") format("truetype");
+=======
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
   font-variation-settings: "wght"$font-bold;
 }
 
 @font-face {
   font-family: "extrabold";
+<<<<<<< HEAD
   src: url("@/sass/theme/fonts/spacegrotesk.ttf") format("truetype");
+=======
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
   font-variation-settings: "wght"$font-extrabold;
 }
 
 @font-face {
   font-family: "black";
+<<<<<<< HEAD
   src: url("@/sass/theme/fonts/spacegrotesk.ttf") format("truetype");
+=======
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
   font-variation-settings: "wght"$font-black;
 }
 
 @font-face {
   font-family: "medium";
+<<<<<<< HEAD
   src: url("@/sass/theme/fonts/spacegrotesk.ttf") format("truetype");
+=======
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
   font-variation-settings: "wght"$font-medium;
 }
 
 @font-face {
+<<<<<<< HEAD
   font-family: "regular";
   src: url("@/sass/theme/fonts/spacegrotesk.ttf") format("truetype");
+=======
+  font-family: "light";
+  src: url("/fonts/roboto-flex.ttf") format("truetype");
+>>>>>>> 30a41e65c710913fdd28c19b9aef2cba21432ae0
   font-variation-settings: "wght"$font-regular;
 }
 
