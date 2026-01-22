@@ -12,7 +12,7 @@ Kirby::plugin('cookbook/block-factory', [
     'blocks/collection_manager' => __DIR__ . '/blueprints/blocks/collection_manager.yml',
     'blocks/cta'                => __DIR__ . '/blueprints/blocks/cta.yml',
     'blocks/accordion'          => __DIR__ . '/blueprints/blocks/accordion.yml',
-    'blocks/csv_calendar'       => __DIR__ . '/blueprints/blocks/csv_calendar.yml',
+    'blocks/calendar_from_csv'       => __DIR__ . '/blueprints/blocks/calendar_from_csv.yml',
   ],
   'snippets' => [
     'blocks/page_title'                => __DIR__ . '/snippets/blocks/page_title.php',
@@ -27,7 +27,7 @@ Kirby::plugin('cookbook/block-factory', [
     'blocks/cta'                => __DIR__ . '/snippets/blocks/cta.php',
     'blocks/imagetextbuttons'   => __DIR__ . '/snippets/blocks/imagetextbuttons.php',
     'blocks/accordion'          => __DIR__ . '/snippets/blocks/accordion.php',
-    'blocks/csv_calendar'       => __DIR__ . '/snippets/blocks/csv_calendar.php',
+    'blocks/calendar_from_csv'       => __DIR__ . '/snippets/blocks/calendar_from_csv.php',
   ],
   // 👇 questa riga fa sparire "Invalid field type"
   'fields' => [

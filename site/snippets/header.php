@@ -15,44 +15,25 @@
 
   <?php snippet('seo-schema') ?>
 
-  <?php if($page->id() === 'home'): ?>
-    <title><?= $site->title() ?></title>
-    <link rel="canonical" href="<?= $page->url() ?>">
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="<?= $site->title() ?>" />
-    <meta name="twitter:title" content="<?= $site->title() ?>" />
-    <meta name="description" content="<?= $site->descrizione()->cleanText() ?>">
-    <meta name="twitter:description" content="<?= $site->descrizione()->cleanText() ?>">
-    <meta property="og:description" content="<?= $site->descrizione()->cleanText() ?>" />
-    <meta name="keywords" content="<?= $site->tags() ?>">
-    <meta property="og:url" content="<?= $site->url() ?>">
-    <?php if($site->seo_image()->isNotEmpty()): ?>
-       <meta property="og:image" content="<?= $site->seo_image()->toFile()->url() ?>" />
-       <meta name="twitter:image" content="<?= $site->seo_image()->toFile()->url() ?>">
-    <?php elseif($page->immagine()->isNotEmpty()): ?>
-       <meta property="og:image" content="<?= $page->immagine()->toFile()->url() ?>" />
-       <meta name="twitter:image" content="<?= $page->immagine()->toFile()->url() ?>">
-    <?php endif; ?>
-  <?php else: ?>
-    <?php if($page->uri() == 'home'): ?>
-      <title><?= $site->title() ?></title>
-      <link rel="canonical" href="<?= $page->url() ?>">
-    <?php else: ?>
-      <title><?= $page->title() ?> | <?= $site->title() ?></title>
-      <link rel="canonical" href="<?= $page->url() ?>">
-    <?php endif; ?>
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="<?= $page->title() ?> | <?= $site->title() ?>" />
-    <meta name="twitter:title" content="<?= $page->title() ?> | <?= $site->title() ?>" />
-    <meta name="description" content="<?= $page->descrizione()->cleanText() ?>">
-    <meta name="twitter:description" content="<?= $page->descrizione()->cleanText() ?>">
-    <meta property="og:description" content="<?= $page->descrizione()->cleanText() ?>" />
-    <meta name="keywords" content="<?= $page->tags() ?>">
-    <meta property="og:url" content="<?= $page->url() ?>">
-    <?php if($page->immagine()->isNotEmpty()): ?>
-      <meta property="og:image" content="<?= $page->immagine()->toFile()->url() ?>" />
-      <meta name="twitter:image" content="<?= $page->immagine()->toFile()->url() ?>">
-    <?php endif; ?>
+  <title><?= $page->seoTitle() ?></title>
+  <link rel="canonical" href="<?= $page->url() ?>">
+
+  <meta name="description" content="<?= $page->seoDescription() ?>">
+  <meta name="keywords" content="<?= $page->seoKeywords() ?>">
+
+  <meta property="og:type" content="<?= $page->isHomePage() ? 'website' : 'article' ?>" />
+  <meta property="og:title" content="<?= $page->seoTitle() ?>" />
+  <meta property="og:description" content="<?= $page->seoDescription() ?>" />
+  <meta property="og:url" content="<?= $page->url() ?>" />
+  <meta property="og:site_name" content="<?= $site->title() ?>">
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="<?= $page->seoTitle() ?>" />
+  <meta name="twitter:description" content="<?= $page->seoDescription() ?>" />
+
+  <?php if($image = $page->seoImage()): ?>
+    <meta property="og:image" content="<?= $image->url() ?>" />
+    <meta name="twitter:image" content="<?= $image->url() ?>">
   <?php endif; ?>
 
   <?php if($site->account_x()->isNotEmpty()): ?>
@@ -61,9 +42,6 @@
   <?php if($site->fb_app_id()->isNotEmpty()): ?>
     <meta property="fb:app_id" content="<?= $site->fb_app_id() ?>" />
   <?php endif; ?>
-
-  <meta property="og:site_name" content="<?= $site->title() ?>">
-  <meta name="twitter:card" content="summary" />
 
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 

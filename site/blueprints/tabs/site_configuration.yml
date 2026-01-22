@@ -1,17 +1,14 @@
 label: Impostazioni
-icon: checklist
+icon: settings
       
 sections:
-  #
   section_logo:
     type: fields
     fields:
-      #
       logo_headline:
         type: headline
         label: Logo
         width: 1/1
-      #
       logo_switch:
         label: Tipologia di logo
         type: radio
@@ -21,15 +18,13 @@ sections:
           logotype: tipografia
         columns: 2
         default: logo
-        help: Scegli tra le due tipologie di input
-      #
+        help: Scegli come visualizzare il brand nell'header
       logotype:
         label: Logo tipografico
         type: text
         width: 1/2
         when: 
           logo_switch: logotype
-      #
       logo:
         label: Logo Header
         type: files
@@ -38,34 +33,38 @@ sections:
           logo_switch: logo
         max: 1
         help: Carica il logo <b>in formato .SVG</b>
-      #
       separator_a:
         type: line
-      #
+
+  section_search:
+    type: fields
+    fields:
       search_headline:
         type: headline
         label: Ricerca
         width: 1/1
-      #
       ricerche_frequenti:
-        label: ricerche frequenti
+        label: Ricerche frequenti
         type: structure
+        help: Parole chiave suggerite nel pannello di ricerca
         fields:
           testo:
-            label: testo 
+            label: Testo
             type: text
-      #
       separator_2:
         type: line
-      #
+
+  section_menu:
+    type: fields
+    fields:
       menu_headline:
         type: headline
-        label: Menu
+        label: Menu principale
         width: 1/1
-      #
       menu:
         type: structure
-        label: Aggiungi, sostituisci o rimuovi una o più voci del menu
+        label: Voci del menu
+        help: Gestisci la navigazione principale del sito
         width: 1/1
         fields:
           isMobile:
@@ -91,79 +90,34 @@ sections:
             label: Link associato
             when:
               isExternal: true     
-  #
-  # Qua ci va il footer…
+      separator_3:
+        type: line
+
   section_footer:
     headline: Footer 
     type: fields
     fields:
-      #
-      separator_3:
-        type: line
-      #
       footer_headline:
         type: headline
-        label: Footer
+        label: Footer & Social
         width: 1/1
-      #
       footer: fields/footer_layout
-  
-  # Qua ci va il footer…
+
   section_extra:
-    headline: Extra 
+    headline: Configurazioni Avanzate
     type: fields
     fields:
-      #
-      separator_4:
-        type: line
-      #
       extra_headline:
         type: headline
-        label: Extra
+        label: Integrazioni & Mappe
         width: 1/1
-      #
       mapbox_token: 
         type: text
-        label: Mapbox token
-
-  #
-  # Qua ci va il footer…
-  section_footer:
-    headline: Footer 
-    type: fields
-    fields:
-      #
-      separator_3:
-        type: line
-      #
-      footer_headline:
-        type: headline
-        label: Footer
-        width: 1/1
-      #
-      footer: fields/footer_layout
-  
-  # Qua ci va il footer…
-  section_extra:
-    headline: Extra 
-    type: fields
-    fields:
-      #
-      separator_4:
-        type: line
-      #
-      extra_headline:
-        type: headline
-        label: Extra
-        width: 1/1
-      #
-      mapbox_token: 
-        type: text
-        label: Mapbox token
-
+        label: Mapbox Token
+        help: Necessario per le mappe interattive
       marker:
         type: files
-        label: Marker
+        label: Marker di default (Mappe)
         width: 1/2
         max: 1
         help: Carica il marker <b>in formato .SVG</b>

@@ -6,7 +6,7 @@ use Kirby\Http\Remote;
 use Kirby\Toolkit\Str;
 use Kirby\Uuid\Uuid;
 
-class SediPage extends Page
+class SediPage extends DefaultPage
 {
     /* ---------------------------------------
        Rilevamento contesto: Panel vs Frontend

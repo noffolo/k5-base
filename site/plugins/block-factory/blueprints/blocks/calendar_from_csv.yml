@@ -1,0 +1,28 @@
+name: Calendario CSV
+icon: calendar
+preview: fields
+wysiwyg: true
+
+fields:
+  title:
+    label: Titolo
+    type: text
+    width: 1/2
+
+  csv_source:
+    label: Pagina Sorgente (Spreadsheet)
+    type: pages
+    query: site.index.filterBy('template', 'calendar-from-csv')
+    multiple: false
+    width: 1/2
+
+  active_category:
+    label: Categoria Attiva (Opzionale)
+    type: text
+    width: 1/2
+    help: Inserisci lo slug della categoria (es. teatro, musica) per filtrare i risultati.
+
+  max_number:
+    label: Numero massimo di oggetti
+    type: number
+    width: 1/2

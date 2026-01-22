@@ -111,7 +111,7 @@ if (!function_exists('build_calendar_url')) {
                 <div class="block-grid-a-list" style="justify-content: center; display: flex; flex-direction: column; gap: 15px; padding: 15px;">
                   <?php foreach ($group as $occ): ?>
                     <div class="single-cards" style="width: 100%; min-width: 100%!important;">
-                      <?php snippet('card-calendar', [
+                      <?php snippet('calendar-item', [
                           'child'      => $occ['page'],
                           'occurrence' => $occ
                       ]) ?>

@@ -49,7 +49,7 @@ fields:
           - imagetextbuttons
           - grid
           - collection_manager
-          - csv_calendar
+          - calendar_from_csv
           - map
       utility:
         label: Utility
