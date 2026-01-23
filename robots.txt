@@ -1,6 +1,0 @@
-Sitemap: https://www.spazio13.eu/sitemap
-
-User-agent: *
-
-Allow: *
-Allow: *?*

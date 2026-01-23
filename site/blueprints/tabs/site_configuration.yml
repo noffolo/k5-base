@@ -90,6 +90,7 @@ sections:
             label: Link associato
             when:
               isExternal: true     
+
       separator_3:
         type: line
 
@@ -102,6 +103,9 @@ sections:
         label: Footer & Social
         width: 1/1
       footer: fields/footer_layout
+
+      separator_4:
+        type: line
 
   section_extra:
     headline: Configurazioni Avanzate
@@ -121,3 +125,44 @@ sections:
         width: 1/2
         max: 1
         help: Carica il marker <b>in formato .SVG</b>
+
+      separator_5:
+        type: line
+
+  section_email:
+    headline: Configurazione Email (SMTP)
+    type: fields
+    fields:
+      email_headline:
+        type: headline
+        label: Parametri di Invio
+        width: 1/1
+      from_email:
+        label: Email Mittente (From)
+        type: email
+        width: 1/1
+        help: L'indirizzo email che risulterà come mittente
+      smtp_host:
+        label: Host SMTP
+        type: text
+        width: 1/2
+        help: Es. smtps.aruba.it
+      smtp_port:
+        label: Porta SMTP
+        type: number
+        width: 1/4
+        default: 465
+      smtp_security:
+        label: Sicurezza SSL/TLS
+        type: toggle
+        width: 1/4
+        default: true
+        text: Attivo
+      smtp_user:
+        label: Username SMTP
+        type: text
+        width: 1/2
+      smtp_pass:
+        label: Password SMTP
+        type: text
+        width: 1/2

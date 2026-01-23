@@ -18,5 +18,18 @@ return [
         return go('sitemap.xml', 301);
       }
     ],
+    [
+      'pattern' => 'robots.txt',
+      'action'  => function () {
+        $robots = [
+          'Sitemap: ' . url('sitemap.xml'),
+          '',
+          'User-agent: *',
+          'Allow: *',
+          'Allow: *?*',
+        ];
+        return new Response(implode("\n", $robots), 'text/plain');
+      }
+    ],
   ]
 ];

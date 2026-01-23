@@ -22,20 +22,24 @@ return [
   // Opzioni mappa sito (usate dai routes)
   'sitemap.ignore' => ['error'],
 
-  // Configurazione Email (SMTP)
-  // IMPORTANTE: Sostituire con i parametri reali del provider di posta
-  'email' => [
-    'transport' => [
-      'type' => 'smtp',
-      'host' => 'smtps.aruba.it', // INSERIRE HOST REALE (es. smtp.googlemail.com)
-      'port' => 465,                // 465 per SSL, 587 per TLS
-      'security' => true,           // true per SSL, false (o tb 'tls') per TLS
-      'auth' => true,
-      'username' => 'no-reply@spazio13.eu', // INSERIRE UTENTE REALE
-      'password' => 'SpazioAdmin13!',           // INSERIRE PASSWORD REALE
-    ]
-  ],
+  'ready' => function ($kirby) {
+    return [
+      // Configurazione Email (SMTP)
+      // Carica i valori impostati nel Panel (tab Impostazioni)
+      'email' => [
+        'transport' => [
+          'type'      => 'smtp',
+          'host'      => $kirby->site()->smtp_host()->value(),
+          'port'      => $kirby->site()->smtp_port()->value(),
+          'security'  => $kirby->site()->smtp_security()->toBool() ? 'ssl' : false,
+          'auth'      => true,
+          'username'  => $kirby->site()->smtp_user()->value(),
+          'password'  => $kirby->site()->smtp_pass()->value(),
+        ]
+      ],
 
-  // Form Block Suite: Usa lo stesso indirizzo autenticato per l'invio
-  'plain.formblock.from_email' => 'no-reply@spazio13.eu',
+      // Form Block Suite: Usa lo stesso indirizzo autenticato per l'invio
+      'plain.formblock.from_email' => $kirby->site()->from_email()->value() ?: 'no-reply@' . parse_url($kirby->url(), PHP_URL_HOST),
+    ];
+  }
 ];
