@@ -1,0 +1,121 @@
+Title: White Rabbit Studios
+
+----
+
+Descrizione: Produzione audiovisiva indipendente: storie per comunità e imprese.
+
+----
+
+Immagine: - file://gxt7o5i67py4uvrg
+
+----
+
+Thumbnail: - file://gxt7o5i67py4uvrg
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Contribuisce, Audio / Video
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"justify-content: center!important;\nmin-height:300px;\ndisplay: flex;\nflex-direction: column;\ntext-align: center;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Questa pagina sarà aggiornata presto con più info.</p>"},"id":"7d4ec3eb-ed6e-4dd5-9c4f-7ad41cf20e9f","isHidden":false,"type":"text"}],"id":"8c198757-27d0-4dbf-a5fd-8ca5ddddd4e0","width":"1/1"}],"id":"b3796c35-6f13-4358-8301-59299f2e9ac6"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: q1jtma6znnwyjyct

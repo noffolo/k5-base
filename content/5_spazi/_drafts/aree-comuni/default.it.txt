@@ -1,0 +1,124 @@
+Title: Aree comuni
+
+----
+
+Descrizione:
+
+Per contaminarsi 
+Non sono mai solo spazi di passaggio. Sono punti d’incontro, incroci inaspettati, crocevia della comunità e della condivisione.
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2025-12-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Lavoro / Studio
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"0acaffda-3687-452f-99ac-e06d3af79b9d","width":"1/2"},{"blocks":[{"content":{"text":"<p>Qui si intrecciano socialità quotidiana, scambi tra progettualità e relazioni informali.</p>"},"id":"bb16a653-a318-43e8-b157-2839c306b9b9","isHidden":false,"type":"text"}],"id":"cda50bd0-d622-4c0f-82e7-58df398738b7","width":"1/2"}],"id":"8d4a4fdf-fb15-4d63-bdaa-8c26b32d4f7a"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: don3zke0eocko3d7

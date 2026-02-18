@@ -1,0 +1,228 @@
+Title: Produzioni
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager:
+
+- 
+  nome: Laboratorio
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Seminario
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Spettacolo
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Esposizione
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Assemblea
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Conversazione
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Culture e Arti
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree tematiche
+  marker: [ ]
+- 
+  nome: Tecnologie e Innovazioni
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree tematiche
+  marker: [ ]
+- 
+  nome: Benessere e Salute
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree tematiche
+  marker: [ ]
+- 
+  nome: Innovazioni Sociali
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree tematiche
+  marker: [ ]
+- 
+  nome: Bambini
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Audience
+  marker: [ ]
+- 
+  nome: Ragazzi
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Audience
+  marker: [ ]
+- 
+  nome: Giovani
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Audience
+  marker: [ ]
+- 
+  nome: Adulti
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Audience
+  marker: [ ]
+- 
+  nome: Anziani
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Audience
+  marker: [ ]
+- 
+  nome: Gratuito
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+- 
+  nome: A pagamento
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+- 
+  nome: Su invito
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+- 
+  nome: Su prenotazione
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Calendario eventi","download":[],"url":"","page":["page://cuedvhxfhxlv8bq9"],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"97b35597-2913-47f8-aded-744278501efd","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Produzioni <br>e co-produzioni<br></strong>↓"},"id":"24a3aa6f-84e1-44f1-9410-f1d2697522dc","isHidden":false,"type":"heading"}],"id":"1eee0960-49b8-4d05-88a6-17abf428f1cb","width":"1/1"}],"id":"ea92b2cd-259b-4c4a-9b06-5582b13288b0"}]
+
+----
+
+Collection-toggle: true
+
+----
+
+Collection-options: calendar
+
+----
+
+Collection-categories-manager-toggle: true
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: UcxhNsXkfMPy4GH2

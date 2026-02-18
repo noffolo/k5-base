@@ -1,0 +1,113 @@
+Title: Prenota uno spazio
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2025-12-16
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Vai agli Spazi","download":[],"url":"","page":["page://zLIZouJsCTtZXm51"],"slug":"","shape":"square","contrast":"positive","is_active":"true"},{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Condizioni d'utilizzo","download":[],"url":"","page":["page://dgxfd5bz7yncollw"],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"459869aa-85e1-42f0-bcb5-f5898190f7db","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"Hai bisogno di spazio<br>per organizzare qualcosa?<br><strong>Dicci di più!</strong><br>↓"},"id":"e9001deb-25b7-409b-b27d-aeda361a15f5","isHidden":false,"type":"heading"}],"id":"65596f9d-90d7-442d-a877-c6f19b928f50","width":"1/1"}],"id":"58e42e26-f585-4811-bc4e-3c508be4d8c1"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h1","text":"Attraverso questo form <strong>è possibile richiedere l'utilizzo degli spazi </strong>per attività e/o progetti."},"id":"6effd245-e893-458c-9dc5-297fe092120c","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"Prenderemo in carico la richiesta e ti ricontatteremo al più presto."},"id":"4f793753-2ff0-4620-a397-9e7eb07f29c1","isHidden":false,"type":"heading"},{"content":[],"id":"9307373d-be02-4b92-946a-bf9e3ce2af34","isHidden":false,"type":"line"},{"content":{"level":"h2","text":"Sai <strong>come funziona</strong> <strong>l'utilizzo</strong> degli spazi?"},"id":"07e10329-cea9-450c-99c4-73e560152db9","isHidden":false,"type":"heading"},{"content":{"container_custom_css":"margin: 0!important;\nmargin-bottom: 30px!important;\npadding:0!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Leggi le condizioni d'utilizzo","download":[],"url":"","page":["page://dgxfd5bz7yncollw"],"slug":"","shape":"square","contrast":"positive","is_active":"true"}]},"id":"7f490c52-9e9c-49e6-a4d5-606d97607ffd","isHidden":false,"type":"cta"},{"content":{"location":"kirby","image":["file://nboltieyhgpnxxgu"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"a444c0a8-34e7-4dce-bb1c-e71b6cae2e88","isHidden":false,"type":"image"}],"id":"45765ac7-f667-4496-8d52-bc8dfa87da77","width":"1/2"},{"blocks":[{"content":{"formid":"96d52ddb-58a4-4f1c-b4bb-375e7368e0e3","mailview":null,"formfields":"[{\"content\":{\"label\":\"Eventuale organizzazione di appartenenza\",\"slug\":\"organizzazione\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"xxxxxx\",\"default\":\"\",\"validate\":[]},\"id\":\"4b6f6e6e-ffb0-4cee-a76f-78b49567f345\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Nome e cognome\",\"slug\":\"name\",\"autofill\":\"name\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"xxxx xxxxx\",\"default\":\"\",\"validate\":[]},\"id\":\"f41a068e-a966-463b-a05d-87f00ba5bf76\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Email\",\"slug\":\"email\",\"autofill\":\"email\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"email\",\"placeholder\":\"xxx@xxx.xx\",\"default\":\"\",\"validate\":[{\"validate\":\"email\",\"match\":\"\",\"minlength\":\"\",\"maxlength\":\"\",\"min\":\"\",\"max\":\"\",\"msg\":\"\"}]},\"id\":\"8216ec77-1f65-45f5-9b4e-d42efb7b7586\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Numero di telefono\",\"slug\":\"numero-di-telefono\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"number\",\"placeholder\":\"NNN NNNNNNNN\",\"default\":\"\",\"validate\":[]},\"id\":\"120b5d8d-cbbc-47bd-aedc-a916f3bad2b7\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Preferenza orario / giorni per essere ricontattat*\",\"slug\":\"preferenze\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"placeholder\":\"il xxxx dalle HH alle HH\",\"row\":5,\"man\":255},\"id\":\"264dca3e-8f16-4bbd-817a-eac9033d6744\",\"isHidden\":false,\"type\":\"formfields_02_textarea\"},{\"content\":{\"label\":\"Tipologia di utente\",\"slug\":\"tipologia\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"placeholder\":\"Indica che tipologia di utente sei\",\"options\":[{\"label\":\"Associazione di promozione sociale \",\"slug\":\"aps\",\"selected\":\"false\"},{\"label\":\"Associazione non iscritta al RUNTS\",\"slug\":\"ass-no-runts\",\"selected\":\"false\"},{\"label\":\"Azienda / Ditta individuale\",\"slug\":\"azienda-ditta\",\"selected\":\"false\"},{\"label\":\"Ente filantropico\",\"slug\":\"ente-filantropico\",\"selected\":\"false\"},{\"label\":\"Ente religioso\",\"slug\":\"ente-religioso\",\"selected\":\"false\"},{\"label\":\"Fondazione\",\"slug\":\"fondazione\",\"selected\":\"false\"},{\"label\":\"Gruppo informale\",\"slug\":\"gruppo-informale\",\"selected\":\"false\"},{\"label\":\"Cooperativa o impresa sociale\",\"slug\":\"impresa-cooperativa-sociale\",\"selected\":\"false\"},{\"label\":\"Liber* professionista\",\"slug\":\"liber-professionista\",\"selected\":\"false\"},{\"label\":\"Organizzazione di volontariato\",\"slug\":\"organizzazione-di-volontariato\",\"selected\":\"false\"},{\"label\":\"Privato\",\"slug\":\"privato\",\"selected\":\"false\"},{\"label\":\"Rete associativa\",\"slug\":\"rete-associativa\",\"selected\":\"false\"},{\"label\":\"Altro\",\"slug\":\"altro\",\"selected\":\"false\"}]},\"id\":\"00d64316-4a43-4d1c-b0fe-c96da3663810\",\"isHidden\":false,\"type\":\"formfields_05_select\"},{\"content\":{\"label\":\"Sito web\",\"slug\":\"sito-web\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"www.xxxxx.xx\",\"default\":\"\",\"validate\":[]},\"id\":\"b4babad5-6261-4f98-99b1-e13454a687f2\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Social network\",\"slug\":\"social-network\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"/xxxxxx o @xxxxxx\",\"default\":\"\",\"validate\":[]},\"id\":\"05fb7e10-824e-4e66-b080-967fc51a932a\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Breve descrizione dell'attività proposta\",\"slug\":\"breve-descrizione-dell-attivita-proposta\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"placeholder\":\"xxxxxxx xxxx xx xxxxxxx\",\"row\":5,\"man\":255},\"id\":\"781b7213-8b98-4a0e-8c14-450bc83c8d5c\",\"isHidden\":false,\"type\":\"formfields_02_textarea\"},{\"content\":{\"label\":\"Eventuali allegati \",\"slug\":\"descrizione\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"accept\":\"application/pdf, image/jpeg, application/msword\",\"maxsize\":10,\"maxnumber\":1,\"file_accept\":\"\"},\"id\":\"fc241afb-3b6b-4d49-92f0-215eef1b7d68\",\"isHidden\":false,\"type\":\"formfields_06_file\"},{\"content\":{\"label\":\"Tipologia di attività\",\"slug\":\"tipologia-di-attivita\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"options\":[{\"label\":\"Riunione\",\"slug\":\"riunione\",\"selected\":\"false\"},{\"label\":\"Corso\",\"slug\":\"corso\",\"selected\":\"false\"},{\"label\":\"Talk / presentazione\",\"slug\":\"talk-presentazione\",\"selected\":\"false\"},{\"label\":\"Spettacolo\",\"slug\":\"spettacolo\",\"selected\":\"false\"},{\"label\":\"Altro\",\"slug\":\"altro\",\"selected\":\"false\"}]},\"id\":\"372dcdd6-c1dc-4cf1-babb-49c4ef888473\",\"isHidden\":false,\"type\":\"formfields_03_checkbox\"},{\"content\":{\"label\":\"Quando?\",\"slug\":\"quando\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"placeholder\":\"dal XX/XX/XXXX al XX/XX/XXXX dalle ore HH alle ore HH\",\"row\":5,\"man\":255},\"id\":\"f93cbba1-b2fe-4634-b88e-c42d5ba391c3\",\"isHidden\":false,\"type\":\"formfields_02_textarea\"},{\"content\":{\"label\":\"Se l'attività è ricorsiva, indicare qui la frequenza\",\"slug\":\"se-l-attivita-e-ricorsiva-indicare-qui-la-frequenza\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"placeholder\":\"Ogni X settimane\",\"row\":5,\"man\":255},\"id\":\"b8dc6554-6488-4c99-9a17-e63c9e6f799a\",\"isHidden\":false,\"type\":\"formfields_02_textarea\"},{\"content\":{\"label\":\"Dove?\",\"slug\":\"dove\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"options\":[{\"label\":\"Teatro\",\"slug\":\"teatro\",\"selected\":\"false\"},{\"label\":\"Open Space\",\"slug\":\"open-space\",\"selected\":\"false\"},{\"label\":\"Didattica Grande\",\"slug\":\"aula-didattica-grande\",\"selected\":\"false\"},{\"label\":\"Didattica Media\",\"slug\":\"didattica-media\",\"selected\":\"false\"},{\"label\":\"Didattica Galattica\",\"slug\":\"didattica-galattica\",\"selected\":\"false\"},{\"label\":\"Sala Performance\",\"slug\":\"sala-performance\",\"selected\":\"false\"},{\"label\":\"Sala Mindfull\",\"slug\":\"sala-mindfull\",\"selected\":\"false\"},{\"label\":\"Coworking\",\"slug\":\"coworking\",\"selected\":\"false\"},{\"label\":\"Foresteria\",\"slug\":\"foresteria\",\"selected\":\"false\"}]},\"id\":\"6162404c-d5cc-4c28-94f3-7e3dbc315a18\",\"isHidden\":false,\"type\":\"formfields_03_checkbox\"},{\"content\":{\"label\":\"Numero atteso di partecipanti\",\"slug\":\"numero-atteso-di-partecipanti\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"inputtype\":\"number\",\"placeholder\":\"N\",\"default\":\"\",\"validate\":[]},\"id\":\"b6961652-179f-4f0a-864b-32aa3688e832\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Questa attività è gratuita per chi partecipa?\",\"slug\":\"questa-attivita-e-gratuita-per-chi-partecipa\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"options\":[{\"label\":\"Attività gratuita\",\"slug\":\"attivita-gratuita\",\"selected\":\"false\"},{\"label\":\"Attività a pagamento\",\"slug\":\"attivita-a-pagamento\",\"selected\":\"false\"}]},\"id\":\"5bb552a0-5e72-4f46-ba57-899f95a4fa49\",\"isHidden\":false,\"type\":\"formfields_04_radio\"},{\"content\":{\"label\":\"Questa attività è finanziata da fondi pubblici?\",\"slug\":\"questa-attivita-e-finanziata\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"options\":[{\"label\":\"Attività finanziata\",\"slug\":\"attivita-finanziata\",\"selected\":\"false\"},{\"label\":\"Attività non finanziata\",\"slug\":\"attivita-non-finanziata\",\"selected\":\"false\"}]},\"id\":\"cd80f13f-c981-452a-b693-7210e9b2a628\",\"isHidden\":false,\"type\":\"formfields_04_radio\"},{\"content\":{\"label\":\"Eventuali altre richieste\",\"slug\":\"eventuali-altre-richieste\",\"autofill\":\"\",\"required\":\"false\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"xxxxxx, xxxxx, xxxxx\",\"default\":\"\",\"validate\":[]},\"id\":\"e25b7245-2af7-4718-a898-64695066aa5d\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Trattamento dati\",\"slug\":\"trattamento-dati\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"options\":[{\"label\":\"Dichiaro di aver preso visione della <a href=\\\"/privacy-policy\\\">privacy policy</a> e acconsento al trattamento dei dati.\",\"slug\":\"dichiaro-di-aver-preso-visione-della-privacy-policy-e-acconsento-al-trattamento-dei-dati\",\"selected\":\"false\"}]},\"id\":\"a48a8308-6512-4d44-af73-1103418ab578\",\"isHidden\":false,\"type\":\"formfields_03_checkbox\"},{\"content\":{\"label\":\"Antispam\",\"slug\":\"captcha-input\",\"autofill\":null,\"required\":true,\"required_fail\":\"\",\"placeholder\":null,\"ask\":\"\",\"fail\":\"\"},\"id\":\"e8b2fe17-9e7e-4916-990f-5ed62d3efddf\",\"isHidden\":false,\"type\":\"formfields_07_captcha\"}]","display":"{{name}} ({{email}})","name":"Formular","enable_notify":"true","notify_email":"prenotazioni@spazio13.eu; schepisi.mattia@gmail.com; alessandro@ff3300.com","notify_subject":"","notify_body":"","enable_confirm":"true","confirm_email":"","confirm_subject":"","confirm_body":"","redirect":"false","success_message":"<p>Grazie, abbiamo ricevuto il tuo messaggio. Ti ricontatteremo al più presto.</p>","success_url":[]},"id":"96d52ddb-58a4-4f1c-b4bb-375e7368e0e3","isHidden":false,"type":"form"}],"id":"8b579637-5c05-48cd-97cd-021be6a43bd8","width":"1/2"}],"id":"e34680db-bdfc-4710-8992-b21ea4d0031d"}]
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: eqdzfi2yosbisil7

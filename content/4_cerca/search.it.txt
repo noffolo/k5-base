@@ -1,0 +1,113 @@
+Title: Cerca
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h1","text":"<strong>Chi cerca, <br>trova.</strong><br>↓"},"id":"a3922dee-baa6-4f69-b61f-3935c5dd7845","isHidden":false,"type":"heading"}],"id":"4196ab99-637d-4263-afee-65ddc5756b80","width":"1/1"}],"id":"bf50dbed-0c61-4004-b8e0-5f64a6867b2b"}]
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: kfpX931jpB1Jtti7

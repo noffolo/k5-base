@@ -1,0 +1,124 @@
+Title: Didattica media
+
+----
+
+Descrizione:
+
+Uno spazio per studiare e crescere insieme, che invita al dialogo e alla relazione diretta.
+Luminosa e silenziosa, con arredi essenziali e tavoli modulari, è adatta a incontri operativi, gruppi di lavoro e attività formative a numero limitato.
+
+----
+
+Immagine: - file://fxabeh3vc4gl8jiu
+
+----
+
+Thumbnail: - file://fxabeh3vc4gl8jiu
+
+----
+
+Data-di-pubblicazione: 2025-12-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Lavoro / Studio, Formazione / Didattica, Prenotabile per eventi
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://ngmdzbrykf5zlhge"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"42ca6453-2352-406f-8061-d3a5d7c2ebc1","isHidden":false,"type":"image"}],"id":"29b79a2f-fd8a-4f59-b2fa-2985def3020c","width":"1/2"},{"blocks":[{"content":{"text":"<p><strong>Dimensione:</strong> <br>→ <u><strong>40mq</strong></u></p><p><strong>Capacità:</strong> <br><u><strong>20 posti a sedere</strong></u></p><p><strong>Configurazioni:</strong> <br>→ <u><strong>Variabili</strong></u></p><p><strong>Utilizzo:</strong> <br>→ eventi  <br>→ workshop<br>→ riunioni</p><p><strong>Dotazione base:</strong> <br>→ <strong>Tavoli</strong> e <strong>sedie</strong> <br>→ <strong>Climatizzazione</strong> e <strong>wi-fi</strong></p>"},"id":"1b9f1d3d-fcb7-4f54-939b-e4bf1f457b2d","isHidden":false,"type":"text"}],"id":"275205f8-6a90-4521-810d-05c1d50559e6","width":"1/2"}],"id":"3a2ad466-f388-430a-bd77-bcb88d8181d9"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: vcvdrsqtrf12hbgu

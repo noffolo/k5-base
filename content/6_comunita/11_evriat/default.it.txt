@@ -1,0 +1,121 @@
+Title: Evriat
+
+----
+
+Descrizione: Un ponte tra moda, formazione e lavoro. Da oltre trent’anni trasforma l’esperienza sartoriale in didattica concreta e opportunità per le nuove generazioni.
+
+----
+
+Immagine: - file://avvg21bgotmuzb4l
+
+----
+
+Thumbnail: - file://avvg21bgotmuzb4l
+
+----
+
+Data-di-pubblicazione: 2026-01-09
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Educazione / Didattica, Design e Arti visive, Innovazione tecnologica, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p><strong>L’istituto Evriat</strong> è stato fondato nel 2009 da Sara Sfregola che grazie ad un’esperienza trentennale (dal 1990) nel settore della moda, ha avuto il merito e la capacità di fare assumere alle proprie esperienze pratiche un’impronta didattica. Lavorando e migliorando le proprie capacità lavorative e d’insegnamento parallelamente allo sviluppo del settore, è riuscita a fornire supporti didattici più avanzati e obiettivi di ricerca, verificando costantemente il positivo inserimento dei giovani diplomati nel sistema produttivo.</p><p><strong>Le aziende</strong> sono alla perenne ricerca di figure fondamentali per la manifattura, tra digital specialist, sustainability expert e consumer psychologist si moltiplicano le nuove professioni nel mondo della moda. Ma il protagonista indiscusso resta il prodotto: ecco perché modellisti, sarte e artigiani del settore sono richiestissimi dalle aziende del Made in Italy. L’ Istituto Evriat propone percorsi di studio in grado di proiettare nel futuro i mestieri che da sempre rendono unica la moda italiana.</p><p><strong>Le lezioni</strong> sono a carattere individuale. Grazie a questo metodo, il corso offre un significante e completo aggiornamento in breve tempo. Ogni studente può scegliere gli argomenti che più interessano e approfondirli, sia nel caso in cui si parta da zero che per coloro che possiedono già un’esperienza scolastica o lavorativa. Il piano di studi viene pianificato all’inizio del corso con gli insegnanti.</p>"},"id":"8869e629-e9f4-4a1a-bd7a-b7e3ae765211","isHidden":false,"type":"text"}],"id":"add806e4-bb7f-4ea9-85e5-1a869d46607a","width":"1/1"}],"id":"566695a3-444c-4f26-ade1-61f50f0bafc1"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Sito Web","download":[],"url":"https://www.sarasfregola.it/#!/formazione","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"f326e9f4-f54d-4ee5-b272-191331835851","isHidden":false,"type":"cta"}],"id":"b10837ab-9ba9-44ff-879c-12dfaf45f660","width":"1/1"}],"id":"d3d79cff-b38d-476e-99e1-03cc0f2dd574"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: x1d0gqtproidzcqx

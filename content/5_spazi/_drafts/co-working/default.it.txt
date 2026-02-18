@@ -1,0 +1,121 @@
+Title: Co-working
+
+----
+
+Descrizione: Questo è uno spazio di coworking, il rifugio ideale per chi è in cerca di concentrazione, ispirazione e nuovi stimoli.
+
+----
+
+Immagine: - file://skicvss8ii0h3yk3
+
+----
+
+Thumbnail: - file://skicvss8ii0h3yk3
+
+----
+
+Data-di-pubblicazione: 2025-12-10
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"Per lavorare assieme"},"id":"197c91b4-afa5-41b0-b60f-cce3d0170d78","isHidden":false,"type":"heading"}],"id":"7ef83768-fbee-44dc-8b63-153de7078b56","width":"1/2"},{"blocks":[{"content":{"text":"<p>Qui ci sono sedute, scrivanie, prese elettriche, Wi-Fi e persone sveglie. Il resto? Lo porti tu. </p>"},"id":"9bec71ea-ea81-4367-aa48-c2b6b980aa17","isHidden":false,"type":"text"}],"id":"70eeedd4-7aae-42a2-819d-8670eb823b30","width":"1/2"}],"id":"577285b9-e716-485b-ac12-e8cf7de295d8"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: zyhpyebyvfwhwwox

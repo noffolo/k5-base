@@ -1,0 +1,121 @@
+Title: Django
+
+----
+
+Descrizione: Muove artisti, suoni e visioni attraverso club, festival e scene internazionali. Una piattaforma fluida tra consulenza, promozione e cultura musicale.
+
+----
+
+Immagine: - file://6nruyjrzefkafgnk
+
+----
+
+Thumbnail: - file://6nruyjrzefkafgnk
+
+----
+
+Data-di-pubblicazione: 2026-01-09
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Contribuisce, Audio / Video
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>DJANGO MUSIC è stata fondata nel 2017 in Italia, tra Bologna e Bari, con l’obiettivo di ridefinire la scena della musica live. Nel 2021, l’azienda ha ampliato la sua visione con la costituzione di DJANGO MUSIC SRL, estendendo il proprio focus a settori chiave dell’industria musicale come booking e produzione di eventi, management artistico, discografia e publishing.</p><p>Il roster di Django Music include un gruppo di&nbsp;artistɜ&nbsp;diversificato e acclamato, tra cui Dov’è Liana, Seun Kuti &amp; Egypt 80, Claver Gold, Murubutu, Asian Dub Foundation, Dub Fx, Shabaka, Adi Oasis, Davide Shorty, Johnny Marsiglia, Bassi Maestro, Godblesscomputers, Paolo Baldini, Forelock, La Yegros, Frente Cumbiero, Chico Trujillo e De La Soul.</p><p>DJANGO MUSIC si è evoluta in un partner di fiducia nell’industria musicale, promuovendo artistɜ&nbsp;nei principali club e festival in Italia e all’estero. L’azienda offre servizi completi, tra cui consulenza artistica, comunicazione e promozione, sfruttando una vasta rete all’interno della scena musicale italiana e internazionale.</p>"},"id":"8869e629-e9f4-4a1a-bd7a-b7e3ae765211","isHidden":false,"type":"text"}],"id":"634b68e1-7ea9-4e09-bddc-f5d38e6a6a9a","width":"1/1"}],"id":"be2922e8-285c-4b16-a770-155b26ab3688"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Sito Web","download":[],"url":"https://djangomusic.it/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"f326e9f4-f54d-4ee5-b272-191331835851","isHidden":false,"type":"cta"}],"id":"b10837ab-9ba9-44ff-879c-12dfaf45f660","width":"1/1"}],"id":"d3d79cff-b38d-476e-99e1-03cc0f2dd574"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: qcstlmehfplbocla

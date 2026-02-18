@@ -1,0 +1,121 @@
+Title: La Scuola Open Source
+
+----
+
+Descrizione: Ecosistema solidale di ricerca e immaginazione sociale, culturale e tecnologica.
+
+----
+
+Immagine: - file://o9szpcs41uj9gxm2
+
+----
+
+Thumbnail: - file://o9szpcs41uj9gxm2
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Innovazione sociale, Educazione / Didattica, Progettazione culturale, Sociə, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"web","url":"https://www.youtube.com/watch?v=NL2v2ki0_Ug","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"045d58bd-2176-413a-85b4-4f1b6af1733e","isHidden":false,"type":"video"}],"id":"474a23fd-965d-413f-a76c-1f3499f4896d","width":"1/2"},{"blocks":[{"content":{"slider":[{"title":"","descrizione":"","selector":"pics","pics":["file://cac8jqexwlqomaox"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://mkextctve59sk1ot"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://ypygqemzqvkhiotd"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://1vph3puwvsawscec"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://lqdlvpbyq1cd96jc"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://ou6f9qc8gg1dwzg9"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://a0rd5lrozsfn8gu4"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]}]},"id":"7afca8f5-8059-4a5c-a262-ba86f52671e7","isHidden":false,"type":"slider"}],"id":"05781556-6082-4b85-83dc-868b69ea0b0d","width":"1/2"}],"id":"754e4336-e354-4beb-a1f3-1028062ef502"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"d56fcc23-0624-4bfe-9344-0476d987e6d6","width":"1/3"},{"blocks":[{"content":{"text":"<p><strong>La Scuola Open Source è una cooperativa di lavoro, ci dedichiamo all’innovazione, sociale e tecnologica, organizzando attività didattiche, culturali e di ricerca.<br><br>E questo genera nuove opportunità ♥</strong></p>"},"id":"ec570af1-e21c-4160-a66d-0fee42cde9f9","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Un <strong>hackerspace</strong>, dove persone con interessi comuni in svariati campi — artigianato, tecnologia, scienza, arti visuali e poetiche, editoria, robotica, domotica, biologia ed elettronica e non solo — possano incontrarsi, collaborare e/o socializzare;</li><li>Un <strong>centro di produzione culturale</strong> che <strong>organizza</strong> e <strong>sperimenta</strong> <strong>attività didattiche e di ricerca</strong> <strong>che mettono in relazione discipline e domini diversi.</strong></li><li>Un <strong>FabLab</strong>, una piccola officina che offre servizi personalizzati di fabbricazione digitale, dotata di una serie di strumenti di prototipazione (stampa 3d, taglio laser, etc.), e un <strong>centro di promozione del riuso</strong> di oggetti con tecnologia obsoleta.</li></ul>"},"id":"31ab5095-6ce3-4f25-89d3-34564125bb17","isHidden":false,"type":"list"},{"content":{"container_custom_css":"justify-content: flex-start!important;\nalign-item: flex-start!important;\nmargin-bottom: 30px!important;\nmargin-top: 15px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Vai al sito","download":[],"url":"https://lascuolaopensource.xyz/it","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"77860e82-8c39-4245-a899-485e18e08a6f","isHidden":false,"type":"cta"}],"id":"2112db23-00dd-4888-a434-eb0682dde482","width":"1/3"},{"blocks":[],"id":"9429c65c-78e9-4864-9b68-935f47c8cb70","width":"1/3"}],"id":"637c49a7-031c-4cc5-a56f-7e42b355735d"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: ehxmso0pprd2vnf1

@@ -5,9 +5,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Preconnect CDN -->
-  <link rel="preconnect" href="https://unpkg.com">
+  <!-- Preconnect/Preload -->
   <link rel="preconnect" href="https://ajax.googleapis.com">
+  <?php
+  // Dynamic LCP Preload
+  $lcpImage = null;
+  if ($page->contenuto()->isNotEmpty()) {
+    foreach ($page->contenuto()->toLayouts() as $layout) {
+      foreach ($layout->columns() as $column) {
+        foreach ($column->blocks() as $block) {
+          if ($block->type() === 'slider') {
+            if ($firstSlide = $block->slider()->toStructure()->first()) {
+              if ($file = $firstSlide->pics()->toFile()) {
+                 $lcpImage = $file->thumb(['format' => 'webp'])->url();
+              }
+            }
+            break 3;
+          }
+        }
+      }
+    }
+  }
+  ?>
+  <?php if ($lcpImage): ?>
+    <link rel="preload" as="image" href="<?= $lcpImage ?>" fetchpriority="high">
+  <?php endif; ?>
 
   <?php if($site->fb_domain_verification()->isNotEmpty()): ?>
     <meta name="facebook-domain-verification" content="<?= htmlspecialchars($site->fb_domain_verification()) ?>" />
@@ -45,15 +67,8 @@
 
   <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
 
-  <!-- Styles -->
-  <?php if($page->hasChildren() && $page->collection_options() === "map"): ?>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
-  <?php endif; ?>
-
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-  <link rel="stylesheet" href="<?= url('node_modules/bootstrap/dist/css/bootstrap.min.css') ?>">
-  <link rel="stylesheet" href="<?= url('assets/build/css/css.css') ?>"> <!-- usa versionamento manuale -->
+  <!-- Styles bundled by Vite -->
+  <link rel="stylesheet" href="<?= url('assets/build/css/css.css') ?>">
 
   <!-- JS in HEAD solo se necessario -->
   <?= js('assets/js/lazysizes.min.js') ?>

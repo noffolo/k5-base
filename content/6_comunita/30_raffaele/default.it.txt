@@ -1,0 +1,121 @@
+Title: Raffaele Alari
+
+----
+
+Descrizione: Responsabile manutentore e logistica.
+
+----
+
+Immagine: - file://hluei43lztwey9dz
+
+----
+
+Thumbnail: - file://hluei43lztwey9dz
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Retribuitə, Inclusione e comunità
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"2d985caa-49ea-4ed6-bd7b-1b12e2074fa9","width":"1/3"},{"blocks":[{"content":{"text":"<p>Responsabile della manutenzione degli spazi, impegnato nella cura degli ambienti comuni e dei legami sociali.<br><br>Mi piacciono il calcio, i tiri da 3 a basket, e la buona compagnia. <br><br>Sono una buona forchetta.</p>"},"id":"3a2079f8-fe05-4185-a0c5-06ec40265ed6","isHidden":false,"type":"text"}],"id":"7629260e-89b3-4229-85fa-fea2de3a549e","width":"1/3"},{"blocks":[],"id":"020cb7a0-b37d-4457-82ba-64e36b42d574","width":"1/3"}],"id":"e3c56a76-a2b5-422e-93a2-6e24c963b6d0"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: msx0zpwemk227ojh

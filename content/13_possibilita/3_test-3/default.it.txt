@@ -1,0 +1,130 @@
+Title: test 3
+
+----
+
+Descrizione: dsadsa
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2026-01-21
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: In corso, Senza compenso
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti:
+
+- 
+  giorno: 2026-01-31
+  orario_inizio: 10:30:00
+  orario_fine: ""
+
+----
+
+Deadline: 2026-01-30
+
+----
+
+Num-max: 12
+
+----
+
+Correlati: 
+
+----
+
+Team:
+
+- 
+  persona: boh
+  ruolo: non so
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: 
+
+----
+
+Parent-collection-options: calendar
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: zgmaccqyyphf9pkr

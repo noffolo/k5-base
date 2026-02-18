@@ -1,0 +1,170 @@
+Title: Calendario
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2026-01-13
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Vuoi organizzare un'attività a Spazio13?","download":[],"url":"","page":["page://eqdzfi2yosbisil7"],"slug":"","shape":"square","contrast":"positive","is_active":"true"}]},"id":"52e96455-ec79-4c1a-a8bd-e339220da089","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Calendario<br>eventi e attività</strong><br>↓"},"id":"edcbda73-9e74-47cf-b22e-822c48ec523e","isHidden":false,"type":"heading"}],"id":"9e0501bd-f526-43bb-a535-e66e8d551e64","width":"1/1"}],"id":"3cc37b96-80d0-4caa-a54b-6ce265e50166"}]
+
+----
+
+Csv-url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRFAnknAVz2FGaCB4m2tkT8yTg8CTvHkxCy6WMHEJ2RKrcho9F90wQAdhQpAhE-uww9i5WQ4YrbH0VU/pub?output=csv
+
+----
+
+Alias-map:
+
+- 
+  header: descrizione
+  alias: descrizione
+  role: title
+  filter: 'false'
+  colore: ""
+- 
+  header: tipo
+  alias: tipo
+  role: tag2
+  filter: 'false'
+  colore: ""
+- 
+  header: tematiche
+  alias: tematiche
+  role: tag1
+  filter: 'false'
+  colore: ""
+- 
+  header: quando
+  alias: quando
+  role: date
+  filter: 'false'
+  colore: ""
+- 
+  header: dove
+  alias: dove
+  role: description
+  filter: 'false'
+  colore: ""
+- 
+  header: organizzatore
+  alias: organizzatore
+  role: subtitle
+  filter: 'false'
+  colore: ""
+- 
+  header: target
+  alias: target
+  role: none
+  filter: 'true'
+  colore: ""
+- 
+  header: accesso
+  alias: accesso
+  role: none
+  filter: 'true'
+  colore: ""
+
+----
+
+Include-only: true
+
+----
+
+Cache-ttl: 100
+
+----
+
+Fallback: …
+
+----
+
+Page-size: 100
+
+----
+
+Uuid: cuedvhxfhxlv8bq9

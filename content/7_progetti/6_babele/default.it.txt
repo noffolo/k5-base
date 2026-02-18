@@ -1,0 +1,121 @@
+Title: BA.BE.L.E
+
+----
+
+Descrizione: BA.BE.L.E è stato un progetto di scambio tra due città molto diverse ma con la stessa domanda sul tavolo: come trasformare spazi abbandonati in luoghi vivi, condivisi, utili alla comunità. Bari e Bergamo hanno lavorato insieme per rispondere, mettendo in rete esperienze, metodi e persone.
+
+----
+
+Immagine: - file://xmp64ecypsm9zevr
+
+----
+
+Thumbnail: - file://xmp64ecypsm9zevr
+
+----
+
+Data-di-pubblicazione: 2026-01-14
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Realizzati
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"ffbf5031-a57d-40ac-929d-03fd905fe8b9","width":"1/3"},{"blocks":[{"content":{"text":"<p>L’occasione è arrivata con il bando nazionale SINERGIE promosso da <strong>ANCI</strong>. Il <strong>Comune di Bari</strong> ha candidato, insieme al Comune di Bergamo, l’esperienza di <strong>Spazio13</strong> come modello di gestione condivisa da trasferire. Quello che per anni abbiamo sperimentato nel quartiere Libertà – tra formazione, attivazione, cultura dal basso – è diventato riferimento per riaccendere un altro spazio: l’ex carcere Sant’Agata, oggi riconvertito in centro culturale.</p><p>Per un anno e mezzo, abbiamo messo in circolo visioni, prassi, errori e soluzioni. Ci siamo confrontati in workshop, visite, laboratori e incontri aperti, coinvolgendo le istituzioni, le associazioni, le cooperative e le comunità attive nei due territori. Lo scambio non è stato solo tecnico. È stato politico, umano, concreto.</p><p><strong>BA.BE.L.E</strong> ha dimostrato che anche da Sud si possono esportare pratiche innovative. E che una comunità urbana, giovane e mista come quella di Spazio13 può parlare la stessa lingua di realtà nate in contesti molto diversi. L’obiettivo non era solo replicare un modello, ma riscriverlo insieme, adattarlo, rimetterlo in gioco.</p>"},"id":"6808ada2-09e0-47d1-850a-09b0e0ef0b76","isHidden":false,"type":"text"},{"content":[],"id":"d32d58e6-12ea-40da-8ace-9fb02ac90e21","isHidden":false,"type":"line"},{"content":{"text":"<p><strong>“Spazio 13 – Una volta non c’era”</strong> – racconta la storia del nuovo centro culturale, seguendo il processo che da un’intuizione ha reso possibile la realizzazione di una realtà consolidata.</p><p>È stata realizzata all’interno del progetto <strong>BA.BE.L.E</strong> finanziato da <a href=\"https://www.anci.it/\"><strong>ANCI</strong></a> tramite il bando Sinergie, che prevede uno scambio di buone pratiche di innovazione sociale giovanile tra Comune di Bari e Comune di Bergamo. I testi sono a cura di: Federica Vittori, Bianca Barozzi. L’editing è stato fatto da Francesco Schettini e Serena Defilippo.<br><br>Il progetto editoriale ha preso forma grazie a un workshop promosso e curato da <a href=\"/@/page/ehxmso0pprd2vnf1\" target=\"_blank\">La Scuola Open Source</a>, e realizzato con la  collaborazione di <a href=\"https://www.che-fare.com/\" target=\"_blank\" title=\"https://www.che-fare.com/\">cheFare</a> e <a href=\"https://www.ff3300.com/it\" target=\"_blank\" title=\"https://www.ff3300.com/it\">FF3300</a>.</p>"},"id":"3376c28c-7d78-4dbb-82ce-08a30f8b875d","isHidden":false,"type":"text"}],"id":"e19a098a-a9d9-4f07-b110-1dfd48a350c8","width":"1/3"},{"blocks":[],"id":"4de79a2b-0cef-4331-95f6-f4375093e920","width":"1/3"}],"id":"55bb7523-b471-4bbe-9528-a765bf63a4c5"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center;\nalign-items: center;\ngap: 15px;\nmargin-bottom: 30px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"download","anteprima":"Scarica la pubblicazione in PDF","download":["file://gnxcayvnqjcgk5kh"],"url":"","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"a090caa1-a294-40b2-8378-14b4294e1ff3","isHidden":false,"type":"cta"}],"id":"3fadacb2-8e27-4e40-bcb8-3fa7c1f35414","width":"1/1"}],"id":"4764b168-b734-4cd1-a367-6f26ae76abc9"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: rp4fko8pr3rhnssj

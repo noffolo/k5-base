@@ -45,6 +45,20 @@ trait PageLogicTrait
         return $this->layout_content()->toLayouts();
     }
 
+    public function isLayoutVisible($layout): bool
+    {
+        $isExpiredLayout = $layout->scadenza()->isTrue();
+        $isExpiredPage   = $this->isExpired();
+        $formData        = $this->formData();
+        $isAvailable     = $formData['available'] === null || $formData['available'] > 0;
+
+        if ($isExpiredLayout && ($isExpiredPage || !$isAvailable)) {
+            return false;
+        }
+
+        return true;
+    }
+
     public function seoTitle(): string
     {
         if ($this->isHomePage()) {

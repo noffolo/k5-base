@@ -1,0 +1,121 @@
+Title: LAN
+
+----
+
+Descrizione: Indaga le potenzialità dei materiali naturali applicati ai campi dell’architettura, dell’arte e del design.
+
+----
+
+Immagine: - file://unkyh779idcpayu2
+
+----
+
+Thumbnail: - file://unkyh779idcpayu2
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Innovazione sociale, Design e Arti visive
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Il gruppo <strong><em>LAN&nbsp; </em></strong>fonda la sua ricerca sui materiali naturali, vegetali e di riciclo applicati all’architettura, al design e all’arte tramite la realizzazione di opere, manufatti architettonici e prodotti di design.</p><p>Fondamentale è il rapporto di questa architettura o <strong><em>“land art”</em></strong> con l’uomo e la natura. L’architettura organica infatti è un’architettura che si configura come organo aggiuntivo dell’uomo che nasce per soddisfare le sue esigenze esplicite ed interpretare i suoi bisogni profondi e che riesce a creare, attraverso la sua forza espressiva e il suo essere in divenire, una forte sinergia tra l’ambiente costruito e quello naturale.</p><p><strong><em>LAN</em></strong> promuove inoltre l’Autocostruzione e l’Autorecupero, la riscoperta delle antiche tecniche artigianali e di costruzione attraverso un percorso inverso che punta a stimolare l’interesse nei confronti del passato mediante l’utilizzo di accorgimenti tecnici e tecnologici innovativi. Si impegna nella promozione della cultura dell’eco-sostenibilità, del consumo consapevole e dell’etica sociale, coinvolgendo attivamente, in ogni suo lavoro, la popolazione locale e non, attraverso processi di cooperazione e partecipazione; creando un quadro per lo scambio reciproco di conoscenze e competenze.</p><p>Un diverso approccio all’architettura, ai materiali, all’arte che passa da una forte consapevolezza del contesto ambientale e urbano, dei luoghi delle città e dei suoi non luoghi, della natura come perno e fonte di crescita e ispirazione, &nbsp;ad un nuovo concetto di artista o architetto a contatto con l’esecuzione stessa delle sue opere.</p>"},"id":"a27ab301-feef-49ba-ae87-29205b62697e","isHidden":false,"type":"text"}],"id":"5e588e3b-b4df-4d60-a116-91079509a8d2","width":"1/1"}],"id":"fa8e86fa-cd94-40c2-a7df-7ebee8daede8"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Sito Web","download":[],"url":"https://www.lan-architetture.org/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"77860e82-8c39-4245-a899-485e18e08a6f","isHidden":false,"type":"cta"}],"id":"c38197fd-2f47-46cc-b4cd-55d513f8f088","width":"1/1"}],"id":"68ab6831-3ab8-49bf-ab96-daf946f42622"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: edgyh9ophg98tyiw

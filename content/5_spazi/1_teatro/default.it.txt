@@ -1,0 +1,124 @@
+Title: Teatro
+
+----
+
+Descrizione:
+
+Il teatro è il cuore pulsante di Spazio13.
+Adatto per spettacoli, concerti, danza, stand-up, talk, proiezioni, performance e serate di socialità culturale.
+
+----
+
+Immagine: - file://py6ztknzpivr7nio
+
+----
+
+Thumbnail: - file://py6ztknzpivr7nio
+
+----
+
+Data-di-pubblicazione: 2025-12-10
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Eventi / Attività, Prenotabile per eventi
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: evento, spettacolo, teatro, danza, concerto, performance
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"Accoglie voci, corpi e linguaggi diversi, trasformandoli in esperienza condivisa.<br><br>Connesso al bar e all’Open Space, è adatto per spettacoli, concerti, danza, stand-up, talk, proiezioni, performance e serate di socialità culturale."},"id":"d86f07d2-ec04-4682-9d79-c0c4d61e53e9","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://qfyglinc2cnyp007"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"2b3addd4-cf33-497e-8829-3f2b7dfa6a52","isHidden":false,"type":"image"}],"id":"94f38522-fc4a-4c08-8259-5667add3a9f5","width":"1/2"},{"blocks":[{"content":{"level":"h2","text":"<strong>Per fare spettacolo!</strong>"},"id":"714ae5ea-14ee-44f4-bb27-0b770bdfcef6","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Dimensione:<br></strong>→ <u><strong>100mq</strong></u> (incluso palco)</p><p><strong>Palco:<br></strong>→ <u><strong>6x4m</strong></u>, rialzato di <u><strong>40cm</strong></u><br><br><strong>Utilizzo:</strong> <br>→ <u><strong>spettacoli, performance, concerti, conferenze</strong></u><br><br><strong>Capacità:</strong> <br>→ <u><strong>100 posti a sedere</strong></u> <br><br><strong>Configurazioni:</strong> <br>→<u><strong>Variabili</strong></u> <br><br><strong>Dotazione base:</strong><br>→ <strong>Impianto audio</strong> con <strong>2 diffusori tweeter 300W</strong> e <strong>2 subwoofer 400W</strong><br>→ Illuminazione scenica: <strong>2 Fresnel</strong> 50W, <strong>4 par led</strong> multicolore<br>→ <strong>Proiettore e schermo</strong> di proiezione su palco, <strong>camerino</strong> per gli artisti<br>→ <strong>Climatizzazione</strong> e <strong>wi-fi</strong></p>"},"id":"5975753c-1b5a-4460-b56a-cf11079f77c4","isHidden":false,"type":"text"}],"id":"946503e2-0410-4587-8490-0a9fba838d41","width":"1/2"}],"id":"9ea1abb4-b4f0-4229-95fb-fef075e855b1"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: ejpe5aw0lszsjq21

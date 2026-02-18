@@ -1,0 +1,121 @@
+Title: Tou.play
+
+----
+
+Descrizione: Un collettivo di gamers, game designer e storyteller con la passione per i giochi. Ogni strumento Tou.Play è il risultato di progetti, sfide, incontri e tradizioni, ogni gioco è una storia che abbiamo scelto di raccontare.
+
+----
+
+Immagine: - file://qib6ng4ucryyxrvr
+
+----
+
+Thumbnail: - file://qib6ng4ucryyxrvr
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Innovazione sociale, Educazione / Didattica, Progettazione culturale, Sociə, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p><strong>Ci eravamo stancati</strong> di mettere camicie e cravatte abbiamo deciso di contagiare tutti con la voglia di tornare bambini! Virruzzi e giochi di societá, da tavolo, di ruolo, seri e meno seri, messi al servizio del territorio per vivere ed imparare con il sorriso più bello che c’è!</p><p><strong>Siamo curiosi</strong> ed eterni romantici. Ci piace viaggiare, esplorare, muoverci nei centri urbani con le persone e tra le persone. E ci piace scoprire le cose nascoste, le storie dei borghi, dei castelli, delle piazze, delle comunità. Scriviamo insieme la storia di un territorio che ha ancora molto da raccontare!<br><br><strong>Restiamo a bocca aperta</strong> ogni qualvolta scopriamo un aneddoto o un mistero celato tra le pieghe del tempo nelle segrete di un Castello o tra i vicoli di un centro storico e moriamo dalla voglia di raccontarlo e di farlo vivere a tutti! Seguici in questa avventura!</p>"},"id":"cfeeaea7-b6ed-45c4-b5d5-753142519da6","isHidden":false,"type":"text"}],"id":"32c6feef-af1a-447d-813b-387d4c66d63b","width":"1/2"},{"blocks":[{"content":{"slider":[{"title":"","descrizione":"","selector":"pics","pics":["file://gfnzbpkh9cqvdwf1"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://o71oxdutufmeyj8a"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]},{"title":"","descrizione":"","selector":"pics","pics":["file://rt8nkobe5zfmo55v"],"video":[],"crop":"true","extra_layer":"false","container_custom_css":"","cta":[]}]},"id":"79fac63d-46b1-46b6-a43e-b39102afa930","isHidden":false,"type":"slider"}],"id":"b50a1d1d-a070-4560-8d6f-5e13592a3c1a","width":"1/2"}],"id":"8e78bd3b-fd81-4a18-8be9-af67be22f7f0"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Vai al sito","download":[],"url":"https://www.touplay.it/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"b4e5f12c-34da-4748-a477-9b5aadd803cf","isHidden":false,"type":"cta"}],"id":"a9edaed2-0590-4c1d-8f55-45e93116bc91","width":"1/1"}],"id":"bbf4c6f5-900d-40ee-bae0-0350d2b89575"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: studvahg7g5qbvkx

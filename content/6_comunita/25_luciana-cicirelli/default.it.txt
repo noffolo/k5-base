@@ -1,0 +1,121 @@
+Title: Luciana Cicirelli
+
+----
+
+Descrizione: Host. Presenza trasversale, mediatrice.
+
+----
+
+Immagine: - file://xnq5waxqbuk39vpb
+
+----
+
+Thumbnail: - file://xnq5waxqbuk39vpb
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Design e Arti visive, Retribuitə, Host
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"c1b905d1-dc4e-4287-bb1d-ef1fcac730eb","width":"1/3"},{"blocks":[{"content":{"text":"<p>Luciana, nata il tredici dodici del duemila a Grumo Appula, cresciuta a Toritto, residente a Bari. Un'ultima informazione non essenziale: laureata in Lingue e letterature moderne. </p><p>In costante ricerca - una ricerca indefinita e malleabile - adotta un approccio interrogativo nei confronti della vita e del mondo. Disordinata, inaffidabile, intermittente; ma anche: trasversale, zelante, intensa. E ovviamente: contraddittoria e incoerente; ma anche: molteplice e libera. Amante del tempo perso. </p>"},"id":"4c2fe484-3325-4156-9628-dd9e8936bf80","isHidden":false,"type":"text"}],"id":"97d33bb5-45a5-4928-8ef0-7a8e6c65a93d","width":"1/3"},{"blocks":[],"id":"c289770e-a4cc-4aee-b918-474c16255bb8","width":"1/3"}],"id":"102b8146-c1d5-44a3-b9af-e5e1251f5bb2"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: xq4kd3bgricd5c0l

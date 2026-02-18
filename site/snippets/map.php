@@ -51,11 +51,9 @@ $indirizzoHtml = str_replace("'", "’", (string)$page->indirizzo());
 $textHtml      = "<strong>{$titleHtml}</strong><br>{$indirizzoHtml}";
 ?>
 
-<link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet">
-<script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
 
 <div class="map-container" style="position: relative;">
-  <div id="map-sede" style="width:100%; min-height:77vh; border-radius:.5rem; overflow:hidden;"></div>
+  <div id="map-sede" class="skeleton" style="width:100%; min-height:77vh; border-radius:.5rem; overflow:hidden;"></div>
 </div>
 
 <script>
@@ -67,7 +65,8 @@ $textHtml      = "<strong>{$titleHtml}</strong><br>{$indirizzoHtml}";
     properties: { text: <?= json_encode($textHtml, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES) ?> }
   };
 
-  if (!MAP_DATA || !MAP_DATA.token) {
+  document.addEventListener('mapbox-ready', () => {
+    if (!MAP_DATA || !MAP_DATA.token) {
     console.error('Mapbox token mancante.');
     document.getElementById('map-sede').innerHTML = '<div style="padding:1rem;border:1px solid #eee;border-radius:.5rem;background:#fff">Token Mapbox mancante: configura il token.</div>';
   } else if (!MAP_DATA.center || MAP_DATA.center.lat === null || MAP_DATA.center.lng === null) {
@@ -101,6 +100,10 @@ $textHtml      = "<strong>{$titleHtml}</strong><br>{$indirizzoHtml}";
       console.warn('Mapbox style error:', msg);
       if (!triedFallback1) { triedFallback1 = true; try { map.setStyle(STYLE_FALLBACK1); } catch(_) {} return; }
       if (!triedFallback2) { triedFallback2 = true; try { map.setStyle(STYLE_FALLBACK2); } catch(_) {} return; }
+    });
+
+    map.on('load', () => {
+      document.getElementById('map-sede').classList.remove('skeleton');
     });
 
     map.on('style.load', async () => {
@@ -194,7 +197,8 @@ $textHtml      = "<strong>{$titleHtml}</strong><br>{$indirizzoHtml}";
         popup.remove();
       });
     }
-  }
+    }
+  });
 </script>
 
 <style>

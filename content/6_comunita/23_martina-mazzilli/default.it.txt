@@ -1,0 +1,121 @@
+Title: Martina Mazzilli
+
+----
+
+Descrizione: Host. Mina vagante e intrecciatrice di storie, spazi e relazioni
+
+----
+
+Immagine: - file://mwgghs73h1qcoa8c
+
+----
+
+Thumbnail: - file://mwgghs73h1qcoa8c
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Retribuitə, Host
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"f2f2a608-214e-43e2-afca-886077bc9ac4","width":"1/3"},{"blocks":[{"content":{"text":"<p>Se un giorno dovessi/dovessero fare un film su di me, vorrei che si chiamasse “Una Martina vagante”.</p><p>Scheggia impazzita, sempre pronta a correre ovunque (anche se non c’è fretta), mi piace sistemare le cose e soprattutto amo incontrare nuove persone: reputo che ognunə possa darmi qualcosa e farmi avanzare di livello nella conoscenza personale.</p><p>Viaggiando in solitaria ho capito quanto possano crearsi legami meravigliosi anche senza essersi mai conosciuti prima (o forse ci si è conosciuti in una vita precedente, chissà).</p><p>Obiettivi della vita: me li costruisco ogni anno/mese e cambiano ogni anno/mese (non perché riesca a spuntarli tutti). Se ci incontreremo e mi vorrai porre la domanda: “quali obiettivi hai?”, chissà quali ti dirò o ti avrò detto.</p><p>Mi piace il cioccolato e odio i palloncini.</p>"},"id":"d8e01dcc-ad3b-4d47-8c1c-2ae6b1d7293c","isHidden":false,"type":"text"}],"id":"d22bcbc9-962f-4167-b584-4ad809a13807","width":"1/3"},{"blocks":[],"id":"c556a806-90e7-404f-a191-9c5dd373b530","width":"1/3"}],"id":"ef232b26-3745-4009-9612-02cccd1d2a23"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: l0tldkgwyariqetc

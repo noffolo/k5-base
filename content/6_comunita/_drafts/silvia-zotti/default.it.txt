@@ -1,0 +1,121 @@
+Title: Silvia Zotti
+
+----
+
+Descrizione: Ama cesellare i contenuti, di qualsiasi tipo essi siano.
+
+----
+
+Immagine: - file://tcl0bldkingpqoif
+
+----
+
+Thumbnail: - file://tcl0bldkingpqoif
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Sociə, Innovazione sociale, Progettazione culturale
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"51bb828a-3b04-4d1b-bdbe-320ee112ea7a","width":"1/3"},{"blocks":[{"content":{"text":"<p>Laureata in Storia presso la Federico II di Napoli e in Storia dell’Arte all’Alma Mater di Bologna, si occupa di contenuti editoriali, iconografia e copywriting. Nel 2015 decide di trasferirsi da Milano a Bari e di prendere parte al nascente progetto La Scuola Open Source, dedicandosi alla comunicazione della cooperativa e curando lo storytelling dei laboratori XYZ.</p>"},"id":"7a167008-4dd8-4b89-8988-214cb64b3bda","isHidden":false,"type":"text"}],"id":"3454a3c4-63ab-41a9-a836-287acae92921","width":"1/3"},{"blocks":[],"id":"689f1463-adf4-43ef-9c7a-097ce92a4e45","width":"1/3"}],"id":"22626d8c-589f-4e43-9984-1a55ba0efc56"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: fj8prh3flgpk15ga

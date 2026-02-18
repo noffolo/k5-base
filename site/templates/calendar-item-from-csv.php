@@ -102,7 +102,7 @@ if (empty($fieldsOrder)) {
 $fieldsOrder = array_values(array_unique($fieldsOrder));
 ?>
 
-<article class="wrap" style="margin-top: 50px; margin-bottom: 50px;">
+<main id="main" class="main wrap" style="margin-top: 50px; margin-bottom: 50px;">
   <div class="cards-details orange" style="padding: 40px; border-radius: 15px;">
     
     <header style="text-align: center; margin-bottom: 40px;">
@@ -230,7 +230,7 @@ $fieldsOrder = array_values(array_unique($fieldsOrder));
     <?php endif; ?>
 
   </div>
-</article>
+</main>
 
 <?php if ($parent && $parent->collection_toggle()->toBool()): ?>
   <?php snippet('page_related_list') ?>

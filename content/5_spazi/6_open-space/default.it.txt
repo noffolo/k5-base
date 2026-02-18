@@ -1,0 +1,121 @@
+Title: Open Space
+
+----
+
+Descrizione: Uno spazio fluido, dinamico, trasformabile. Affaccia direttamente sul bar ed è il primo ambiente che accoglie chi entra a Spazio13. Ideale per incontri pubblici, workshop, laboratori e presentazioni.
+
+----
+
+Immagine: - file://jm9fihltuhdh3zk5
+
+----
+
+Thumbnail: - file://jm9fihltuhdh3zk5
+
+----
+
+Data-di-pubblicazione: 2025-12-09
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Relax / Socializzazione, Eventi / Attività, Prenotabile per eventi, Accesso libero
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Per stare insieme</strong>"},"id":"7a5f0820-a014-47fc-950e-426d5cdd06d5","isHidden":false,"type":"heading"}],"id":"44e05011-f84f-41e5-b566-618d708f07af","width":"1/2"},{"blocks":[{"content":{"text":"<p>Dimensione: <br><u><strong>90mq</strong></u></p><p><strong>Utilizzo</strong>: <br><u><strong>conferenze, dj set, clubbing, presentazioni</strong></u></p><p><strong>Capacità</strong>: <br>dipende dalle configurazioni (ad esempio, 50 posti a sedere per conferenza con ledwall)</p><p><strong>Configurazioni</strong>: <br>variabili</p><p><strong>Dotazione base:<br></strong>→ <u><strong>Schermo ledwall</strong></u><br>→ <u><strong>Climatizzazione</strong></u> e <u><strong>wi-fi</strong></u></p>"},"id":"d36e1b05-c54b-4d1c-a52a-767345e2b777","isHidden":false,"type":"text"}],"id":"93c9739e-48f4-4454-83dd-165289199ca2","width":"1/2"}],"id":"1d408852-c405-4ccf-84c8-e52e36cf8a06"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Lato visione Bar</strong>"},"id":"9a7c4dd5-ea0e-4459-a3d5-05e5f53faa8b","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://iakxhcfzpskglbf7"],"src":"","alt":"","caption":"","link":"","ratio":"1/1","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"bacc2ae3-2aa8-44d8-a54d-ba073bb1ea19","isHidden":false,"type":"image"}],"id":"a3f695a7-9aa8-49b3-891b-1d10588ed189","width":"1/2"},{"blocks":[{"content":{"level":"h2","text":"<strong>Lato visione Ledwall</strong>"},"id":"7d48d433-d9df-4292-aaa7-9c793a783e7f","isHidden":false,"type":"heading"},{"content":{"location":"kirby","image":["file://hxcdmwuycw9xxng5"],"src":"","alt":"","caption":"","link":"","ratio":"1/1","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"429e8557-4f39-4a8f-bda0-f909f1edf21a","isHidden":false,"type":"image"}],"id":"ee624daa-b89a-4faa-b8a4-a09aaeafe287","width":"1/2"}],"id":"1582ba62-9d3d-45be-8723-3d2f1a6895f1"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: pwomrzvcgncxeeza

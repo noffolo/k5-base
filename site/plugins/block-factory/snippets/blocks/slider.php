@@ -10,13 +10,18 @@ $string = generateRandomString();
 $gallery_pagination = true;
 $gallery_arrows = true;
 ?>
+<?php
+$structure_data = $structure->toStructure();
+$items_count = $structure_data->count();
+?>
+<?php if($items_count > 0): ?>
 <div class="block-slider">
     <!-- Slider main container -->
-    <div class="swiper swiper<?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?>">
+    <div class="swiper">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
         <?php $counter = 0; ?>
-            <?php foreach( $structure->toStructure() as $item ): ?>
+            <?php foreach( $structure_data as $item ): ?>
                 <?php $crop = $item->crop()->toBool(); ?>
                 <!-- Slides -->
                 <?php $counter++; ?>
@@ -48,7 +53,7 @@ $gallery_arrows = true;
                             <?php snippet('block-slide-info',[
                                 'item' => $item,
                                 'block' => $block,
-                            ])?>
+                             ])?>
                         </div>
                     <?php endif; ?>
                 </div>
@@ -57,55 +62,21 @@ $gallery_arrows = true;
 
         <!-- If we need pagination -->
         <?php if(isset($gallery_pagination) AND  $gallery_pagination == true): ?>
-            <div class="swiper-pagination swiper<?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?>"></div>
+            <div class="swiper-pagination"></div>
         <?php endif; ?>
 
         <!-- If we need navigation buttons -->
         <?php if(isset($gallery_arrows) AND $gallery_arrows == true): ?>
             <?php if($counter > 1): ?>
-                <?php $prev = ".".$suffisso."-button-prev" ?>
-                <div class="swiper-button-prev <?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?>-button-prev"></div>
-
-                <?php $next = ".".$suffisso."-button-next" ?>
-                <div class="swiper-button-next <?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?>-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             <?php endif; ?>
-
         <?php endif; ?>
 
         </div>
 
-
-        <?php if($counter > 1): ?>
-            <script>
-                const swiper<?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?> = new Swiper('.swiper<?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?>', {
-                    stopOnLastSlide: false,
-                    autoplay: {
-                        delay: 8000,
-                    },
-                    // Optional parameters
-                    navigation: {
-                        nextEl: '<?= $next ?>',
-                        prevEl: '<?= $prev ?>',
-                    },
-                    preloadImages: false,
-                    lazy: true,
-                    watchSlidesVisibility: true,
-                });
-            </script>
-        <?php else: ?>
-            <script>
-                const swiper<?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?> = new Swiper('.swiper<?php if(isset($suffisso)): ?><?= $suffisso ?><?php endif; ?>', {
-                    stopOnLastSlide: true,
-                    autoplay: false,
-                    preloadImages: false,
-                    lazy: false,
-                    watchSlidesVisibility: true,
-                    // Optional parameters
-                });
-            </script>
-        <?php endif; ?>
-
     </div>
 
+<?php endif; ?> 
 <?php endif; ?> 
 

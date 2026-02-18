@@ -1,0 +1,121 @@
+Title: Bari Città Aperta
+
+----
+
+Descrizione: Dall'8 al 17 luglio 2025 presso Spazio13 si è svolto Bari Città Aperta, un laboratorio di ricerca e co-progettazione sulla nostra città promosso dal Comune di Bari e curato da La Scuola Open Source società cooperativa.
+
+----
+
+Immagine: - file://0yoj7wwszl3z3f2j
+
+----
+
+Thumbnail: - file://0yoj7wwszl3z3f2j
+
+----
+
+Data-di-pubblicazione: 2026-01-14
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Realizzati
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h1","text":"<strong>Laboratorio di ricerca e co-progettazione su 3 sfide urbane</strong>: accessibilità, economia locale, ambiente."},"id":"cae72689-ac06-45ce-bea6-d6c2ef9c361e","isHidden":false,"type":"heading"}],"id":"18a99308-d70a-4a49-91f0-3846225cefeb","width":"1/2"},{"blocks":[{"content":{"level":"h1","text":"Un’iniziativa del <strong>Comune di Bari</strong> a cura de <a href=\"/@/page/ehxmso0pprd2vnf1\" target=\"_blank\">La Scuola Open Source</a>: <strong>8 giorni, 100 partecipanti, 15 docenti, 7 aziende hi-tech.</strong>"},"id":"b0886ed1-d468-4509-9186-3c186b1d218d","isHidden":false,"type":"heading"}],"id":"e6c65623-840f-4d62-bf88-e8b318828aab","width":"1/2"}],"id":"f7e3ddd9-2054-4edf-bd73-e8ba1661dd6b"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Bari sta attraversando una trasformazione che coinvolge anche il suo ecosistema produttivo e tecnologico.</p><p>Negli ultimi anni, un contesto istituzionale favorevole, una comunità accogliente e la presenza di giovani professionisti formati nelle università e nei centri di ricerca (locali e non) hanno reso la città sempre più attrattiva per aziende nazionali e internazionali.</p><p>I nuovi investimenti hanno portato competenze, tecnologie e opportunità di lavoro, rafforzando un tessuto economico in crescita, più diversificato e sempre più dinamico e innovativo.</p><p>Il Comune di Bari accoglie con gratitudine le imprese che scelgono il territorio e si impegna a migliorare continuamente servizi e qualità urbana per rispondere alle loro aspettative. Allo stesso tempo, intende costruire una collaborazione che vada oltre l’aspetto economico: un impegno attivo delle aziende nello sviluppo della città, come leva per l’innovazione e per il miglioramento della qualità della vita della comunità.</p><p>In questa direzione si colloca <strong>Bari Città Aperta</strong>, un laboratorio di innovazione collaborativa promosso dal Comune di Bari che mette in rete imprese, startup, università, studenti e cittadini per co-produrre soluzioni alle sfide urbane.</p>"},"id":"15b24c93-a13f-4cfb-abd8-6e9a558048e7","isHidden":false,"type":"text"}],"id":"867aff21-3fc7-41b4-8412-7f23239deab0","width":"1/2"},{"blocks":[{"content":{"text":"<p><strong>Durante Bari Città Aperta abbiamo co-progettato «Adaxì»: un ecosistema di servizi open source frutto del lavoro di 100 partecipantз provenienti da tutta Italia, organizzatз in gruppi che hanno lavorato su 3 diverse sfide:</strong></p><p>Ispiratз dalla parola in dialetto barese “adacsì” ovvero “così”, abbiamo battezzato l’ecosistema di servizi sviluppato durante il laboratorio «<strong>Adaxì</strong>».</p><p>Abbiamo <strong>ascoltato</strong> i bisogni, abbiamo <strong>decostruito</strong> le richieste dell’amministrazione comunale, abbiamo <strong>analizzato</strong> dati, persone e linguaggi. Ne è nato un <strong>ecosistema</strong> modulare e non deterministico che si adatta a casi d'uso molto diversi.</p><p>Siamo statз particolarmente attentз a sviluppare un sistema che fosse <strong>fruibile per tutt</strong>з, anche da chi è meno avvezzə all’uso degli strumenti digitali. Si tratta di un progetto pienamente nello spirito <strong>open source</strong>: non abbiamo reinventato la ruota, ma ci siamo presз la briga di <strong>connettere, tradurre, rafforzare</strong> ciò che già esisteva.</p><p>«<strong>Adaxì</strong>» è un <strong>bellissimo azzardo politico</strong>: la città di Bari ha deciso di scommettere su un utilizzo politico della tecnologia che abilita le possibilità per tuttз, rimuove ostacoli all’interconnessione e alla condivisione. «<strong>Adaxì</strong>» è un’infrastruttura pubblica e open source, e da oggi è un <strong>bene comune che mettiamo a disposizione di tutt</strong>з.</p>"},"id":"2854eef3-e8ac-4aef-93f6-3f3092abec30","isHidden":false,"type":"text"}],"id":"f4d7ed71-bc1a-47ca-a6cb-8bd3327cac17","width":"1/2"}],"id":"a828d923-99b6-4dfb-b4c5-5a325d88c62a"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"web","url":"https://www.youtube.com/watch?v=NL2v2ki0_Ug","video":[],"poster":[],"caption":"","autoplay":"false","muted":"true","loop":"false","controls":"true","preload":"auto"},"id":"6223e67b-1199-4463-8232-ca9ba96a681c","isHidden":false,"type":"video"}],"id":"7c5f93f6-4cbb-42c3-a273-20bf62357eb0","width":"1/1"}],"id":"a472bb16-5c9b-4d8c-b3d9-83e3637bb44c"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"gap: 15px;\nalign-items: center;\njustify-content: center;\nmargin: 30px 0!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Output del progetto","download":[],"url":"https://lascuolaopensource.xyz/it/archivio/bari-citta-aperta-documentazione-e-prototipi","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"97abf0dd-6057-448a-981e-1be3715671c1","isHidden":false,"type":"cta"}],"id":"ba31b11d-425d-4ad1-85d1-854fa7d4eea9","width":"1/1"}],"id":"4f9b8fd0-f5eb-4fdc-961c-ce70c9ef0490"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: measszar4edgbbn3

@@ -1,0 +1,121 @@
+Title: Alessandro Tartaglia
+
+----
+
+Descrizione: Progettista della comunicazione e agitatore culturale. Interessato agli esseri umani, alle reti sociali e alle tecnologie digitali. Responsabile innovazione a Spazio13.
+
+----
+
+Immagine: - file://krxr43wf8bu7ocry
+
+----
+
+Thumbnail: - file://krxr43wf8bu7ocry
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Innovazione sociale, Innovazione tecnologica, Educazione / Didattica, Progettazione culturale, Design e Arti visive, Consiglio direttivo, Sociə
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"4665a1be-fbdc-43cd-ac30-e398e8553187","width":"1/3"},{"blocks":[{"content":{"text":"<p>Designer della Comunicazione, formatosi presso il Politecnico di Bari (triennale) e l'Istituto Superiore per le Industrie Artistiche (ISIA) di Urbino.</p><p>Nel corso degli anni ha sviluppato esperienza nell'insegnamento delle discipline del design: presso il Politecnico di Bari (per tre anni) dove ha insegnato \"Progettazione grafica\", più recentemente presso l'Università degli studi Federico II di Napoli (per un anno), dove è stato docente di \"Basic design\". </p><p>Nel 2009 ha fondato l'agenzia \"<a href=\"https://www.ff3300.com\" target=\"_blank\" title=\"https://www.ff3300.com\">FF3300 – Strategy + Design</a>\" insieme a Carlotta Latessa e Nicolò Loprieno, per la quale svolge funzione di direzione creativa. </p><p>Negli anni successivi è stato tra i co-fondatori prima della Cooperativa Anonima Servizi Tipografici (CAST) e poi de <a href=\"https://www.lascuolaopensource.xyz\" target=\"_blank\" title=\"https://www.lascuolaopensource.xyz\">La Scuola Open Source</a> Società Cooperativa con sede a Bari, della quale è stato direttore didattico per 3 anni. </p><p>Ha tenuto corsi e workshop presso L'Università degli studi di Roma La Sapienza, l'Istituto Superiore per le Industrie Artistiche (ISIA) di Urbino, l'Università degli Studi (UNIRSM) di San Marino, l'Accademia di belle arti di Macerata, la facoltà di design alla UNICAM di Ascoli e La Scuola Open Source Società Cooperativa di Bari. </p><p>Si occupa quotidianamente di comunicazione istituzionale e politica, progettazione culturale, sistemi d'identità visiva, caratteri tipografici, web ed editoria.</p>"},"id":"4c79e3f7-92c2-4dec-80bc-516a8e122291","isHidden":false,"type":"text"}],"id":"e6998b41-6b05-4780-b074-a00bde06920a","width":"1/3"},{"blocks":[],"id":"22a70080-82e5-4081-bc63-d30ec058a09d","width":"1/3"}],"id":"154edbe8-d78a-4e6a-8059-fef834663c23"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: l4nhzdbjppwobdls

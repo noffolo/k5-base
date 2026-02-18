@@ -1,0 +1,124 @@
+Title: Didattica grande
+
+----
+
+Descrizione:
+
+Uno spazio libero per fare cose in grande: 
+condividere, apprendere e scoprire insieme.
+
+----
+
+Immagine: - file://jypxsbyd1uzinkzt
+
+----
+
+Thumbnail: - file://ti8u8clbbafubbk7
+
+----
+
+Data-di-pubblicazione: 2025-12-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Lavoro / Studio, Formazione / Didattica, Prenotabile per eventi
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: workshop, laboratori, lezioni, seminari
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"Qui il pensiero si muove libero, incontra altri sguardi, prende spazio e respiro.<br><br>Perfetta per corsi, workshop, formazioni, riunioni progettuali e produzioni leggere. <br><br>All’occorrenza si trasforma in set per shooting fotografici o video, grazie alla dotazione audiovisiva di base."},"id":"2e95d23e-6d50-442b-96df-c4038b4d679c","isHidden":false,"type":"heading"}],"id":"caea405c-f2f8-46b9-af9b-3c2a126f8001","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://4ddipuwisqkfo4ly"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"e739dcf1-01cf-48d9-b799-ecf66ba23711","isHidden":false,"type":"image"}],"id":"246e334b-b290-433d-8ee1-98c5a2ae39a5","width":"1/2"}],"id":"072f459b-ee58-4382-9d97-36b9138ec2b9"},{"attrs":{"custom_css":"padding","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p><strong>Capacità:</strong> <br>→ <u><strong>50 posti a sedere<br><br></strong></u><strong>Dimensione: <br></strong>→ <u><strong>60mq</strong></u></p><p><strong>Configurazioni:</strong> <br>→ <u><strong>Variabili</strong></u></p>"},"id":"4350b319-8579-4289-9411-6c793643c4c0","isHidden":false,"type":"text"}],"id":"8f71a696-21ce-4a2b-a8d5-6c28b55824ef","width":"1/3"},{"blocks":[{"content":{"text":"<p><strong>Utilizzo:</strong> <br>→ <u><strong>Conferenze</strong></u><strong> e seminari</strong><br>→ <strong>Eventi formativi e </strong><u><strong>workshop</strong></u><br>→ <u><strong>Eventi</strong></u><strong> culturali e presentazioni</strong><br>→ <u><strong>Shooting</strong></u><strong> fotografici</strong> <br>→ <strong>Set </strong><u><strong>video</strong></u></p><p></p><p></p>"},"id":"8b108699-5de4-45d2-af06-1490d0d3847d","isHidden":false,"type":"text"}],"id":"dabeb01a-4b35-42ef-aaa4-9dbc0be57866","width":"1/3"},{"blocks":[{"content":{"text":"<p><strong>Dotazione base:</strong> <br>→ <strong>Tavoli e sedie<br></strong>→ <strong>Climatizzazione</strong> e <strong>wi-fi</strong></p>"},"id":"82d86c6c-0da8-4d25-9fdc-ba9eb8b3baa0","isHidden":false,"type":"text"}],"id":"8ed7d75c-5dc7-4fdd-afe2-05e789636613","width":"1/3"}],"id":"985d5360-4bd0-40b1-b969-086e35f4246f"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: 55lodoef3du6fmyi

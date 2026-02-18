@@ -96,9 +96,9 @@
         <?php endif; ?>
     </div>
     <?php if($item->dove()->isNotEmpty()): ?>
-        <dov style="min-width: 100%; text-align: center; margin-top: 15px; display: block;" class="">
+        <div style="min-width: 100%; text-align: center; margin-top: 15px; display: block;" class="">
             ⏷ <?= $item->dove() ?>
-        </dov>
+        </div>
     <?php endif; ?>
 </div>
 
@@ -107,7 +107,7 @@
 <?php endif; ?>
 
 <div class="page-title" style="margin:0!important;">
-    <h2 style="font-size: 300%"><?= $item->title() ?></h2>
+    <h1 style="font-size: 300%"><?= $item->title() ?></h1>
 </div>
 
 <div class="cards-text">

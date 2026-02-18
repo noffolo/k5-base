@@ -1,0 +1,113 @@
+Title: Organigramma
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2026-01-13
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Il nostro manifesto","download":[],"url":"","page":["page://impmv58gpowk5yin"],"slug":"","shape":"round","contrast":"positive","is_active":"true"},{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"La community","download":[],"url":"","page":["page://PHoYnYYlg1rjQ6mw"],"slug":"","shape":"square","contrast":"positive","is_active":"true"}]},"id":"d640e3af-fa30-4a40-9353-7a6299ef2a2e","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Organigramma<br>di Spazio13</strong><br>↓"},"id":"1ae579e0-e7ae-453c-a866-e21797b63a44","isHidden":false,"type":"heading"}],"id":"d247d51b-399f-43f0-89b1-d9f35b550dc9","width":"1/1"}],"id":"e5729aa0-d954-4041-92a3-e4026782f1f1"},{"attrs":{"custom_css":"max-width: 1280px;\nmargin: 0 auto!important;\nmargin-bottom: 30px!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Consiglio direttivo</strong>"},"id":"d3cdb335-dc56-446d-805a-a525c6185e83","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><strong>Carlo Ferretti</strong><br>presidente, coordinamento generale</li><li><strong>Antonio Franco</strong><br>vice presidente, general project manager</li><li><strong>Tita Tummillo</strong><br>consigliera, responsabile direzione artistica</li><li><strong>Serena Defilippo</strong><br>consigliera, responsabile amministrazione </li><li><strong>Alessandro Tartaglia</strong><br>consigliere, responsabile Innovazione </li></ul>"},"id":"c708415a-e968-40ff-9348-a190bbb8dcd4","isHidden":false,"type":"list"}],"id":"43b23123-238b-4879-ac56-f9f9f2714bfa","width":"1/3"},{"blocks":[{"content":{"level":"h2","text":"<strong>Team di gestione</strong>"},"id":"6f4beb58-f318-4707-8af9-f12d9d93f50e","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><strong>Francesco Marsico<br></strong>amministrazione</li><li><strong>Domenico de Finis <br></strong>cura e pulizia degli spazi</li><li><strong>Raffaele Alari</strong> <br>cura e manutenzione</li><li><strong>Nico Murri</strong><br>responsabile di produzione</li><li><strong>Alessandro Balena <br></strong>responsabile strumenti e tecnologie</li><li><strong>Davide Partipilo<br></strong>cura e miglioramento degli ambienti condivisi</li></ul>"},"id":"9da43d2b-250d-4794-a8a0-7ea82a50710f","isHidden":false,"type":"list"}],"id":"dec02ce7-89f7-44b0-ac60-6c386b2f4a2a","width":"1/3"},{"blocks":[{"content":{"level":"h2","text":"<strong>Host</strong>"},"id":"eb288795-c6a3-4452-8025-a534348f1c3d","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><strong>Luciana Cicirelli</strong></li><li><strong>Martina Gaia Varrale</strong></li><li><strong>Martina Mazzilli</strong></li><li><strong>Mattia Perelli</strong></li><li><strong>Mattia Schepisi</strong></li><li><strong>Federica Cuoccio</strong></li></ul>"},"id":"210044aa-8a11-458a-bf46-40b127918f38","isHidden":false,"type":"list"}],"id":"c96d758c-3e0f-48b2-b325-db72ec9a038c","width":"1/3"}],"id":"0c8ffbc4-2873-4224-ad75-78ebd4f736bc"}]
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: kwofdwsemqhktdcl

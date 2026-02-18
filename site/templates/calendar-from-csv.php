@@ -54,7 +54,7 @@ function build_url($base, $merge = []) {
 }
 ?>
 
-<main class="wrap">
+<main id="main" class="main wrap">
   <?php
   $filterable = $page->filterableFields();
   if (!empty($filterable)):

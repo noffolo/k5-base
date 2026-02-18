@@ -1,0 +1,121 @@
+Title: AL.i.c.e
+
+----
+
+Descrizione: Cooperativa sociale che trasforma l’arte in motore di cambiamento sociale, connettendo comunità e linguaggi creativi attraverso lo sguardo transfemminista.
+
+----
+
+Immagine: - file://uvble6refn6c2oxc
+
+----
+
+Thumbnail: - file://uvble6refn6c2oxc
+
+----
+
+Data-di-pubblicazione: 2026-01-09
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Educazione / Didattica, Contribuisce, Audio / Video
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://rykfge2rlildgdok"],"src":"","alt":"","caption":"","link":"","ratio":"1/1","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"67fcf83f-96d9-431a-9a83-996e1a50a04b","isHidden":false,"type":"image"}],"id":"07f9718a-2202-4de1-91ca-da7b9bf191e3","width":"1/3"},{"blocks":[{"content":{"text":"<p>La Cooperativa AL.i.c.e è stata costituita nel 2007 ed è impegnata nella progettazione socio-culturale a livello locale, regionale, nazionale nonché nella gestione e realizzazione degli esiti positivi della stessa. Dal 2010 ha sviluppato un’area relativa alla produzione, gestione, promozione e realizzazione di processi/progetti artistici afferenti al teatro, alla performance, al cinema e alle arti visive e alla mediazione artistica relativa a tematiche contemporanee.</p>"},"id":"dd5d984a-ca9d-41cc-90a8-f8cd0cbd23a4","isHidden":false,"type":"text"}],"id":"4dffd8e0-2542-43cc-b019-735fe4dfae50","width":"1/3"},{"blocks":[{"content":{"location":"kirby","image":["file://ufb1uiq58jdfzdkh"],"src":"","alt":"","caption":"","link":"","ratio":"1/1","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"7405dde3-4f85-4365-b3fd-ca85aed8efd7","isHidden":false,"type":"image"}],"id":"6ae3e53f-85ee-4b07-ab60-8123785731e4","width":"1/3"}],"id":"a949e3ab-63bf-4b1f-af61-24d5181f8ef3"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Vai al sito","download":[],"url":"https://cooperalice.eu","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"12254cbc-3bd5-43b1-8802-353c30df52c0","isHidden":false,"type":"cta"}],"id":"bf7b75f9-791c-4257-afb6-64e565312973","width":"1/1"}],"id":"48891bc9-8a8c-4a57-840b-9c6eaa6e4f80"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: afq3mqpbuxu0zsqv

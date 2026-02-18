@@ -1,0 +1,125 @@
+Title: Sala Mindfulness
+
+----
+
+Descrizione:
+
+In questo luogo quieto e raccolto, dove il ritmo rallenta, si pratica la lentezza e si coltiva la presenza.
+La luce naturale e il parquet la rendono ideale per pratiche corporee leggere, mindfulness, yoga,
+meditazione e momenti di focalizzazione o ascolto.
+
+----
+
+Immagine: - file://8nr00ypjlb0tvele
+
+----
+
+Thumbnail: - file://8nr00ypjlb0tvele
+
+----
+
+Data-di-pubblicazione: 2025-12-10
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Benessere / Mindfullness, Relax / Socializzazione, Prenotabile per eventi, Riservato ai soci
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: Relax, mindfulness, mindful, sala, yoga, pilates, terzo piano
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"In questo luogo <strong>quieto e raccolto</strong>, dove il ritmo rallenta, si pratica la lentezza e si coltiva la presenza.<br><br>La <strong>luce naturale</strong> e il <strong>parquet</strong> la rendono ideale per <strong>pratiche corporee leggere</strong>, <strong>mindfulness</strong>, <strong>yoga</strong>, <strong>meditazione</strong> e <strong>momenti di ascolto</strong>."},"id":"7f2967f6-a08f-4942-a1c7-ede76094e44b","isHidden":false,"type":"heading"}],"id":"ebf501a4-9267-4741-bd4c-878b31ca2ac7","width":"1/2"},{"blocks":[{"content":{"text":"<p><strong>Dimensione: <br></strong>→ <u><strong>35mq</strong></u> (interamente pavimentati in parquet)</p><p><strong>Utilizzo:</strong> <br>→ <u><strong>prove, attività wellness, piccoli corsi e laboratori</strong></u> </p><p><strong>Configurazioni:</strong><br>→ <u><strong>Variabili</strong></u></p><p><strong>Dotazione base:<br></strong>→ <strong>Climatizzazione </strong>e<strong> wi-fi</strong></p>"},"id":"5c5fc6f0-d6c9-46ec-87dc-959a5c3c284d","isHidden":false,"type":"text"},{"content":{"location":"kirby","image":["file://4niczdhuk65shqrq"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"268785a2-5367-41f8-8d13-078983d81489","isHidden":false,"type":"image"}],"id":"a8e7038a-7402-44b0-a716-e9dd597ad95e","width":"1/2"}],"id":"29e6089d-8ac2-4f92-84ff-10a5305f365d"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: vqbsjnpvdxvuzs9c

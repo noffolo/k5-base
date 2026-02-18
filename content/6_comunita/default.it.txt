@@ -1,0 +1,216 @@
+Title: Comunità
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager:
+
+- 
+  nome: Organizzazioni
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Persone
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Tipologia
+  marker: [ ]
+- 
+  nome: Innovazione sociale
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Arti performative
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Design e Arti visive
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Tecnologie
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Audio / Video
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Educazione / Didattica
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Benessere
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Progettazione culturale
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Inclusione e comunità
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Aree di interesse
+  marker: [ ]
+- 
+  nome: Contribuisce
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Rapporto
+  marker: [ ]
+- 
+  nome: Retribuitə
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Rapporto
+  marker: [ ]
+- 
+  nome: Volontariə
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Rapporto
+  marker: [ ]
+- 
+  nome: Sociə
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Ruolo
+  marker: [ ]
+- 
+  nome: Consiglio direttivo
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Ruolo
+  marker: [ ]
+- 
+  nome: Host
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Ruolo
+  marker: [ ]
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Il nostro manifesto","download":[],"url":"","page":["page://impmv58gpowk5yin"],"slug":"","shape":"round","contrast":"positive","is_active":"true"},{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Organigramma","download":[],"url":"","page":["page://kwofdwsemqhktdcl"],"slug":"","shape":"square","contrast":"positive","is_active":"true"}]},"id":"c03c6986-dd29-43ab-bda2-a9afab4c5611","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Possiamo stare insieme </strong><br>nonostante continuiamo a cambiare?<br>↓"},"id":"34e69562-6afd-46fd-8182-97a877dea8bb","isHidden":false,"type":"heading"}],"id":"b8b713d5-8b8c-4e1f-85f4-222ddfc5f7c8","width":"1/1"}],"id":"4e6331bb-5731-4baa-a83a-3c879ad58be4"}]
+
+----
+
+Collection-toggle: true
+
+----
+
+Collection-options: blog
+
+----
+
+Collection-categories-manager-toggle: true
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: PHoYnYYlg1rjQ6mw

@@ -136,7 +136,47 @@ if ($specificSchema) {
     $schemas[] = $specificSchema;
 }
 
-// 3. Output scripts
+// 3. BreadcrumbList Schema
+$breadcrumbs = $page->parents()->flip();
+if ($breadcrumbs->count() > 0 || !$page->isHomePage()) {
+    $items = [];
+    
+    // Home
+    $items[] = [
+        "@type" => "ListItem",
+        "position" => 1,
+        "name" => (string)$site->title(),
+        "item" => (string)$site->url()
+    ];
+    
+    $pos = 2;
+    foreach ($breadcrumbs as $p) {
+        $items[] = [
+            "@type" => "ListItem",
+            "position" => $pos++,
+            "name" => (string)$p->title(),
+            "item" => (string)$p->url()
+        ];
+    }
+    
+    // Current Page (if not home)
+    if (!$page->isHomePage()) {
+        $items[] = [
+            "@type" => "ListItem",
+            "position" => $pos,
+            "name" => (string)$page->title(),
+            "item" => (string)$page->url()
+        ];
+    }
+    
+    $schemas[] = [
+        "@context" => "https://schema.org",
+        "@type" => "BreadcrumbList",
+        "itemListElement" => $items
+    ];
+}
+
+// 4. Output scripts
 foreach ($schemas as $schema) {
     $json = json_encode($schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
     if ($json) {

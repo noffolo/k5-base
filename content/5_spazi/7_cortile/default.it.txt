@@ -1,0 +1,124 @@
+Title: Cortile
+
+----
+
+Descrizione:
+
+Uno spazio attrezzato per tutt3, che invita a fermarsi e condividere momenti di socialità, per incontraci e conoscerci, accogliendo tutto: corpi, desideri,  attività e anche biciclette. 
+Ideale per performance all’aperto, concerti e installazioni.
+
+----
+
+Immagine: - file://l1z4xj2zc7kwicux
+
+----
+
+Thumbnail: - file://l1z4xj2zc7kwicux
+
+----
+
+Data-di-pubblicazione: 2025-12-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Eventi / Attività, Relax / Socializzazione, Accesso libero, Prenotabile per eventi
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: spazio aperto, piazza, campo estivo, cortile attrezzato
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Dimensione: 400mq circa</p><p>Utilizzo: concerti ed eventi vari all'aperto</p><p>Dotazione base: Palco 4x8mt, Sedie, panchine e tavolini, gazebo e ombrelloni</p>"},"id":"a9cfeec1-faca-407d-8045-08862048b665","isHidden":false,"type":"text"}],"id":"f492d559-1a7c-49af-ab0b-670298141549","width":"1/2"},{"blocks":[],"id":"5b40913c-cd0c-455c-a070-efa07956689f","width":"1/2"}],"id":"2e18a3df-a63f-4cd9-a1b8-c700da429164"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: urskwpnqyi9ioant

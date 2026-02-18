@@ -1,0 +1,121 @@
+Title: BIG – Bari International Gender festival
+
+----
+
+Descrizione: BIG – Bari International Gender festival è il festival di arti performative, nato nel 2015 e consolidatosi negli anni come presidio multidisciplinare che indaga, attraverso diversi linguaggi artistici, le tematiche delle identità, del corpo e delle relazioni.
+
+----
+
+Immagine: - file://ozw91kn8mavnmis1
+
+----
+
+Thumbnail: - file://ozw91kn8mavnmis1
+
+----
+
+Data-di-pubblicazione: 2026-01-14
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Realizzati
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"b239aab1-9358-404b-b2b3-1febd0ab99eb","width":"1/3"},{"blocks":[{"content":{"text":"<p>Nel corso delle edizioni, BIG si è evoluto e ha diversificato la propria proposta culturale: aprendosi a danza, teatro e musica al- larga la prospettiva e offre una più complessa lettura della contemporaneità. Muovendosi in questo senso, BIG – Bari International Gender festival continua ad ampliare il proprio nucleo concettuale ed estende la rilevanza dei temi sulle diversità oltre l’umano, sorpassando la prospettiva privilegiata prevalentemente occidentale, suprematista e bianca, e abbracciando l’urgenza di decolonizzare la storia, le geografie, i saperi per rivolgersi all’intera bio-diversità (umana/ animale/ ambientale) con un orizzonte ecologico, intersezionale, anti-coloniale e anti-specista. La discussione in termini artistici sulla pluralità delle espressioni della sessualità e dell’umanità portata avanti dal BIG, infatti, si sviluppa anche in relazione ai luoghi e alle dinamiche culturali della città di Bari, costruendo alleanze e percorsi condivisi di ricerca con le varie realtà culturali. BIG – Bari International Gender festival è infatti un progetto multidisciplinare che si struttura come manifestazione diffusa nella città, contemplando – accanto agli eventi e alle iniziative in programma durante i giorni del festival – appuntamenti e anteprime sparse nell’arco dell’anno, e sperimentando location non convenzionali accanto agli spazi normalmente destinati alle arti e recentemente restituiti alla città, con l’obiettivo di ripristinare l’archetipica relazione fra i luoghi e i corpi, recuperare con la mediazione dell’azione performativa un senso di comunità e di socialità.</p><p>BIG è un progetto della Cooperativa <a href=\"/@/page/afq3mqpbuxu0zsqv\" target=\"_blank\">AL.i.c.e </a></p>"},"id":"aa27a124-4e51-438e-b0d2-9dbcb9e96e10","isHidden":false,"type":"text"}],"id":"2e4d3e3d-e0de-4607-96e0-5d411320dafe","width":"1/3"},{"blocks":[],"id":"fd47349c-1ec9-4f3c-95fc-12cef1de1286","width":"1/3"}],"id":"d3072507-92d6-477c-8d45-7f9fc8118c61"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: iyqorxhpdg9pebtl

@@ -1,6 +1,6 @@
 <img
-  class="<?= ($isFirst ?? false) ? '' : 'lazyload' ?>"
-  <?= ($isFirst ?? false) ? 'fetchpriority="high"' : '' ?>
+  class="img-base <?= ($contain ?? false) ? 'contain' : 'cover' ?> <?= ($isFirst ?? false) ? '' : 'lazyload' ?>"
+  <?= ($isFirst ?? false) ? 'fetchpriority="high" loading="eager"' : 'loading="lazy"' ?>
   <?= ($isFirst ?? false) ? 'src' : 'data-src' ?>="<?= $image->thumb([
       'width'   => 1280,
       'format'  => 'webp',
@@ -18,7 +18,5 @@
     <?= !empty($min_height) ? 'min-height: ' . $min_height . ';' : '' ?>
     <?= !empty($min_width)  ? 'min-width: '  . $min_width  . ';' : '' ?>
     aspect-ratio: <?= $ratio ?? 'auto' ?>;
-    object-fit: <?= ($contain ?? false) ? 'contain' : 'cover' ?>;
-    width: 100%;
   "
 >

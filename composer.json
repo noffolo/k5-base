@@ -1,10 +1,11 @@
 {
-  "name": "k5-spazio13",
+  "name": "ff3300/k5-base",
   "type": "project",
   "require": {
     "php": ">=8.2",
     "getkirby/cms": "^5.1",
-    "sylvainjule/locator": "^2.1"
+    "sylvainjule/locator": "^2.1",
+    "vlucas/phpdotenv": "^5.6"
   },
   "config": {
     "allow-plugins": {

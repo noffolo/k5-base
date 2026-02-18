@@ -1,0 +1,113 @@
+Title: Contatti
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h1","text":"<strong>Vuoi conoscere meglio<br>Spazio13 e la sua comunità?</strong><br>↓"},"id":"01e06586-a6de-4412-9d76-6de685fdf79e","isHidden":false,"type":"heading"}],"id":"c67310b0-bf18-4d4f-8c07-0f68e0d10bbf","width":"1/1"}],"id":"b9e7d9f6-c402-4097-8848-9f07017dfc92"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"Tramite questo form <strong>puoi scrivere a Spazio13</strong>, il nostro <strong>team di host</strong> di risponderà prima possibile.<br><br>Ricorda, questo è un <strong>progetto aperto al contributo di tutt3</strong>, qui<strong> </strong>troverai:"},"id":"e190d070-12bd-4ce8-8bcc-3cea9446f0be","isHidden":false,"type":"heading"},{"content":{"text":"<ul><li><strong>spazi e strumenti condivisi</strong></li><li><strong>attività aperte al pubblico</strong></li><li><strong>postazioni di coworking</strong> </li><li>nuove <strong>amicizie</strong>, nuove <strong>competenze</strong>, nuovi <strong>orizzonti</strong></li></ul>"},"id":"663cc565-d9d0-40c6-8d63-788608328a9c","isHidden":false,"type":"list"},{"content":{"text":"<br>"},"id":"0e5aed05-55d1-4e31-99f1-303faef16f4d","isHidden":false,"type":"markdown"},{"content":{"level":"h2","text":"Inoltre se lo vuoi, <strong>puoi associarti <br>e partecipare alle assemblee di comunità.</strong>"},"id":"3b87d1dc-1884-42f3-9c5e-a9b4e991e55d","isHidden":false,"type":"heading"},{"content":[],"id":"e47f2e46-4e02-4a63-b207-3af59ac44ae4","isHidden":false,"type":"line"},{"content":{"text":"<p>Se hai <strong>dubbi o domande</strong> non esitare a contattarci, <strong>cercheremo di trovare una soluzione adatta alle tue necessità</strong>, assieme.</p>"},"id":"83d02f29-8d7b-4a6a-a731-a9d7c5cfa4ef","isHidden":false,"type":"text"}],"id":"7c9085f5-e9b2-498e-a4a9-34e2d8fc3025","width":"1/2"},{"blocks":[{"content":{"formid":"2d6748c0-2fb6-4b3e-ac73-b526b46e7851","mailview":null,"formfields":"[{\"content\":{\"label\":\"Nome e cognome\",\"slug\":\"name\",\"autofill\":\"name\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[]},\"id\":\"44565fe5-8df2-4de9-810b-3f404e98533e\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Email\",\"slug\":\"email\",\"autofill\":\"email\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"email\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[{\"validate\":\"email\",\"match\":\"\",\"minlength\":\"\",\"maxlength\":\"\",\"min\":\"\",\"max\":\"\",\"msg\":\"\"}]},\"id\":\"f48de630-9574-49ff-96bd-93af9d9822c2\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Oggetto \",\"slug\":\"object\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"inputtype\":\"text\",\"placeholder\":\"\",\"default\":\"\",\"validate\":[]},\"id\":\"f79c7f93-96b2-4b0b-b948-5dfb56d0debd\",\"isHidden\":false,\"type\":\"formfields_01_input\"},{\"content\":{\"label\":\"Messaggio\",\"slug\":\"message\",\"autofill\":\"\",\"required\":\"true\",\"required_fail\":\"\",\"placeholder\":\"\",\"row\":5,\"man\":255},\"id\":\"c966492d-508c-4dd1-835f-e3da225b3209\",\"isHidden\":false,\"type\":\"formfields_02_textarea\"}]","display":"{{name}} ({{email}})","name":"Formular","enable_notify":"true","notify_email":"gestione@spazio13.eu","notify_subject":"Email dal form \"contatti\" sul sito","notify_body":"","enable_confirm":"true","confirm_email":"","confirm_subject":"","confirm_body":"","redirect":"false","success_message":"<p>Grazie, il tuo messaggio è stato ricevuto. <br>Ti risponderemo al più presto.</p>","success_url":[]},"id":"2d6748c0-2fb6-4b3e-ac73-b526b46e7851","isHidden":false,"type":"form"}],"id":"c3d01cb6-857e-4e38-a643-78636816fce1","width":"1/2"}],"id":"caf56bb4-db63-40ad-a372-662bbed17131"}]
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: uGqv4C0jrEX7dr1q

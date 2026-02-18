@@ -1,0 +1,121 @@
+Title: Serena Defilippo
+
+----
+
+Descrizione: Ex host, attualmente parte del consiglio direttivo, svolge funzione di tesoriera e responsabile amministrativa per Spazio13. Tiene insieme numeri, persone e... sogni glitterati.
+
+----
+
+Immagine: - file://lsijblypp3mlwtlw
+
+----
+
+Thumbnail: - file://lsijblypp3mlwtlw
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Retribuitə, Consiglio direttivo, Progettazione culturale
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"06be29dc-1193-4ef9-92ac-fa42be1a4e17","width":"1/3"},{"blocks":[{"content":{"text":"<p>Curatrice della community di Spazio13 dalla sua apertura nel 2017.</p><p>Laureata in Servizi Giuridici in Uniba, di cui sono stata membro del consiglio d’amministrazione, mi occupo di progettazione e gestione amministrativa. </p><p>Tesoriera nel Consiglio Direttivo a Spazio13.</p>"},"id":"d42d7509-2bfe-4de9-8824-dc1b7abf0379","isHidden":false,"type":"text"}],"id":"c28c0813-4f94-4705-aa19-1e837d3bfc6d","width":"1/3"},{"blocks":[],"id":"214af4bf-cadf-49ab-b459-38a9f50bc1c2","width":"1/3"}],"id":"7138c672-57c2-44e9-b233-2c4d242faf0d"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: 2qfowghef8ofno1f

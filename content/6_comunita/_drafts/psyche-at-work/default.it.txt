@@ -1,0 +1,121 @@
+Title: Psyche at Work
+
+----
+
+Descrizione: Dal 2013 accompagna persone e organizzazioni nel loro percorso di sviluppo e crescita, grazie all’esperienza di psicologi ed esperti di benessere aziendale.
+
+----
+
+Immagine: - file://uz1rgxindakuaysu
+
+----
+
+Thumbnail: - file://uz1rgxindakuaysu
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Benessere, Sociə, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"max-width: 1080px;\nmargin: 0 auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Psyche at Work è una società di 𝐜𝐨𝐧𝐬𝐮𝐥𝐞𝐧𝐳𝐚 e 𝐟𝐨𝐫𝐦𝐚𝐳𝐢𝐨𝐧𝐞 fondata nel 2013 da un team di Psicologi ed esperti del benessere aziendale. Applichiamo l’approccio scientifico della psicologia positiva, sociale e soprattutto dei gruppi e delle organizzazioni a tutti i nostri servizi con l’obiettivo di aiutare i nostri clienti (PMI e professionisti) a sviluppare team di lavoro più sani, motivati e, di conseguenza, più performanti ed efficaci. 𝐋𝐚 𝐧𝐨𝐬𝐭𝐫𝐚 𝐕𝐢𝐬𝐢𝐨𝐧 Psyche at Work crede fortemente nella 𝐩𝐫𝐨𝐦𝐨𝐳𝐢𝐨𝐧𝐞 𝐝𝐞𝐥𝐥𝐚 𝐟𝐞𝐥𝐢𝐜𝐢𝐭𝐚̀ 𝐞 𝐝𝐞𝐥 𝐛𝐞𝐧𝐞𝐬𝐬𝐞𝐫𝐞 all’interno dei luoghi di lavoro e supporta team e professionisti nella ricerca di soluzioni mirate a promuovere 𝐨𝐫𝐠𝐚𝐧𝐢𝐳𝐳𝐚𝐳𝐢𝐨𝐧𝐢 𝐩𝐢𝐮̀ 𝐬𝐚𝐧𝐞 𝐞 𝐩𝐫𝐨𝐝𝐮𝐭𝐭𝐢𝐯𝐞. La 𝐟𝐞𝐥𝐢𝐜𝐢𝐭𝐚̀ assume la dimensione di una vera e propria 𝐜𝐨𝐦𝐩𝐞𝐭𝐞𝐧𝐳𝐚 𝐨𝐫𝐠𝐚𝐧𝐢𝐳𝐳𝐚𝐭𝐢𝐯𝐚 𝐝𝐚 𝐬𝐯𝐢𝐥𝐮𝐩𝐩𝐚𝐫𝐞, 𝐩𝐨𝐭𝐞𝐧𝐳𝐢𝐚𝐫𝐞 𝐞 𝐦𝐢𝐠𝐥𝐢𝐨𝐫𝐚𝐫𝐞. Con questo approccio scientifico e metodologico, la nostra azienda intende rivoluzionare il capitale umano nelle PMI e aiutare i clienti a 𝐩𝐫𝐨𝐠𝐞𝐭𝐭𝐚𝐫𝐞 𝐞 𝐫𝐞𝐚𝐥𝐢𝐳𝐳𝐚𝐫𝐞 𝐢𝐦𝐩𝐫𝐞𝐬𝐞 𝐩𝐨𝐬𝐢𝐭𝐢𝐯𝐞, centrate sulla felicità nel contesto lavorativo e sul potenziamento del capitale umano, con l’obiettivo di promuovere una cultura organizzativa focalizzata sul valore del benessere individuale e collettivo, sulla motivazione, sulla fiducia e, di conseguenza, sulla competitività aziendale. 𝐈𝐥 𝐧𝐨𝐬𝐭𝐫𝐨 𝐦𝐞𝐭𝐨𝐝𝐨 Tutti i nostri corsi e servizi sono caratterizzati da metodologie innovative mirate a trasmettere nozioni teoriche ma, soprattutto, strumenti e tecniche concretamente applicabili e spendibili nel proprio ambito lavorativo. Crediamo vivamente nella metodologia del “𝐥𝐞𝐚𝐫𝐧𝐢𝐧𝐠 𝐛𝐲 𝐝𝐨𝐢𝐧𝐠” la quale permette ai partecipanti di sviluppare e acquisire conoscenze e competenze attraverso una 𝐟𝐨𝐫𝐦𝐚𝐳𝐢𝐨𝐧𝐞 𝐝𝐢 𝐭𝐢𝐩𝐨 𝐞𝐬𝐩𝐞𝐫𝐢𝐞𝐧𝐳𝐢𝐚𝐥𝐞.</p>"},"id":"89061b52-db89-47f7-a08f-fdc92676853c","isHidden":false,"type":"text"}],"id":"17e5a730-6100-412f-ba7f-4d7b74f6122a","width":"1/1"}],"id":"f3567598-eccd-45cd-9cf3-fbb5c2fd97d6"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Instagram","download":[],"url":"https://www.instagram.com/psycheatwork_/","page":[],"slug":"","shape":"","contrast":"","is_active":"true"}]},"id":"9bc9f78c-d3a6-4baa-955f-3ad3eacfecd5","isHidden":false,"type":"cta"}],"id":"3cc5de1e-4a23-4884-b7ee-0ce154dfd226","width":"1/1"}],"id":"a1487966-9e55-4a66-aafd-2a4edaff3acc"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: j43nwnn1m5a4cjxi

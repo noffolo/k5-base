@@ -1,0 +1,121 @@
+Title: On the street
+
+----
+
+Descrizione: Nel periodo in cui Spazio13 era chiuso per lavori, non ci siamo fermati. Anzi, siamo usciti.
+
+----
+
+Immagine: - file://9o41yeq3nvabw2aw
+
+----
+
+Thumbnail: - file://9o41yeq3nvabw2aw
+
+----
+
+Data-di-pubblicazione: 2026-01-13
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Realizzati
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"28c4a7c2-3bb6-4514-8fcc-4369f6f0f735","width":"1/3"},{"blocks":[{"content":{"text":"<p>Senza uno spazio fisico da abitare, abbiamo portato il nostro modo di stare nei territori direttamente in strada. È nato così On the Street, un progetto di arte pubblica e rigenerazione urbana che ha preso forma all’interno dell’Ex Manifattura dei Tabacchi, nel cuore del quartiere Libertà.</p><p>A guidare il progetto è stato <a href=\"/@/page/kgpxcztzwafpsxwv\" target=\"_blank\">Opificio Sociale delle Idee,</a> con Spazio13 e altri partner del territorio. L’obiettivo era chiaro: trasformare un momento di chiusura in un’opportunità per riaprire altrove, portando nel quartiere colore, presenza e narrazione condivisa. Lavorando in co-progettazione con cittadini, scuole, collettivi e artisti, abbiamo trasformato i muri e gli spazi di passaggio in opere che raccontano il presente e il futuro del Libertà.</p><p>On the Street ha dato voce a un quartiere complesso e pieno di vita. Ha affrontato temi come la crisi climatica, l’identità multiculturale, il femminismo, la convivenza, la partecipazione civica. Ha trasformato lo spazio urbano in uno spazio espressivo, con opere capaci di parlare a chi lo vive ogni giorno.<br><br>A creare questo racconto collettivo sono stati:</p>"},"id":"ed88be56-e15a-48d6-b8e9-0e240c0b0bce","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Pigment Workroom,</li><li>Voga Art Project,</li><li>Gabriele Stingi con Nico Strada e Andrea Fusco,</li><li>Davide Partipilo,</li><li>Stefano Palmieri,</li><li>Metampsychosis,</li><li>Giuseppe D’Asta.</li></ul>"},"id":"e70a1227-b849-412b-bfd6-e0c11c37b826","isHidden":false,"type":"list"},{"content":{"text":"<p>Ognuno di loro ha portato una visione, una tecnica, un modo di leggere il quartiere. Il risultato è stato un intervento artistico diffuso che ha abitato l’Ex Manifattura Tabacchi con installazioni, murales e opere site-specific.</p><p>On the Street è stato molto più di una mostra all’aperto: è stato un modo per non perdere il filo con il territorio. Per continuare a costruire relazioni, anche senza casa. Per dire che Spazio13 esiste ovunque ci sia comunità, creatività, voglia di mettersi in gioco.</p>"},"id":"11ac0350-c042-4dfb-a15e-259ab64f3df2","isHidden":false,"type":"text"}],"id":"967094b7-13ce-4a22-ad5f-dfca53d7a12c","width":"1/3"},{"blocks":[],"id":"61510bcb-f685-4438-9c8e-f19c0853d41c","width":"1/3"}],"id":"29ec7338-e4bb-4fe6-9e69-4229c8dee0c5"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://hdggv7sjlpxpfh5g"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"cb932202-025d-4afc-ba59-e3a9e6bc83aa","isHidden":false,"type":"image"}],"id":"6ce82607-f23e-4685-a5af-509fa717a346","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://ib5szqbhhbhwoxtz"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"1c5da26b-bc87-49dc-8e24-1c0a81346404","isHidden":false,"type":"image"}],"id":"40b12160-bbb1-47cc-b2b9-0ff026550830","width":"1/2"}],"id":"4dc60579-c9d1-49b1-a643-6e38e65286a4"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://vdqaddofrjkehu8h"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"b109b99d-b697-408e-ab9d-e65ecef95de5","isHidden":false,"type":"image"}],"id":"de14efb2-9b8c-451f-ae73-8fc5d69c66f9","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://amdneo7igsbedjgt"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"98880e4f-fbd0-4786-bd46-cbb4038fa5cf","isHidden":false,"type":"image"}],"id":"def2c359-5077-44cc-81f5-5a159572a284","width":"1/2"}],"id":"8bfcd153-06e8-4185-aaec-bb6fd4b72a86"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://jksfzagfdnqvlahf"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"a1da8811-dac1-453e-8bfa-eb54ae9361f9","isHidden":false,"type":"image"}],"id":"cb541eaa-9c49-4ad3-bbf6-be609026a618","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://kh4vyw6pm7prtpkm"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"6a1947ce-20b8-41e1-8f23-bff1abf578bf","isHidden":false,"type":"image"}],"id":"9dc3b03b-53c0-46b4-a77f-378908d39c62","width":"1/2"}],"id":"790aeec6-ba65-49c7-9fa3-ff08aa460c96"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://yxo4vhkdu6w9uhbf"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"199150d1-024e-4ede-bf42-fb53cbf1458d","isHidden":false,"type":"image"}],"id":"42714e50-0a50-4715-8fb1-9de2ad544740","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://nmuua9h4nxtmetnr"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"f0d100a8-7e3a-46c0-a899-fa652eb41909","isHidden":false,"type":"image"}],"id":"32a18469-04af-40d8-800c-915ec800ab3a","width":"1/2"}],"id":"ef6d64e9-e8ad-44c9-9fb5-00408c44cbf4"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: mlrdzzto26vhglwa

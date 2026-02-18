@@ -1,0 +1,121 @@
+Title: Etnie
+
+----
+
+Descrizione: Dal 1998 lavora per l’inclusione, creando spazi di incontro tra culture e percorsi di autonomia per cittadin3 stranier3.
+
+----
+
+Immagine: - file://zondjug0u0zcsrrh
+
+----
+
+Thumbnail: - file://zondjug0u0zcsrrh
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Inclusione e comunità, Educazione / Didattica, Progettazione culturale, Sociə, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"margin-top: 30px!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"872513d5-2b82-4ac0-948c-c496b92b040c","width":"1/6"},{"blocks":[{"content":{"text":"<p>ETNIE è un’associazione onlus. Dal 1998 promuove politiche di inserimento culturale e lavorativo dei cittadini stranieri e politiche di valorizzazione delle identità culturali. Dal 2001 al 2007 è membro dell’ “ICS-Italian Consortium of Solidarity\" organismo umanitario che promuove attività di cooperazione e di solidarietà internazionale. ETNIE nasce come uno spazio mutietnico di socializzazione, di incontro e di confronto tra italiani e stranieri; è impegnata a creare, nel Barese e in Puglia, spazi multietnici e interetnici per far conoscere le culture \"altre\" e promuovere luoghi di accoglienza dove organizzare servizi di accompagnamento, tutela e orientamento ai migranti.</p><p>Le attività promosse rappresentano un insieme poliedrico di iniziative a carattere educativo, culturale, sociale e politico di sensibilizzazione, di formazione e informazione; proiettati alla costruzione di reti di comunicazione e di concrete collaborazioni con le risorse del territorio, organizzazioni e istituzioni pubbliche e/o private.</p>"},"id":"900ed240-2ad4-4425-8fb3-e6cd03777d0c","isHidden":false,"type":"text"}],"id":"e6797391-d17b-4294-993a-b8555ba2c39f","width":"2/3"},{"blocks":[],"id":"2bd76be9-c59b-405e-9dcb-cb62fa5e5ed0","width":"1/6"}],"id":"c682e4f3-3407-4f4a-8599-50c26c6a6b37"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Vai alla pagina facebook","download":[],"url":"https://www.facebook.com/groups/311080118027/?locale=it_IT","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"feac2d4c-b74d-4f6d-bbdd-a431df58fbb8","isHidden":false,"type":"cta"}],"id":"5e5e6afb-73f9-4549-93d6-d62300bbb2b2","width":"1/1"}],"id":"62439d95-6d6b-4433-897e-12fdfda0a63d"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: fplufo8mdinmyock

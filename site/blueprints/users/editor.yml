@@ -1,0 +1,62 @@
+title: Editor
+
+permissions:
+  access:
+    panel: true
+    settings: false
+    users: false
+    languages: false
+    system: false
+  # We will use hooks for page-level access control, 
+  # but we can also set default page permissions here if needed.
+  # For now, we allow access to the panel and handle restriction via hooks.
+
+columns:
+  - width: 1/2
+    sections:
+      content:
+        type: fields
+        fields:
+          mandato:
+            label: Di cosa si occupa questo editor?
+            type: textarea
+          social:
+            label: Account social
+            type: structure
+            fields:
+              social_name:
+                label: Nome del social
+                type: text
+              social_url:
+                label: URL account
+                type: url
+          city:
+            label: City
+            type: text
+            width: 1/2
+          tags:
+            label: Tag
+            type: tags
+            width: 1/2
+
+  - width: 1/2
+    sections:
+      permissions:
+        type: fields
+        fields:
+          permissions_info:
+            label: Permessi di Editing
+            type: info
+            theme: info
+            text: Seleziona quali pagine o collezioni l'utente può gestire. L'Admin ha sempre accesso a tutto.
+          
+          allowed_pages:
+            label: Pagine Singole
+            type: pages
+            help: Seleziona pagine specifiche che l'utente può modificare.
+          
+          allowed_collections:
+            label: Collezioni (Parent + Figli)
+            type: pages
+            query: site.index.filterBy('hasChildren', true)
+            help: Seleziona pagine genitore. L'utente potrà modificare la pagina stessa e tutto il suo contenuto.

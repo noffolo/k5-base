@@ -1,0 +1,67 @@
+@use "../shared" as *;
+
+.calendar-item-card {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+
+    .cards-details {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        &.no_hover {
+            &:hover {
+                transform: none;
+            }
+        }
+    }
+
+    .cards-title {
+        h2 {
+            font-size: 1.5rem;
+            margin: 0 0 5px 0;
+            font-weight: 700;
+        }
+    }
+
+    .cards-categories {
+        margin-bottom: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        flex-direction: row;
+
+        .tag {
+            margin: 0;
+        }
+    }
+
+    hr {
+        border: none;
+        border-top: 1px solid whitesmoke !important;
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .nodo {
+        font-weight: bold;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+
+    .extra-fields {
+        font-size: 0.8rem;
+        opacity: 1;
+
+        p {
+            margin: 0;
+            font-size: 1rem;
+
+            strong {
+                display: block;
+            }
+        }
+    }
+}

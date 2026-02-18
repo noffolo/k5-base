@@ -19,3 +19,12 @@ Thumbs.db
 # Build files
 dist/
 .env
+
+# Large files (GitHub limit)
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.mp4
+!/assets/**/*
+!/site/plugins/**/*

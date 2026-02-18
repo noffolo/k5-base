@@ -1,1 +1,6 @@
 @use "theme/index" as *;
+@use "ux";
+
+// Swiper & Leaflet are now imported in JS via Vite
+// But we can also import them here if we prefer strictly CSS bundling
+// For Vite, importing in JS is often cleaner for HMR.

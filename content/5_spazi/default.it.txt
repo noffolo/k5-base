@@ -1,0 +1,168 @@
+Title: Spazi
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager:
+
+- 
+  nome: Eventi / Attività
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Funzionalità
+  marker: [ ]
+- 
+  nome: Lavoro / Studio
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Funzionalità
+  marker: [ ]
+- 
+  nome: Sperimentazione / Creatività
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Funzionalità
+  marker: [ ]
+- 
+  nome: Benessere / Mindfullness
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Funzionalità
+  marker: [ ]
+- 
+  nome: Formazione / Didattica
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Funzionalità
+  marker: [ ]
+- 
+  nome: Relax / Socializzazione
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Funzionalità
+  marker: [ ]
+- 
+  nome: Accesso libero
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+- 
+  nome: Prenotabile per eventi
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+- 
+  nome: Riservato ai soci
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Accessibilità
+  marker: [ ]
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Prenota uno o più spazi","download":[],"url":"","page":["page://eqdzfi2yosbisil7"],"slug":"","shape":"square","contrast":"positive","is_active":"true"},{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Condizioni d'utilizzo","download":[],"url":"","page":["page://dgxfd5bz7yncollw"],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"11c803f9-970e-459f-9929-f89aa8ff8874","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Diamo spazio a desideri e progetti</strong> di persone e organizzazioni, <strong>trasformandoli in attività per tutt3<br></strong>↓"},"id":"10bf262c-9f56-4f3f-afb9-3a4ca6fcf4ab","isHidden":false,"type":"heading"}],"id":"6b4772d2-47aa-4d47-b3a0-a6357329549c","width":"1/1"}],"id":"a719abb2-ff7f-4c32-99d3-c97627f19cc8"}]
+
+----
+
+Collection-toggle: true
+
+----
+
+Collection-options: blog
+
+----
+
+Collection-categories-manager-toggle: true
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: zLIZouJsCTtZXm51

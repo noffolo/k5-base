@@ -1,5 +1,6 @@
 <?php $items = $site->menu()->toStructure() ?>
-  <nav class="site-header">
+<header role="banner">
+  <nav class="site-header" aria-label="Main Navigation">
     <div class="site-header-inner">
       <?php snippet('logo-object',[]); ?>
       <?php if ($items->isNotEmpty()) : ?>
@@ -7,11 +8,11 @@
       <div class="navigation navigation-desktop">
         <?php snippet('menuitem-list', ['items' => $items, 'accordion__item' => true]) ?>
       </div>
-      <div class="navbar-toggler closed">
+      <button class="navbar-toggler closed" aria-label="Toggle navigation" aria-expanded="false">
 			  <span class="icon-bar"></span>
 			  <span class="icon-bar"></span>
 			  <span class="icon-bar"></span>
-		  </div>
+		  </button>
 
     <?php endif ?>
     </div>
@@ -22,6 +23,7 @@
         </div>
       </div>
     <?php endif ?>
-</nav>
+  </nav>
+</header>
 
 

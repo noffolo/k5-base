@@ -1,0 +1,125 @@
+Title: Tita Tummillo
+
+----
+
+Descrizione:
+
+Co-curatrice @bari_international_gender 
+Curatrice @extra_no_ordinary_summer
+Direttrice artistica di Spazio13.
+
+----
+
+Immagine: - file://pqjuwbpqc3pudccq
+
+----
+
+Thumbnail: - file://pqjuwbpqc3pudccq
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Arti performative, Progettazione culturale, Consiglio direttivo
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"b5b50bcd-0ba7-4375-8727-1b93cdea1695","width":"1/3"},{"blocks":[{"content":{"text":"<p>Dopo una formazione teatrale, lavora per diversi anni come attrice e assistente alla regia. Successivamente approfondisce la sua pratica artistica avvicinandosi alla performance attraverso la scrittura drammaturgica e la curatela. Dal 2015 ha la co-direzione artistica del BIG Bari International Gender Festival, appuntamento annuale dedicato alle performing arts.&nbsp;</p><p>Dal 2025 cura la direzione artistica di Spazio 13.</p>"},"id":"80d26417-6666-461a-8181-dd1b8683caf9","isHidden":false,"type":"text"}],"id":"8e97f05e-202c-4eec-ae30-2c6f45213483","width":"1/3"},{"blocks":[],"id":"8115075e-7d01-4921-ba4e-ad1719d7feb3","width":"1/3"}],"id":"85eb2b3a-e5e8-43b5-9140-1ecca54a2653"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: sm1c62vhhnxoabfv

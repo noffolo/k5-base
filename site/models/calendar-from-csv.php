@@ -16,6 +16,20 @@ class CalendarFromCsvPage extends DefaultPage
     protected static $searchPoolCache = null;            // Pages di TUTTE le righe (senza limiti/filtri) per la search
     protected array          $filters = [];              // alias marcati come filtrabili nel Panel
     protected array          $rolesIndex = [];           // role => alias
+    protected array          $csvErrors = [];
+
+    public function csvHealth(): string
+    {
+        $body = $this->fetchCsvBody(true);
+        if ($body) {
+            if (empty($this->csvErrors)) {
+                return "✅ Connessione stabilita e dati ricevuti.";
+            } else {
+                return "⚠️ Attenzione: " . implode(" ", $this->csvErrors);
+            }
+        }
+        return "❌ Errore critico: " . ($this->csvErrors[0] ?? "Impossibile caricare il CSV.");
+    }
 
     /* ===== Utils di percorso ===== */
     protected function requestPath(): string
@@ -99,11 +113,11 @@ public function filterColors(): array
     }
 
     /* ===== Fetch CSV con Conditional GET + Anti-stampede Lock ===== */
-    protected function fetchCsvBody(): ?string
+    protected function fetchCsvBody(bool $force = false): ?string
     {
-        // blocca SOLO richieste del Panel
+        // blocca richieste del Panel a meno che non sia forzato (es. per health check)
         $path = $this->requestPath();
-        if ($path === 'panel' || Str::startsWith($path, 'panel') || Str::contains($path, '/panel')) {
+        if (!$force && ($path === 'panel' || Str::startsWith($path, 'panel') || Str::contains($path, '/panel'))) {
             return null;
         }
 
@@ -112,7 +126,10 @@ public function filterColors(): array
         }
 
         $csvUrl = $this->content()->get('csv_url')->value();
-        if (!$csvUrl) return null;
+        if (!$csvUrl) {
+            $this->csvErrors[] = "URL CSV non configurato.";
+            return null;
+        }
 
         $defaults    = $this->sheetDefaults();
         $kirbyCache  = $this->kirby()->cache('sheet');
@@ -121,7 +138,7 @@ public function filterColors(): array
         $keyMeta     = 'csvmeta:' . md5($csvUrl);
 
         // Cache calda
-        if (get('refresh') !== '1') {
+        if (!$force && get('refresh') !== '1') {
             if ($csv = $kirbyCache->get($keyBody)) {
                 self::$csvBodyCache = $csv;
                 return $csv;
@@ -153,6 +170,7 @@ public function filterColors(): array
                     'last_modified' => $h['last-modified'][0] ?? null,
                 ], $ttl);
             } else {
+                $this->csvErrors[] = "Risposta HTTP non valida ({$res->code()}).";
                 if ($stale = $kirbyCache->get($keyBody)) {
                     $csvBody = $stale;
                 } else {
@@ -160,6 +178,7 @@ public function filterColors(): array
                 }
             }
         } catch (\Throwable $e) {
+            $this->csvErrors[] = "Errore di connessione: " . $e->getMessage();
             if ($stale = $kirbyCache->get($keyBody)) {
                 $csvBody = $stale;
             } else {

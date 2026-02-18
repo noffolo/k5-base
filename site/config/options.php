@@ -1,9 +1,9 @@
 <?php
 return [
   'site.charset' => 'UTF-8',
-  'debug'        => true,   // false in produzione
-  'cache'        => false,
-  'panel.install'=> true,
+  'debug'        => filter_var($_ENV['KIRBY_DEBUG'] ?? true, FILTER_VALIDATE_BOOLEAN),
+  'cache'        => filter_var($_ENV['KIRBY_CACHE'] ?? false, FILTER_VALIDATE_BOOLEAN),
+  'panel.install'=> filter_var($_ENV['KIRBY_PANEL_INSTALL'] ?? false, FILTER_VALIDATE_BOOLEAN),
   'languages'    => true,
   'locale'       => 'it_IT.utf8',
 

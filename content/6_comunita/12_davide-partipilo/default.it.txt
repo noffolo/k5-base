@@ -1,0 +1,121 @@
+Title: Davide Partipilo
+
+----
+
+Descrizione: Atelier artistico che accoglie corsi di pittura e momenti condivisi di pratiche artistiche.
+
+----
+
+Immagine: - file://norenjc4yzjnq1ab
+
+----
+
+Thumbnail: - file://norenjc4yzjnq1ab
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Progettazione culturale, Sociə, Educazione / Didattica, Design e Arti visive, Contribuisce, Persone
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"b2a9b9e2-b400-495e-8e8f-af5513d6b886","width":"1/3"},{"blocks":[{"content":{"text":"<p>Davide Partipilo (Bari, 1987) è un artista visivo e docente di pittura. Ha studiato presso l’Accademia di Belle Arti di Bari, l’Accademia di Belle Arti di Venezia, l’École Nationale Supérieure des Arts Décoratifs di Parigi e l’Università di Arte e Design di Cluj-Napoca, specializzandosi in pittura e nell’ultimo periodo nelle arti murali.</p><p>Davide conduce il proprio studio di pittura presso Spazio13, dove offre corsi accademici in un ambiente dedicato. Nei suoi corsi, gli allievi seguono un percorso che combina solide basi tecniche con l’esplorazione espressiva individuale. Lo studio propone anche sessioni di disegno di nudo dal vero con modelli, workshop tematici e collaborazioni con professionisti del settore, arricchendo così l’offerta formativa.</p>"},"id":"a27ab301-feef-49ba-ae87-29205b62697e","isHidden":false,"type":"text"}],"id":"7d52c701-832f-4a59-9637-0ebffbdd45f1","width":"1/3"},{"blocks":[],"id":"74d2fa20-9ad9-4b2f-b84b-d266dbfa018f","width":"1/3"}],"id":"a88352e6-8d70-459a-8e59-689aafb65d95"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Facebook","download":[],"url":"https://www.facebook.com/corsipitturaedisegnobari/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"77860e82-8c39-4245-a899-485e18e08a6f","isHidden":false,"type":"cta"}],"id":"c38197fd-2f47-46cc-b4cd-55d513f8f088","width":"1/1"}],"id":"68ab6831-3ab8-49bf-ab96-daf946f42622"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: iix6qdaypfpl24kb

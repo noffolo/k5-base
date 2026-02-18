@@ -1,0 +1,21 @@
+Street: 
+
+----
+
+Zip: 
+
+----
+
+City: 
+
+----
+
+Country: 
+
+----
+
+Allowed-pages: - page://FckGtzyMlfbKsTEo
+
+----
+
+Allowed-collections: - page://zLIZouJsCTtZXm51

@@ -1,0 +1,113 @@
+Title: Condizioni d'utilizzo degli spazi
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2025-12-16
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Prenota uno o più spazi","download":[],"url":"","page":["page://eqdzfi2yosbisil7"],"slug":"","shape":"square","contrast":"positive","is_active":"true"},{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Vai agli Spazi","download":[],"url":"","page":["page://zLIZouJsCTtZXm51"],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"346ed784-d813-45c9-9d4a-2922c0b7c591","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Condizioni d'utilizzo<br>degli spazi</strong><br>↓"},"id":"b7be07b7-7b1c-48ec-a904-bc5d181d468d","isHidden":false,"type":"heading"}],"id":"5551d991-fa97-43a5-9b01-5714959984f1","width":"1/1"}],"id":"1f0f71e9-4916-4a6c-bfd4-b79c1f376c43"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h1","text":"<strong>Quali regole ci diamo?</strong>"},"id":"808b1ef8-17be-4945-831d-048b3eaf0210","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"Abitare Spazio 13 significa nutrire un ecosistema collettivo nel quartiere Libertà. Essere comunità vuol dire condividere non solo un tetto, ma una <strong>cultura del rispetto</strong>."},"id":"1871c692-e978-4dd0-ae63-b83af7d64f9d","isHidden":false,"type":"heading"},{"content":[],"id":"c6f98837-8646-48b0-824b-ab764adc7dc9","isHidden":false,"type":"line"},{"content":{"text":"<p><u><strong>1. Principi base</strong></u></p><p>Lascia ogni ambiente <strong>esattamente come vorresti trovarlo</strong>. Ogni azione deve avere una conclusione responsabile:</p>"},"id":"49a99405-e8d9-4687-8e6f-347b2925dd17","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Accessi e Luci:</strong> se apri una porta o una finestra, o se accendi luci e dispositivi, assicurati di richiuderli o spegnerli prima di andare via.</li><li><strong>Clima:</strong> non disperdere energia; tieni porte e finestre chiuse se il riscaldamento o il raffreddamento sono attivi.</li></ul>"},"id":"e364b737-7bdd-4c41-ba0c-a102d97094ee","isHidden":false,"type":"list"},{"content":{"text":"<p><u><strong><br>2. Condivisione e beni comuni</strong></u></p><p>Gli strumenti sono di tutti, ma di nessuno: usali con la cura che riserveresti a un oggetto prezioso.</p>"},"id":"b006b967-9945-4a4a-a1ef-32687800e6f6","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Ordine:</strong> se sposti arredi o prendi in prestito attrezzi e libri, riposizionali nel loro posto originario il prima possibile.</li><li><strong>Proprietà Altrui:</strong> chiedi sempre il permesso prima di usare materiali di altre associazioni e restituiscili integri.</li><li><strong>Pulizia:</strong> se sporchi o usi stoviglie, pulisci immediatamente.</li></ul>"},"id":"ef3aa8db-2b55-4de6-9a7b-e5282943707f","isHidden":false,"type":"list"},{"content":{"text":"<p><u><strong><br>3. Onestà e Apprendimento</strong></u></p><p>Gli imprevisti capitano, l’importante è gestirli con trasparenza.</p>"},"id":"54e376a3-8cbd-4c0d-8de4-235b74f748ec","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Danni:</strong> se rompi qualcosa, prova a ripararlo o chiedi aiuto senza nascondere l'accaduto.</li><li><strong>Consapevolezza:</strong> se non sai usare un macchinario, chiedi a qualcuno di insegnartelo prima di procedere.</li></ul>"},"id":"7b32f0f6-7e9a-47af-9857-2735c44f8a09","isHidden":false,"type":"list"},{"content":{"text":"<p><u><strong><br>4. Spirito di Quartiere</strong></u></p><p>Essere un presidio culturale significa apertura e gentilezza.</p>"},"id":"4d05d5ed-0495-430e-a54a-aae4015b8783","isHidden":false,"type":"text"},{"content":{"text":"<ul><li><strong>Ascolto e Aiuto:</strong> se vedi qualcuno in difficoltà, offri il tuo supporto.</li><li><strong>Proattività:</strong> se noti qualcosa fuori posto, sistemalo, anche se non sei stato tu a spostarlo.</li></ul>"},"id":"539058e3-5a21-40b0-9705-d466dcf1c045","isHidden":false,"type":"list"}],"id":"cbdf51f8-303a-4179-b2a3-728e1b9ccc38","width":"1/2"},{"blocks":[{"content":{"level":"h1","text":"<strong>Come valutiamo le richieste?</strong>"},"id":"59a0fc13-1f8a-4259-ac0e-f8dcc79beaed","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"Abbiamo recentemente messo a punto una metodologia per valutare e gestire le numerose richieste di utilizzo degli spazi: <strong>dato che lo spazio e il tempo sono risorse limitate, questa metodologia ci permette di capire come comportarci a seconda di una serie di \"parametri\".</strong>"},"id":"a6e5cf92-d953-4acf-a361-722848bb4b0d","isHidden":false,"type":"heading"},{"content":{"text":"<p>Ogni proposta ricevuta viene valutata con diversi passaggi: </p>"},"id":"3c44cdfb-ec77-452f-ba5f-1a858cc1ff0e","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>si determina un <strong>costo base calmierato</strong>;</li><li><strong>si verificano i parametri attaraverso una griglia di valutazione</strong> che tiene conto di: <strong>agenda di spazio13, contenuti, impatto sociale, relazione con Spazio13, risorse messe in gioco, sostenibilità</strong>. </li></ul>"},"id":"e98656f7-dbd7-4fb6-bab4-bf4b917bdc18","isHidden":false,"type":"list"},{"content":{"text":"<p><strong><br>Ogni parametro può determinare uno sconto</strong> rispetto il prezzo iniziale stimato. Questi sconti sono cumulabili, <strong>fino a ottenere la gratuità d'uso dello spazio</strong>. <br><br><strong>Il costo finale quindi è inversamente proporzionale a quanto l'attività che accogliamo è allineata ai valori che promuoviamo</strong> e <strong>alla nostra agenda</strong>, oltre che generativa (per Spazio13, per chi la propone, per il territorio).</p><p>In questo modo <strong>intendiamo ridurre la soglia d'accesso per le progettualità con maggiore impatto culturale e sociale</strong>, garantendo al contempo l'accessiblità per tutt3 e <strong>mantenendo trasparente il rapporto tra costi reali e contributo richiesto.</strong></p>"},"id":"1e254759-7c28-4ad4-9c7e-e74dcb01c7d5","isHidden":false,"type":"text"}],"id":"c9446d65-df8f-4734-a3d5-c7f3bc0c5fda","width":"1/2"}],"id":"ac63387e-c7db-4a70-a34b-69c2cecb476d"}]
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: dgxfd5bz7yncollw

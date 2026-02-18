@@ -1,0 +1,121 @@
+Title: Licia Lanera
+
+----
+
+Descrizione: Compagnia teatrale che porta in scena un teatro visionario, fisico, radicale. Tra sperimentazione e prosa, scava nell’umano.
+
+----
+
+Immagine: - file://6slo43arubfdab5a
+
+----
+
+Thumbnail: - file://6slo43arubfdab5a
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Progettazione culturale, Sociə, Arti performative, Educazione / Didattica, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p><strong>Compagnia Licia Lanera</strong> nasce nel 2006, cofondata da Licia Lanera con il nome <em>Fibre Parallele</em>, ed è attiva nel teatro di ricerca e nel teatro di prosa. Sostenuta da MIC e Regione Puglia, la compagnia si configura come impresa culturale con l’obiettivo di produrre spettacoli originali e portare avanti tournée, seguendo la grande tradizione delle compagnie di giro.</p><p>Dal 2006 ad oggi, la compagnia ha prodotto quindici spettacoli, di cui nove fanno parte del repertorio attuale: <strong>The Black’s Tales Tour, Mamma</strong> (primo premio al Troia Teatro Festival), la trilogia <strong>Guarda come nevica</strong>, <strong>Venere/Adone</strong>, <strong>Con la carabina</strong>, <strong>Love Me</strong> e <strong>Altri Libertini</strong>. Tra i riconoscimenti più importanti, Licia Lanera e Tommaso Danisi sono stati finalisti ai <strong>Premi Ubu 2019</strong> rispettivamente per miglior attrice e miglior progetto sonoro con <em>Guarda come nevica 1. Cuore di cane</em>, mentre <em>Con la carabina</em> ha ricevuto due <strong>Premi Ubu 2022</strong> per miglior regia e miglior testo straniero messo in scena da compagnia italiana.</p><p>La compagnia si distingue per progetti ambiziosi e originali: la <em>Trilogia Guarda come nevica</em>, realizzata tra 2021 e 2022, unisce tre spettacoli in un’unica maratona teatrale di sei ore, con venti artisti e maestranze in scena. Allo stesso modo, <em>Altri Libertini</em>, debutto del 2024 al Romaeuropa Festival, rappresenta l’unico adattamento teatrale dei testi di Pier Vittorio Tondelli realizzato in Italia.</p><p>Accanto alla produzione teatrale, dal 2012 la compagnia sviluppa attività di formazione rivolte a semi-professionisti, amatori e comunità locali, promuovendo percorsi culturali e teatrali con valenze artistiche, civili e sociali, spesso con gruppi svantaggiati.</p><p>La Compagnia Licia Lanera ha collaborato con alcune delle principali realtà teatrali italiane, tra cui <strong>MET Teatro Metastasio, TPE - Teatro Piemonte Europa, Ravenna Teatro/Teatro delle Albe, Festival delle Colline Torinesi, Polis Teatro Festival, La Corte Ospitale</strong>, confermandosi come una delle voci più innovative e riconosciute del panorama teatrale contemporaneo.</p>"},"id":"a27ab301-feef-49ba-ae87-29205b62697e","isHidden":false,"type":"text"}],"id":"5e588e3b-b4df-4d60-a116-91079509a8d2","width":"1/1"}],"id":"fa8e86fa-cd94-40c2-a7df-7ebee8daede8"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Vai al sito","download":[],"url":"https://www.compagnialicialanera.com/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"77860e82-8c39-4245-a899-485e18e08a6f","isHidden":false,"type":"cta"}],"id":"c38197fd-2f47-46cc-b4cd-55d513f8f088","width":"1/1"}],"id":"68ab6831-3ab8-49bf-ab96-daf946f42622"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: ghjyoiesyzhzq4xs

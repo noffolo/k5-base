@@ -1,0 +1,198 @@
+Title: Spazio 13
+
+----
+
+Banner-manager: 
+
+----
+
+Logo-switch: logotype
+
+----
+
+Logotype: S<span>pazio</span>13
+
+----
+
+Logo: 
+
+----
+
+Ricerche-frequenti:
+
+- 
+  testo: scrivi quello che ti pare
+
+----
+
+Menu:
+
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Spazi
+  pagelink:
+    - page://zLIZouJsCTtZXm51
+  externallink: ""
+- 
+  ismobile: 'true'
+  isexternal: 'false'
+  linktitle: Prenota uno spazio
+  pagelink:
+    - page://eqdzfi2yosbisil7
+  externallink: ""
+- 
+  ismobile: 'true'
+  isexternal: 'false'
+  linktitle: "Condizioni d'uso degli spazi"
+  pagelink:
+    - page://dgxfd5bz7yncollw
+  externallink: ""
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Calendario
+  pagelink:
+    - page://cuedvhxfhxlv8bq9
+  externallink: ""
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Comunità
+  pagelink:
+    - page://PHoYnYYlg1rjQ6mw
+  externallink: ""
+- 
+  ismobile: 'true'
+  isexternal: 'false'
+  linktitle: Organigramma
+  pagelink:
+    - page://kwofdwsemqhktdcl
+  externallink: ""
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Progetti
+  pagelink:
+    - page://KyChahDO4ldlHvqy
+  externallink: ""
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Chi siamo
+  pagelink:
+    - page://FckGtzyMlfbKsTEo
+  externallink: ""
+- 
+  ismobile: 'true'
+  isexternal: 'false'
+  linktitle: Manifesto
+  pagelink:
+    - page://impmv58gpowk5yin
+  externallink: ""
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Contatti
+  pagelink:
+    - page://uGqv4C0jrEX7dr1q
+  externallink: ""
+- 
+  ismobile: 'false'
+  isexternal: 'false'
+  linktitle: Cerca
+  pagelink:
+    - page://kfpX931jpB1Jtti7
+  externallink: ""
+
+----
+
+Footer: [{"attrs":{"custom_css":"padding: 90px;\nmargin-bottom: 0!important;\ngap: 60px;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p><strong>Spazio13<br></strong>Una volta non c'era.</p>"},"id":"47e488fb-359e-49b7-8e07-006566aa1538","isHidden":false,"type":"text"}],"id":"cab02d28-073b-4ec1-a23b-06de29bc5ed3","width":"1/4"},{"blocks":[{"content":{"text":"<p><strong>Sede legale: <br></strong>Via Michelangelo Signorile, 41 <br>70121 Bari</p>"},"id":"696b625a-bafd-4ce5-b0b9-3965d8c753b0","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Sede operativa:<br></strong><a href=\"https://www.google.com/maps/place/Spazio+13+-+Urban+Center/@41.1248198,16.8535064,17z/data=!3m1!5s0x1347e88d293adc43:0x7dda52d458d04469!4m6!3m5!1s0x1347e88d29e9c9cd:0x585d1b70ea5c31ce!8m2!3d41.1248198!4d16.8560867!16s%2Fg%2F11dz565qhy!5m1!1e4?entry=ttu&amp;g_ep=EgoyMDI1MTIwOC4wIKXMDSoKLDEwMDc5MjA2N0gBUAM%3D\" title=\"Dove siamo?\">Via Colonello de Cristoforis, 8<br>70123 Bari</a></p>"},"id":"da7c3410-224c-4fc0-97b7-b50aba0483db","isHidden":false,"type":"text"},{"content":{"text":"<p><strong>Codice Fiscale / Partita IVA:</strong> <br>93510360725 </p><p></p>"},"id":"4a8ad972-c0f3-4674-9458-51dffc081faa","isHidden":false,"type":"text"}],"id":"13099519-c924-4e5d-9dbf-17ee1089406b","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"/@/page/FckGtzyMlfbKsTEo\" title=\"Chi siamo\"><strong>Chi siamo</strong></a><strong><br></strong><a href=\"/@/page/uGqv4C0jrEX7dr1q\" title=\"Contatti\"><strong>Contatti</strong></a><strong><br></strong><a href=\"/@/page/kfpX931jpB1Jtti7\" title=\"Cerca\"><strong>Cerca</strong></a><strong><br>—<br></strong><a href=\"/@/page/WQ2IpWgNUABcsZcp\" title=\"Privacy Policy\"><strong>Privacy Policy</strong></a></p>"},"id":"4d93dcf8-8a7e-4cd6-a466-301e54fcab71","isHidden":false,"type":"text"}],"id":"18c0d52f-e2a4-422d-83dc-370722ad8c38","width":"1/4"},{"blocks":[{"content":{"text":"<p><a href=\"/@/page/zLIZouJsCTtZXm51\" title=\"Spazi\"><strong>Spazi</strong></a><strong><br></strong><a href=\"/@/page/dgxfd5bz7yncollw\" target=\"_blank\" title=\"Condizioni d'uso\"><strong>Condizioni d'uso degli spazi</strong></a><strong><br></strong><a href=\"/@/page/eqdzfi2yosbisil7\" target=\"_blank\" title=\"Prenota uno spazio\"><strong>Prenota uno o più spazi</strong></a><strong><br>—<br></strong><a href=\"/@/page/UcxhNsXkfMPy4GH2\" title=\"Eventi\"><strong>Eventi</strong></a><strong><br></strong><a href=\"/@/page/KyChahDO4ldlHvqy\" title=\"Progetti\"><strong>Progetti</strong></a><strong><br></strong><a href=\"/@/page/PHoYnYYlg1rjQ6mw\" title=\"Comunità\"><strong>Comunità</strong></a><strong><br><br></strong></p>"},"id":"7763c9d9-007a-4ded-8dd0-bb0ab36aff27","isHidden":false,"type":"text"}],"id":"437d4398-086b-4ff1-b49a-3e1190d77d51","width":"1/4"}],"id":"cca55a01-cb6c-4a21-a984-64ed8f4669f7"}]
+
+----
+
+Mapbox-token: 
+
+----
+
+Marker: - file://1ksneda6dxdszqnj
+
+----
+
+Alt-name: Spazio13
+
+----
+
+Descrizione: Spazio13 è un presidio di innovazione sociale e culturale, un'ex scuola media, oggi trasformata in epicentro di rigenerazione urbana, nel Libertà, a Bari.
+
+----
+
+Tags: innovazione sociale, rigenerazione urbana, centro culturale, bari
+
+----
+
+Address: via Colonello de Cristoforis 8
+
+----
+
+Tel: 
+
+----
+
+City: Bari
+
+----
+
+Region: Puglia
+
+----
+
+Country: Italia
+
+----
+
+Cap: 70121
+
+----
+
+Seo-image: 
+
+----
+
+Fb-app-id: 
+
+----
+
+Fb-domain-verification: 
+
+----
+
+Account-x: 
+
+----
+
+Copyright: Spazio13
+
+----
+
+Persone: 
+
+----
+
+Selector-collection: - page://HHYFJTvzrQkRYBUJ
+
+----
+
+Selected-collection: 
+
+----
+
+Selctor-collection: - page://HHYFJTvzrQkRYBUJ
+
+----
+
+Collection-parent: - page://tLqAuPU7ZQXRapLC
+
+----
+
+Collection-open: 

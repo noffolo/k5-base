@@ -13,7 +13,7 @@ $isAvailable = $formData['available'] === null || $formData['available'] > 0;
         if ($hasAnchors): ?>
             <div class="anchors-navigation">
                 <div class="single-anchor">
-                    <p style="text-transform: uppercase;"><strong>Contenuti</strong></p>
+                    <p>Contenuti</p>
                 </div>
                 <?php foreach ($layouts->toLayouts() as $layout): ?>
                     <?php if ($layout->anchor()->isTrue()): 
@@ -30,29 +30,16 @@ $isAvailable = $formData['available'] === null || $formData['available'] > 0;
         <div class="blocks-container-inner">
             <?php foreach ($layouts->toLayouts() as $layout): ?>
                 <?php 
-                $isExpiredLayout = $layout->scadenza()->isTrue();
-                $isExpiredPage = $page->isExpired();
-                
-                // Skip if it's an "expiry" layout and page is expired or no slots available
-                if ($isExpiredLayout && ($isExpiredPage || !$isAvailable)) continue;
+                if (!$page->isLayoutVisible($layout)) continue;
 
                 $anchorEnabled = $layout->anchor()->isTrue();
                 $anchorName = $layout->anchor_name()->value();
                 $slug = Str::slug($anchorName);
                 
                 $id = $layout->custom_id()->isNotEmpty() ? Str::slug($layout->custom_id()->value()) : null;
-                $stickyId = $layout->sticky()->isTrue() ? 'sticky_' . generateRandomString() : null;
+                $isSticky = $layout->sticky()->isTrue();
+                $stickyOffset = $layout->sticky_offset()->or(0) . 'px';
                 ?>
-
-                <?php if ($stickyId): ?>
-                    <style>
-                        #<?= $stickyId ?> {
-                            position: sticky;
-                            top: <?= $layout->sticky_offset()->or(0) ?>px !important;
-                        }
-                        * { overflow: visible !important; }
-                    </style>
-                <?php endif ?>
 
                 <?php if ($anchorEnabled): ?>
                     <div class="anchor-block" id="<?= $slug ?>">
@@ -67,7 +54,8 @@ $isAvailable = $formData['available'] === null || $formData['available'] > 0;
                      style="<?= $custom_style ?? '' ?><?= $layout->custom_css() ?>">
                     <?php foreach ($layout->columns() as $column): ?>
                         <div class="column col-lg-<?= $column->span() ?> <?= $column->blocks()->isEmpty() ? 'mobile_display_none' : '' ?>">
-                            <div <?php if($stickyId): ?>id="<?= $stickyId ?>"<?php endif ?> class="blocks">
+                            <div class="blocks <?= $isSticky ? 'sticky-block' : '' ?>" 
+                                 style="<?= $isSticky ? '--sticky-top:' . $stickyOffset : '' ?>">
                                 <?= $column->blocks() ?>
                             </div>
                         </div>

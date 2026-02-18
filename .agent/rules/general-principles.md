@@ -1,6 +1,6 @@
 # General Principles
 
-Questi principi guidano lo sviluppo e la manutenzione del progetto Spazio13.
+Questi principi guidano lo sviluppo e la manutenzione del progetto.
 
 ## Codice ed Efficienza
 - **DRY (Don't Repeat Yourself)**: Evitare sempre la ripetizione di codice. Estrarre la logica comune in helper o trait.

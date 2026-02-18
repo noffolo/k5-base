@@ -1,0 +1,125 @@
+Title: Carlo Ferretti
+
+----
+
+Descrizione:
+
+Scrivo progetti e policy per una società più equa.
+Mi occupo di città, cultura, innovazione e sud.
+Dal 2025 sono Presidente di Spazio13.
+
+----
+
+Immagine: - file://n7mk3h5ggmj1bizh
+
+----
+
+Thumbnail: - file://n7mk3h5ggmj1bizh
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Innovazione sociale, Educazione / Didattica, Progettazione culturale, Consiglio direttivo
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"466c9a68-2648-44ea-a824-f28866415848","width":"1/3"},{"blocks":[{"content":{"text":"<p>Laureato in <em>Cultural Economics and Entrepreneurship</em> presso l'Università Erasmus di Rotterdam, Carlo Ferretti è un ricercatore in economia della cultura e progettista socio-culturale. Si occupa in ambito europeo di innovazione e cultura applicata allo sviluppo dei territori e delle aree urbane, collaborando con la Fondazione Giangiacomo Feltrinelli, BASE Milano, LAMA Impresa Sociale, Materahub, FROM e la Fondazione Changes. In questo senso è anche “Validated Expert” URBACT e valutatore d’impatto socio-culturale riconosciuto presso la rete Social Value International.</p><p>Dal 2025 è Presidente dell’ETS Spazio13, la quale gestisce l’omonimo spazio di rigenerazione urbana a base culturale della città di Bari.</p><p>Indaga le potenzialità della tecnologia e del digitale in relazione all'arte e alla cultura, con il Metalab di Harvard, di cui è ricercatore affiliato. Lavora sulla digitalizzazione 3D delle Imprese Culturali e Creative con 3DXR, organismo di cui è il fondatore.</p><p>Ha curato vari podcast tra cui Zenit, un podcast di Mangrovia che racconta storie di cultura, tecnologia e società dal mondo.</p>"},"id":"7d43f47f-79e0-42a7-94a5-b65a0c9e3f86","isHidden":false,"type":"text"}],"id":"d970ce75-8cbd-4cef-8139-a176ffcb9568","width":"1/3"},{"blocks":[],"id":"23f2a3bb-dfbc-4d90-869d-bd6d34a3fc0e","width":"1/3"}],"id":"285b13ff-c6fb-40a1-85a7-04f2e25ba395"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: wu7u2ot4wdghkizh

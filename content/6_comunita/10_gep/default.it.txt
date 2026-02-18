@@ -1,0 +1,121 @@
+Title: GEP
+
+----
+
+Descrizione: Promuove l'educazione alla Pace e alla Nonviolenza come pratica quotidiana attraverso azioni e percorsi culturali, sociali e di sensibilizzazione alla cura delle relazioni, delle fragilità e  dell'ambiente.
+
+----
+
+Immagine: - file://xwtrmwjrebfwjwzk
+
+----
+
+Thumbnail: - file://xwtrmwjrebfwjwzk
+
+----
+
+Data-di-pubblicazione: 2026-01-09
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Educazione / Didattica, Inclusione e comunità, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Il “Gruppo Educhiamoci alla Pace”, GEP, è un’associazione nata nel 1992 dal desiderio di un nucleo di insegnanti ed educatori impegnati in esperienze di autoformazione alla nonviolenza.<br>Il senso della nostra proposta era ed è in quel ‘educhiamo-ci’: crediamo che la strada per un sostanziale cambiamento sociale in una prospettiva democratica nonviolenta passi attraverso l’autoeducazione e la formazione permanente.<br>Abbiamo scelto come terreno d’intervento la formazione di educatori, operatori sociali ed insegnanti attraverso stage e laboratori, suggerimenti di percorsi didattici, esperienze di ricerca- azione, conferenze e dibattiti sui temi della Pace, dell’Intercultura e della Legalità.<br>Le nostre idee guida e i riferimenti valoriali si rifanno a Gandhi, Tolstoj, Don Milani, Gianni Rodari, Mario Lodi, Danilo Dolci.<br>Operiamo da anni nel territorio cittadino e non solo, perché abbiamo maturato anche esperienze regionali e nazionali, grazie al lavoro di rete con numerose istituzioni scolastiche, università, associazioni professionali e di volontariato ( MOVI CGD RESS RETE DI COOPERAZIONE EDUCATIVA, per esempio). L’approccio maturato in queste esperienze<br>ci ha motivati ad aderire all’iniziativa delle Reti Civiche Urbane ed abbiamo scelto di operare all’ interno della RCU Libertà per essere più prossimi ai bisogni di cittadinanza presenti nel quartiere.<br>Auspichiamo così di passare da una cultura dell’impotenza e della recriminazione a quella della progettualità creativa. Oggi il nostro impegno per la Pace si concretizza maggiormente sul versante sociale, anche con il lavoro per l’accoglienza e integrazione dei migranti attraverso l’insegnamento gratuito dell’italiano agli stranieri.<br>Privilegiamo, nella nostra programmazione annuale, lo stile laboratoriale per favorire il coinvolgimento dei partecipanti ed esercitare un’ azione maieutica.</p>"},"id":"8869e629-e9f4-4a1a-bd7a-b7e3ae765211","isHidden":false,"type":"text"}],"id":"634b68e1-7ea9-4e09-bddc-f5d38e6a6a9a","width":"1/1"}],"id":"be2922e8-285c-4b16-a770-155b26ab3688"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Sito Web","download":[],"url":"http://www.gruppoeduchiamociallapace.it/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"f326e9f4-f54d-4ee5-b272-191331835851","isHidden":false,"type":"cta"}],"id":"b10837ab-9ba9-44ff-879c-12dfaf45f660","width":"1/1"}],"id":"d3d79cff-b38d-476e-99e1-03cc0f2dd574"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: kryzt3ektbqmqcbj

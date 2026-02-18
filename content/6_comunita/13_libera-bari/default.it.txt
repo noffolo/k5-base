@@ -1,0 +1,121 @@
+Title: Libera Bari
+
+----
+
+Descrizione: Presidio intitolato a Luigi Fanelli, vittima di mafia. Difendono la memoria e coltivano giustizia sociale nei territori.
+
+----
+
+Immagine: - file://jezp26mwfkujzs1a
+
+----
+
+Thumbnail: - file://jezp26mwfkujzs1a
+
+----
+
+Data-di-pubblicazione: 2025-12-20
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Innovazione sociale, Inclusione e comunità, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p><em>Libera Bari</em> è il presidio cittadino di <strong>Libera. Associazioni, nomi e numeri contro le mafie</strong>, rete nazionale impegnata nella promozione della <strong>legalità democratica, della giustizia sociale e della memoria delle vittime innocenti di mafia</strong>. Attraverso attività di sensibilizzazione, educazione alla cittadinanza attiva e iniziative pubbliche, il presidio coinvolge studentesse e studenti, volontari, associazioni e cittadini nel contrasto alla criminalità organizzata e alla cultura dell’illegalità.</p><p>Inserita nella più ampia rete di Libera, <em>Libera Bari</em> è uno spazio di partecipazione e impegno civico: promuove la cura del territorio, la responsabilità condivisa e la costruzione di comunità inclusive. Le sue azioni quotidiane contribuiscono a diffondere una cultura basata su <strong>memoria, diritti e giustizia</strong>, per una città più equa e libera.</p>"},"id":"a27ab301-feef-49ba-ae87-29205b62697e","isHidden":false,"type":"text"}],"id":"5e588e3b-b4df-4d60-a116-91079509a8d2","width":"1/1"}],"id":"fa8e86fa-cd94-40c2-a7df-7ebee8daede8"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Facebook","download":[],"url":"https://www.facebook.com/presidioliberabari/?locale=it_IT","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"77860e82-8c39-4245-a899-485e18e08a6f","isHidden":false,"type":"cta"}],"id":"c38197fd-2f47-46cc-b4cd-55d513f8f088","width":"1/1"}],"id":"68ab6831-3ab8-49bf-ab96-daf946f42622"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: 8khvzjadahtxzjhz

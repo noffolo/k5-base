@@ -1,0 +1,36 @@
+@use "../shared" as *;
+
+.blocks-container {
+    .anchors-navigation {
+        .single-anchor {
+            p {
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+
+            a {
+                text-decoration: none;
+                color: inherit;
+                display: block;
+                padding: 5px 0;
+
+                &:hover {
+                    color: var(--color-primary, #000);
+                }
+            }
+        }
+    }
+}
+
+// Global overflow rule for sticky support
+html.has-sticky {
+    body {
+        overflow: visible !important;
+    }
+}
+
+.sticky-block {
+    position: sticky;
+    top: var(--sticky-top, 0);
+    z-index: 10;
+}

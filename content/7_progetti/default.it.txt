@@ -1,0 +1,126 @@
+Title: Progetti
+
+----
+
+Descrizione: 
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: 
+
+----
+
+Parent-category-manager:
+
+- 
+  nome: In corso
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Stato
+  marker: [ ]
+- 
+  nome: Realizzati
+  colore_categoria: ""
+  descrizione: ""
+  gruppo: Stato
+  marker: [ ]
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"text-align: center;\nmin-height: fit-content;\nalign-items: center;\nmax-width: 800px;\nmargin: 15px auto!important;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"align-items: center!important;\njustify-content: center!important;\ngap: 15px;\nmargin-bottom: 15px;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"pagina","anteprima":"Vuoi organizzare un progetto a Spazio13?","download":[],"url":"","page":["page://eqdzfi2yosbisil7"],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"a6b45d55-69c4-4d37-86e3-2adfb7f302c8","isHidden":false,"type":"cta"},{"content":{"level":"h1","text":"<strong>Progetti realizzati <br>e in corso</strong><br>↓"},"id":"5a55c52c-9ae2-49f7-bce5-d4d053518c06","isHidden":false,"type":"heading"}],"id":"e2d8d921-866e-439f-8f62-63fb2e251c59","width":"1/1"}],"id":"bad41746-cd09-4871-9006-9e3a703dec59"}]
+
+----
+
+Collection-toggle: true
+
+----
+
+Collection-options: blog
+
+----
+
+Collection-categories-manager-toggle: true
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: KyChahDO4ldlHvqy

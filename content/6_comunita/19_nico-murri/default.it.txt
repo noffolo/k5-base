@@ -1,0 +1,125 @@
+Title: Nico Murri
+
+----
+
+Descrizione:
+
+Artista e tecnico poliedrico, 
+maestro di "disegnetti" e "canzonette".
+Responsabile di produzione per Spazio13.
+
+----
+
+Immagine: - file://2a6nsqpsuo6kqb5y
+
+----
+
+Thumbnail: - file://2a6nsqpsuo6kqb5y
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Sociə, Design e Arti visive, Retribuitə, Audio / Video
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"98702720-080c-4635-b874-a5649133522a","width":"1/3"},{"blocks":[{"content":{"text":"<p>Nico Murri lavora tra progettazione visiva, musica e produzione culturale.</p><p>È illustratore, musicista e produttore di eventi, con una pratica che unisce ricerca estetica e organizzazione concreta dei processi creativi.</p><p>È stato curatore e organizzatore di mostre ed eventi artistici. Contestualmente ha fondato e diretto un centro per l’insegnamento e la divulgazione della cultura fotografica. Negli stessi anni si è occupato di comunicazione visiva.</p><p>All’interno di Spazio13 è responsabile della produzione e della gestione operativa, occupandosi del coordinamento delle attività, delle risorse tecniche e dei processi organizzativi legati alla programmazione culturale.</p><p>Parallelamente sviluppa progetti artistici personali che intrecciano immaginario visivo, musica e narrazione, con un’attenzione costante alla relazione tra forma, suono e contesto.</p>"},"id":"2f3ff917-52cf-4e7e-af7b-03afbd432daa","isHidden":false,"type":"text"}],"id":"6bd8980b-20d8-41ea-b069-c73cc8f8155b","width":"1/3"},{"blocks":[],"id":"8eaacd97-1629-4a30-9c86-0564d6d8fa22","width":"1/3"}],"id":"0728df31-c335-4939-9216-adb763b0feb9"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: yx8f8vz3foknhpfk

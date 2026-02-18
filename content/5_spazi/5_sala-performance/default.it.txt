@@ -1,0 +1,121 @@
+Title: Sala Performance
+
+----
+
+Descrizione: Uno spazio neutro e versatile per sperimentazione corporea e ricerca artistica, ideale per danza, performance, prove e pratiche fisiche.
+
+----
+
+Immagine: - file://tpwvuhzdi8aldv3a
+
+----
+
+Thumbnail: - file://tpwvuhzdi8aldv3a
+
+----
+
+Data-di-pubblicazione: 2025-12-10
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Sperimentazione / Creatività, Benessere / Mindfullness, Prenotabile per eventi, Riservato ai soci
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: performance, teatro, danza, parquet, terzo piano
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://agvvuqfsql4plmsg"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"3a776db7-3d8e-4127-9ead-f551560bb301","isHidden":false,"type":"image"},{"content":{"level":"h2","text":"Un laboratorio per la sperimentazione corporea e la ricerca artistica. Un luogo in cui i corpi esplorano nuovi linguaggi ed i gesti si fanno espressione, creando un dialogo tra introspezione e potenza creativa. Con pavimento in parquet, luce regolabile e atmosfera neutra, è il luogo ideale per prove, performance, danza, teatro fisico, pratiche corporee e installazioni"},"id":"2fe8db66-2014-4e11-87de-5b495bb4f11b","isHidden":false,"type":"heading"}],"id":"e42b3efc-91c1-4112-8d16-e0cd5ef93bc2","width":"1/2"},{"blocks":[{"content":{"level":"h2","text":"Per corpi in movimento!"},"id":"4c56fcbd-b06d-4db6-b934-cdc8dbc8399f","isHidden":false,"type":"heading"},{"content":{"text":"<p><strong>Dimensione:<br></strong>→ <u><strong>60mq</strong></u> interamente pavimentati in <u><strong>parquet</strong></u><strong><br></strong><br><strong>Utilizzo:</strong><br>→ <u><strong>prove e performance, corsi e laboratori, piccoli eventi<br></strong></u><br><strong>Capacità:</strong><br>→ <u><strong>dipende dalle configurazioni</strong></u> (es. 50 posti a sedere con set frontale)<br><br><strong>Configurazioni:<br></strong>→ <u><strong>Variabili<br></strong></u><br><strong>Dotazione base:<br></strong>→ <strong>Casse audio, climatizzazione e wi-fi</strong></p>"},"id":"f5eebbab-fbaf-4cc7-a00f-d00cff3528da","isHidden":false,"type":"text"}],"id":"56e04532-830f-439c-955e-a956218ba91c","width":"1/2"}],"id":"0e2cc56c-bcf9-4879-a986-9113a5be6d3b"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: ozcwxxjt6c5hvhrf

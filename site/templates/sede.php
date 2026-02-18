@@ -1,7 +1,7 @@
-
 <?php snippet('header') ?>
 <?php snippet('menu') ?>
 
+<main id="main" class="main">
 <?php snippet('check_banner',['posizione' => 'sopra',]); ?>
 
 <!--?php snippet('search') ?--> 
@@ -10,7 +10,7 @@
     <?php snippet('map') ?>
 
     <div class="meta_informations">
-        <h2><?= str_replace("-"," ",$page->title()) ?></h2>
+        <h1><?= str_replace("-"," ",$page->title()) ?></h1>
         <p>
         <?= $page->indirizzo() ?>
         <?php if($page->mail()->isNotEmpty()): ?>
@@ -43,5 +43,6 @@
 <?php snippet('check_banner',['posizione' => 'sotto',]); ?>
 
 <?php snippet('layouts', ['layout_content' => $site->footer(), 'class' => 'footer',]); ?>
+</main>
 <?php snippet('footer') ?>
  

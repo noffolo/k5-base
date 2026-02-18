@@ -27,8 +27,10 @@ Il progetto fonde la struttura classica di Kirby con una toolchain moderna basat
 │   ├── plugins/        # Estensioni core e di terze parti
 │   ├── snippets/       # Componenti HTML/PHP riutilizzabili
 │   └── templates/      # Pagine finali (HTML/JSON/CSV dinamici)
-├── _brain_logs/        # Archivo storico dei task e delle decisioni (Brain)
+├── _brain_logs/        # Archivio storico dei task e delle decisioni (Brain)
 ├── vendor/             # Dipendenze PHP (Composer)
+├── build/              # Asset compilati per la produzione (Vite)
+├── postcss.config.cjs  # Configurazione PurgeCSS
 └── vite.config.js      # Configurazione della build frontend
 ```
 
@@ -61,6 +63,9 @@ Il sistema integra plugin custom e di terze parti che ne estendono le capacità 
 - **`kirby-bettersearch`**: Ottimizza l'algoritmo di ricerca interno per fornire risultati più pertinenti e veloci.
 - **`kirby3-cookie-banner`**: Gestisce la conformità GDPR e il consenso ai cookie con un'interfaccia integrata.
 - **`kirby-code-editor`**: Abilita un editor di codice con sintassi evidenziata nel Panel per inserimenti tecnici.
+- **`vlucas/phpdotenv`**: Gestore variabili d'ambiente per configurazioni sicure e portatili via file `.env`.
+- **`panel-logs`**: Plugin custom per il tracciamento delle modifiche nel Panel. Monitora chi ha modificato cosa, dove e quando, fornendo una vista dedicata per l'audit dei contenuti.
+- **`custom-permissions`**: Sistema di gestione ruoli avanzato. Permette di definire permessi granulari per editor e altri ruoli, limitando l'accesso a specifiche pagine o collezioni di pagine.
 - **`utility-kirby`**: Set di micro-utility per la manipolazione di stringhe e file.
 
 ---
@@ -70,10 +75,10 @@ Il sistema integra plugin custom e di terze parti che ne estendono le capacità 
 ### A. Ereditarietà Parametrica (Hooks)
 Il sistema usa gli **Hooks** (`site/config/hooks.php`) per garantire che i figli "sappiano" cosa fa il genitore. Quando una pagina viene creata o aggiornata, i parametri di visualizzazione (es. "mostra mappa", "abilita categorie") vengono propagati automaticamente. Questo permette di avere blueprint condizionali (`when`) che funzionano in modo coerente anche su gerarchie profonde.
 
-### B. Importazione Dati "Liquida" (`CalendarFromCsvPage` & `SediPage`)
+### B. Importazione Dati "Liquida" & Health Check
 I modelli in `site/models/` trasformano dati grezzi in oggetti Kirby:
-- **`CalendarFromCsvPage`** (ex `SpreadsheetPage`): Implementa un parser robusto capace di gestire date in italiano, range orari e mapping di alias. Utilizza un sistema di cache con *Conditional GET* per non rallentare il sito durante il fetch di CSV remoti.
-- **`SediPage`**: Esegue lo split di file CSV o Google Sheets per generare **pagine virtuali** (children virtuali). Queste pagine non esistono fisicamente su disco ma sono navigabili come pagine standard, ottimizzando lo storage.
+- **`CalendarFromCsvPage`**: Implementa un parser robusto capace di gestire date in italiano, range orari e mapping di alias. Utilizza un sistema di cache con *Conditional GET* e un **sistema di Health Check** che monitora la raggiungibilità del file remoto notificando eventuali errori direttamente nel Panel.
+- **`SediPage`**: Esegue lo split di file CSV o Google Sheets per generare **pagine virtuali** (children virtuali). Queste pagine vengono ora incluse correttamente anche nella `sitemap.xml` per una SEO ottimale.
 
 ### C. Sistema di Prenotazione e Contatori (Bollini Dinamici)
 Una funzione avanzata è situata nel plugin `non-deterministic-cms` (`CollectionHelper::formDataFor`):
@@ -90,6 +95,17 @@ Lo snippet `collection-calendar-view.php` implementa una logica di temporalizzaz
 Nello snippet `layouts.php`, ogni riga di layout può essere parametrizzata con il flag `scadenza`. Quando attivo, l'oggetto del layout (es. un form di iscrizione o un banner promozionale) **scompare automaticamente** se:
 1.  La `deadline` impostata nella pagina è trascorsa.
 2.  I posti disponibili (`available`) calcolati dal `formData` sono esauriti.
+
+### F. Performance Estrema & UX
+Il sito è ottimizzato per superare i 95+ punti in Lighthouse:
+- **PurgeCSS**: Il CSS finale viene ripulito da tutte le classi Bootstrap/SASS inutilizzate, riducendo il payload del ~70%.
+- **JS Code Splitting**: Librerie pesanti come Mapbox o Swiper vengono caricate asincronamente tramite *Dynamic Imports* solo quando la pagina lo richiede.
+- **Skeleton Loaders**: Placeholder animati "shimmering" migliorano la percezione di velocità durante il caricamento di mappe e slider.
+- **View Transitions**: Supporto nativo alle transizioni fluide tra le pagine (API View Transitions).
+
+### G. Governance e Sicurezza nel Panel
+- **Gestione Ruoli Granulare**: Gli amministratori possono definire ruoli (es. `editor`) con permessi specifici su base pagina o collezione. Questo garantisce che gli utenti vedano e modifichino solo le sezioni di loro competenza.
+- **Content Audit Log**: Ogni azione di salvataggio, creazione o eliminazione nel Panel viene registrata. Il registro è consultabile direttamente dall'area dedicata, permettendo di ricostruire la cronologia delle modifiche per ogni contenuto.
 
 ---
 
@@ -122,10 +138,13 @@ I file `site/snippets/block-slide-*` implementano uno slider (Swiper.js) che acc
 ---
 
 ## 7. SCSS & Design System
-I file sono organizzati in `assets/src/sass/theme`:
-- `settings/`: Variabili, colori e tipografia.
-- `components/`: Stili atomici per i vari snippet (BEM).
-- `base/`: Reset e stili globali.
+Il frontend segue un'architettura modulare (Sass 7-1 pattern abbreviato) in `assets/src/sass/theme`:
+- `settings/`: Token di design (colori, font, spacing).
+- `base/`: Reset, HTML globali e stili atomici necessari (es. immagini).
+- `layout/`: Struttura portante (grid, header, footer, blocks-layout).
+- `components/`: Componenti specifici riutilizzabili (es. card, maps, sliders).
+
+Tutti gli stili inline sono stati estratti in classi CSS per massimizzare la pulizia del DOM e le performance.
 
 ---
 
@@ -147,11 +166,12 @@ Le blueprint sono organizzate per ridurre il carico cognitivo:
 
 ## 10. Istruzioni per l'installazione
 
-1.  **Requisiti**: PHP 8.2+, Node 18+, Composer.
-2.  **Setup Backend**: `composer install`.
-3.  **Setup Frontend**: `npm install`.
-4.  **Workflow Sviluppo**: `npm run dev`. Vite gestirà il live reload anche quando modifichi i file PHP di Kirby.
-5.  **Build Produzione**: `npm run build`. Trasferire le cartelle `kirby`, `site`, `assets`, `vendor` e il file `index.php`.
+1.  **Requisiti**: PHP 8.2+, Node 20+, Composer.
+2.  **Environment**: Rinominare `.env.example` in `.env` e configurare le chiavi (`KIRBY_DEBUG`, API keys, etc).
+3.  **Setup Backend**: `composer install`.
+4.  **Setup Frontend**: `npm install`.
+5.  **Workflow Sviluppo**: `npm run dev`. Vite gestisce il bundle degli asset locali e il live reload dei file PHP.
+6.  **Build Produzione**: `npm run build`. Vite genera gli asset ottimizzati in `build/`. Trasferire l'intera cartella di progetto escludendo `node_modules`.
 
 ---
 
@@ -165,4 +185,4 @@ Le blueprint sono organizzate per ridurre il carico cognitivo:
 -   **Logica API**: Se hai bisogno di esportare dati per app esterne, usa i template `.json.php` o `.csv.php`. Questi template sono stati resi **dinamici**: mappano automaticamente tutti i campi definiti nel blueprint o presenti nel contenuto, escludendo quelli vuoti e formattando i tipi complessi (pagine, file, strutture) in modo appropriato.
 
 ---
-*Ultimo aggiornamento significativo: 2026-01-22 (Refactoring template dinamici e consolidamento regole)*
+*Ultimo aggiornamento significativo: 2026-02-18 (GitHub Integration, Roles Management, Panel Logs)*

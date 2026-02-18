@@ -1,0 +1,121 @@
+Title: Sala Multimediale
+
+----
+
+Descrizione: Uno spazio immersivo e tecnologico dove reale e virtuale si incontrano, ideale per podcast, videointerviste e contenuti digitali.
+
+----
+
+Immagine: 
+
+----
+
+Thumbnail: 
+
+----
+
+Data-di-pubblicazione: 2025-12-10
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Riservato ai soci, Lavoro / Studio, Sperimentazione / Creatività
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: Produzione, Registrazione, Podcasting, Multimedia, Multimediale, Audio, Rec
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h1","text":"Per i tuoi esperimenti audio-video"},"id":"fe45e91f-52f9-49c0-a9b8-3f106f7e0080","isHidden":false,"type":"heading"},{"content":{"level":"h2","text":"Il reale incontra il virtuale in uno spazio immersivo, interconnesso e tecnologico. Qui l’immaginazione trova nuovi canali per esprimersi, e i linguaggi digitali diventano strumenti per esplorare altri mondi.Ideale per podcast, videointerviste, contenuti digitali e piccole produzioni multimediali."},"id":"b9f1c280-5ef9-4462-8d97-1270ee334e3e","isHidden":false,"type":"heading"}],"id":"dd271e82-e85d-4484-aad3-0b828d72fe7c","width":"1/2"},{"blocks":[],"id":"8d043def-d72e-4863-a620-b34abc3cf8f1","width":"1/2"}],"id":"e9a7f5e4-82b9-4cc0-80f4-dd2aac4e77f8"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: xlgvsjeea1hazwkh

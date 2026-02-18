@@ -455,6 +455,11 @@ trait PageActions
 		// keep the initial storage class
 		$storage = $page->storage()::class;
 
+		// Make sure that the page does not already exist at this point.
+		// Otherwise, moving the storage to memory storage, might delete
+		// an existing page before we can even run the checks.
+		PageRules::create($page);
+
 		// make sure that the temporary page is stored in memory
 		$page->changeStorage(MemoryStorage::class);
 
@@ -498,8 +503,14 @@ trait PageActions
 			'site'   => $this->site(),
 		];
 
-		$modelClass = static::$models[$props['template'] ?? null] ?? static::class;
-		return $modelClass::create($props);
+		if (
+			($template = $props['template'] ?? null) &&
+			($model = static::$models[$template] ?? null)
+		) {
+			return $model::create($props);
+		}
+
+		return static::create($props);
 	}
 
 	/**

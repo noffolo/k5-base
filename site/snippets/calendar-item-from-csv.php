@@ -27,16 +27,16 @@ $baseSlug = $child->content()->get('base_slug')->value();
 $itemUrl  = $baseSlug ? $csvSource->url() . '/' . $baseSlug : $child->url();
 ?>
 
-<div class="card-master no_hover <?= esc($class) ?>" style="text-decoration: none; color: inherit; display: block; height: 100%;">
-  <div class="cards-details orange no_hover" style="padding: <?= esc($padding) ?>; height: 100%; display: flex; flex-direction: column;">
+<div class="card-master calendar-item-card no_hover <?= esc($class) ?>">
+  <div class="cards-details orange no_hover" style="padding: <?= esc($padding) ?>;">
     
     <div class="cards-title">
-      <h2 style="font-size: 1.5rem; margin: 0; margin-bottom: 5px; font-weight: 700;"><?= esc($titolo) ?></h2>
+      <h2><?= esc($titolo) ?></h2>
     </div>
 
-    <div class="cards-categories" style="margin-bottom: 5px; display: flex; flex-wrap: wrap; gap: 5px; flex-direction: row;">
+    <div class="cards-categories">
       <?php if ($orario): ?>
-        <span class="tag" style="margin:0;">
+        <span class="tag">
           <?= esc($orario) ?>
         </span> 
       <?php endif; ?>
@@ -45,10 +45,10 @@ $itemUrl  = $baseSlug ? $csvSource->url() . '/' . $baseSlug : $child->url();
       <?php endif; ?>
 
       <?php if ($showTags && ($tag1 || $tag2)): ?>
-        <hr style="border: none; border-top: 1px solid whitesmoke!important; margin: 5px 0; width: 100%;">
+        <hr>
         <?php if ($tag1): ?>
           <?php foreach (Str::split($tag1, ',') as $t): ?>
-            <span class="tag alt" style="margin:0;">
+            <span class="tag alt">
               <?= esc(trim($t)) ?>
             </span>
           <?php endforeach; ?>
@@ -56,7 +56,7 @@ $itemUrl  = $baseSlug ? $csvSource->url() . '/' . $baseSlug : $child->url();
 
         <?php if ($tag2): ?>
           <?php foreach (Str::split($tag2, ',') as $t): ?>
-            <span class="tag" style="margin:0;">
+            <span class="tag">
               <?= esc(trim($t)) ?>
             </span>
           <?php endforeach; ?>
@@ -65,17 +65,17 @@ $itemUrl  = $baseSlug ? $csvSource->url() . '/' . $baseSlug : $child->url();
     </div>
 
     <?php if ($showNodo && $nodo): ?>
-      <hr style="border: none; border-top: 1px solid whitesmoke!important; margin: 5px 0;">
+      <hr>
       <?php $color = $filterColors['nodo'] ?? $filterColors['subtitle'] ?? '#000'; ?>
-      <p class="nodo" style="color:<?= $color ?>; font-weight: bold; margin-bottom: 0; font-size: 1rem;"><?= esc($nodo) ?></p>
+      <p class="nodo" style="color:<?= $color ?>;"><?= esc($nodo) ?></p>
     <?php endif; ?>
 
     <?php if ($showExtra && !empty($extra)): ?>
-      <hr style="border: none; border-top: 1px solid whitesmoke!important; margin: 5px 0;">
-      <div class="extra-fields" style="font-size: 0.8rem; opacity: 1;">
+      <hr>
+      <div class="extra-fields">
         <?php foreach ($extra as $key => $val): ?>
-          <p style="margin: 0; font-size: 1rem;"><strong><?= esc(Str::excerpt($val, 50)) ?></strong></p>
-          <hr style="border: none; border-top: 1px solid whitesmoke!important; margin: 5px 0;">
+          <p><strong><?= esc(Str::excerpt($val, 50)) ?></strong></p>
+          <hr>
         <?php endforeach; ?>
       </div>
     <?php endif; ?>

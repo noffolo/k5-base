@@ -1,0 +1,121 @@
+Title: Maker Space
+
+----
+
+Descrizione: È il regno della sperimentazione: un’officina con mezzi di produzione condivisi per chi vuole trasformare un desiderio o un'idea in un prototipo o in un oggetto concreto.
+
+----
+
+Immagine: - file://x96z7uavzjti7iz9
+
+----
+
+Thumbnail: - file://x96z7uavzjti7iz9
+
+----
+
+Data-di-pubblicazione: 2025-12-10
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Lavoro / Studio, Sperimentazione / Creatività, Formazione / Didattica, Riservato ai soci
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: arduino, stampa 3d, taglio laser, fresa, cnc, falegnameria, elettronica, prototipazione, additiva, digital manifacturing
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"level":"h2","text":"<strong>Condividiamo conoscenza e strumenti per smontare, riparare, ricostruire o inventare.</strong>"},"id":"aad507f3-1ac4-48d7-af2f-8ee933455ea3","isHidden":false,"type":"heading"}],"id":"9685a35e-d846-4eaf-9ca2-9ac3f74ef207","width":"1/2"},{"blocks":[{"content":{"text":"<p>Questo spazio è attrezzato con strumenti professionali per la fabbricazione digitale e tradizionale. <br><br><strong>Prototipazione digitale:<br></strong>→ <u><strong>Stampanti 3d<br></strong></u>→ <u><strong>Taglio laser<br></strong></u>→ <u><strong>Fresa CNC<br></strong></u>→ <u><strong>Fresa per circuiti<br></strong></u><br><strong>Strumenti base:</strong><u><strong><br></strong></u>→ per la <u><strong>falegnameria<br></strong></u>→ per l'<u><strong>elettronica<br></strong></u>→ per la <u><strong>chimica<br></strong></u><br><strong>Dotazione base:<br></strong>→ <u><strong>Climatizzazione</strong></u> e <u><strong>wi-fi</strong></u></p>"},"id":"21bacd05-9876-47d4-8180-0650cabd2eeb","isHidden":false,"type":"text"}],"id":"5a24183b-c562-4716-97b7-61a48498815a","width":"1/2"}],"id":"cfd89f93-b583-42d9-a944-de57bc03c357"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: 4hlaftmoyopugw4e

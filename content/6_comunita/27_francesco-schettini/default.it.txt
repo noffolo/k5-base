@@ -1,0 +1,121 @@
+Title: Francesco Schettini
+
+----
+
+Descrizione: Pianista finanziario e broker sociale.
+
+----
+
+Immagine: - file://oxetxhfmco0av75b
+
+----
+
+Thumbnail: - file://oxetxhfmco0av75b
+
+----
+
+Data-di-pubblicazione: 2026-01-12
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Persone, Sociə, Innovazione sociale
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"cfd5b347-2ab8-4746-a6fa-034354b3fd7a","width":"1/3"},{"blocks":[{"content":{"text":"<p>Francesco Schettini è consulente ed imprenditore, con la Puglia come principale territorio di riferimento. Opera tra sviluppo locale, innovazione sociale e rigenerazione urbana, con un approccio orientato alla sostenibilità economica e all’impatto sociale.</p><p>Nel tempo ha contribuito alla nascita e allo sviluppo di diverse realtà imprenditoriali e non, tra cui Experience scarl, auLAB srl, Opidee Ets, Spazio13 Ats, Her srl.&nbsp;</p><p>Si occupa di accompagnamento all’impresa, progettazione e co-progettazione partecipata, facilitando processi collaborativi e connessioni tra soggetti pubblici e privati, comunità e organizzazioni.&nbsp;</p>"},"id":"c2611523-b2a3-4cfc-b034-f451b81016fc","isHidden":false,"type":"text"}],"id":"5a906ffd-87ff-4fbf-a908-05a1ee647b40","width":"1/3"},{"blocks":[],"id":"fb11a37b-f672-4307-a1cf-c77394577028","width":"1/3"}],"id":"67591810-5a50-4907-af57-7ae6f41de10d"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: zchwzaytyn0wkhps

@@ -1,0 +1,121 @@
+Title: Opificio Sociale delle Idee
+
+----
+
+Descrizione: Idee che diventano percorsi di empowerment, comunità e cambiamento.
+
+----
+
+Immagine: - file://qvuciiczoopvjm83
+
+----
+
+Thumbnail: - file://qvuciiczoopvjm83
+
+----
+
+Data-di-pubblicazione: 2026-01-08
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Educazione / Didattica, Progettazione culturale, Sociə, Contribuisce
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://chqtf1ox3cgvcgc7"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"e76d8766-c245-410f-8203-da65d2fb342a","isHidden":false,"type":"image"}],"id":"23db5ae1-380a-4bd7-bfdf-aae722bfc4ca","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://cqnmm3hepvlouknr"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"1470b196-e758-41d8-a296-b008c1dec683","isHidden":false,"type":"image"}],"id":"c92e8001-abde-4c6d-bd0c-23427a160dab","width":"1/2"}],"id":"8ee76f2c-4a93-4997-84e0-94250b7d7fd9"},{"attrs":{"custom_css":"margin: 30px auto!important;\nmax-width: 1080px;","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Opidee è un’associazione di promozione sociale senza fini di lucro, attiva dal 2015 con sede a Bari. Nasce dall’incontro di professionisti con competenze diverse — tra cui economia delle organizzazioni, innovazione sociale e tecnologica, promozione del benessere psicologico e psicosociale, sviluppo di progetti e facilitazione di processi partecipativi — con l’obiettivo di trasformare idee in azioni concrete per la collettività.</p><p>Opidee promuove e realizza iniziative volte a favorire l’innovazione sociale, rafforzare l’economia locale, sostenere la sostenibilità ambientale e stimolare la partecipazione attiva delle persone e delle comunità. In particolare, progettiamo e accompagniamo processi e percorsi di empowerment rivolti a donne, giovani NEET, persone con background migratorio, nonché a soggetti, comunità e territori fragili o vulnerabili, con l’obiettivo di rafforzarne competenze, autonomia e capacità di azione.</p><p>Attraverso metodologie partecipative e progettazione collaborativa, contribuiamo a rigenerare spazi, territori e relazioni sociali, generando un impatto positivo e duraturo nei contesti in cui operiamo.<br><br>Le nostre attività includono:</p>"},"id":"6ad56f28-df0d-45ce-8f4e-a96c0adb4108","isHidden":false,"type":"text"},{"content":{"text":"<ul><li>Co-progettazione e facilitazione di processi partecipativi, coinvolgendo comunità, organizzazioni e stakeholder nei percorsi di cambiamento e inclusione sociale.</li><li>Sviluppo e gestione di progetti di innovazione sociale orientati all’empowerment individuale e collettivo e alla risposta a bisogni emergenti.</li><li>Incontri, seminari e dibattiti per diffondere conoscenza, stimolare il confronto e sostenere processi di cambiamento culturale.</li><li>Ricerca e produzione di studi su temi quali sviluppo territoriale, creazione di comunità e trasformazione urbana.</li></ul>"},"id":"ffa9bf33-7100-4488-b0ad-32940b545dc8","isHidden":false,"type":"list"},{"content":{"text":"<p>Operiamo con una visione orientata alla creazione di relazioni solide, alla diffusione di competenze e alla costruzione di comunità resilienti e inclusive, mettendo sempre al centro la persona e il suo potenziale di trasformazione sociale.</p>"},"id":"272b9490-561a-4f23-a591-066b0ed95fdf","isHidden":false,"type":"text"}],"id":"7c87655e-fdf6-4144-a3bc-5e930cbda5af","width":"1/1"}],"id":"c1d95cc6-6305-4bf9-8576-438078923e34"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Vai al sito","download":[],"url":"https://opidee.it/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"b98815a3-0c35-46bf-89b5-e10db5776cd9","isHidden":false,"type":"cta"}],"id":"495123c9-ec15-4e4f-90e1-8c7b517317c3","width":"1/1"}],"id":"c6c98157-965e-4c74-922c-d560f48b78f4"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: kgpxcztzwafpsxwv

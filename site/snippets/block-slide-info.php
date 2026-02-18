@@ -1,5 +1,5 @@
 <?php if($item->title()->isNotEmpty() ): ?>
-    <h2><?= $item->title() ?></h2> 
+    <h3><?= $item->title() ?></h3> 
 <?php endif; ?>
 <?php if($item->descrizione()->isNotEmpty() ): ?>
     <div class="slide-bodycopy"><?= $item->descrizione()->kirbytext() ?></div>

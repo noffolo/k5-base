@@ -1,0 +1,124 @@
+Title: Ubique
+
+----
+
+Descrizione:
+
+Studio indipendente di progettazione e produzione culturale con sede in Puglia.
+Si occupa dell’ideazione e realizzazione di eventi, concerti, rassegne e format, curando logistica, servizi tecnici e sostenibilità.
+
+----
+
+Immagine: - file://piyduvkjox7zavpa
+
+----
+
+Thumbnail: - file://piyduvkjox7zavpa
+
+----
+
+Data-di-pubblicazione: 2026-01-09
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Organizzazioni, Sociə, Educazione / Didattica, Contribuisce, Audio / Video
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"text":"<p>Ubique Eventi è un hub indipendente di produzione culturale con sede a Bari, ospitato all’interno di Spazio13. Opera nell’ambito della musica, degli eventi e delle arti contemporanee, progettando e realizzando format innovativi capaci di connettere pubblico, artisti e territorio.</p><p>Ubique lavora come network creativo: mette in relazione professionisti, realtà culturali e spazi urbani, sviluppando progetti che uniscono concerti, performing arts, workshop e momenti di partecipazione attiva. La sua attività integra produzione, curatela e comunicazione culturale, con particolare attenzione ai linguaggi emergenti e alle nuove generazioni.</p><p>All’interno di Spazio13, Ubique contribuisce alla vita del luogo attraverso programmazioni musicali, residenze artistiche, percorsi formativi e collaborazioni con realtà locali e nazionali, promuovendo una cultura accessibile, inclusiva e attenta alla dimensione sociale della creatività.</p>"},"id":"8869e629-e9f4-4a1a-bd7a-b7e3ae765211","isHidden":false,"type":"text"}],"id":"634b68e1-7ea9-4e09-bddc-f5d38e6a6a9a","width":"1/1"}],"id":"be2922e8-285c-4b16-a770-155b26ab3688"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"container_custom_css":"justify-content: center!important;\nalign-item: center!important;\nmargin-bottom: 30px!important;","cta":[{"cta_custom_css":"max-width: fit-content;","switch":"url","anteprima":"Instagram","download":[],"url":"https://www.instagram.com/ubique.events/","page":[],"slug":"","shape":"round","contrast":"positive","is_active":"true"}]},"id":"f326e9f4-f54d-4ee5-b272-191331835851","isHidden":false,"type":"cta"}],"id":"b10837ab-9ba9-44ff-879c-12dfaf45f660","width":"1/1"}],"id":"d3d79cff-b38d-476e-99e1-03cc0f2dd574"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: yi6lbxiy76wsqmak

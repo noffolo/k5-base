@@ -4,21 +4,21 @@
 /* FILTRI */
 /* CSS relativo al componente FILTRI */
 .container-collection {
-  position: sticky;
   z-index: 1;
-  top: 120px !important;
+  // position: sticky;
+  // top: 120px !important;
 
-  @include media-breakpoint-up(md) {
-    top: 73px !important;
-  }
+  // @include media-breakpoint-up(md) {
+  //   top: 73px !important;
+  // }
 
-  @include media-breakpoint-down(md) {
-    top: 56px !important;
-  }
+  // @include media-breakpoint-down(md) {
+  //   top: 56px !important;
+  // }
 
-  @include media-breakpoint-up(lg) {
-    top: 73px !important;
-  }
+  // @include media-breakpoint-up(lg) {
+  //   top: 73px !important;
+  // }
 
   .collection-filters {
     background-color: $color-theme-bis;
@@ -78,7 +78,7 @@
 
 .control-group {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   overflow-x: scroll;
@@ -103,5 +103,6 @@
 
   @include media-breakpoint-down(sm) {
     justify-content: flex-start;
+    flex-wrap: nowrap;
   }
 }

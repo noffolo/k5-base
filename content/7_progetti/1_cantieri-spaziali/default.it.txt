@@ -1,0 +1,121 @@
+Title: Cantieri Spaziali
+
+----
+
+Descrizione: Cantieri Spaziali è stato uno spazio-tempo dedicato all’apprendimento, ma fuori da ogni aula.
+
+----
+
+Immagine: - file://prvliljwwxrdouol
+
+----
+
+Thumbnail: - file://prvliljwwxrdouol
+
+----
+
+Data-di-pubblicazione: 2026-01-13
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Realizzati
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"ac1dcf66-2163-4cd5-9c8a-62143b7948a7","width":"1/3"},{"blocks":[{"content":{"text":"<p>Un progetto nato per consolidare l’esperienza del nostro centro, che negli anni si è trasformato da contenitore a motore collettivo di competenze, visioni e possibilità. Spazio13 si preparava a una fase importante di ristrutturazione che avrebbe visto la pausa forzata dalle attività ordinarie per un periodo di un anno. La community non è rimasta ferma. Anzi, ha colto l’occasione per guardarsi dentro, rafforzarsi, crescere.</p><p>Durante il percorso, Cantieri Spaziali ha costruito un ambiente formativo sperimentale, dove il sapere si è intrecciato con il fare. Qui, giovani utenti hanno potuto mettersi in gioco, apprendere nuove pratiche, contaminarsi tra settori e discipline. Nessuna divisione netta tra cultura, artigianato, innovazione sociale: tutto si è mescolato per generare valore, dentro e fuori lo spazio.</p><p>I percorsi formativi sono stati pensati come esperienze immersive e concrete, dove non ci sono cattedre, ma tavoli comuni. Dove la conoscenza nasce dal confronto e si traduce in impatto.</p><p>Il progetto ha offerto percorsi nei settori della produzione culturale, dell’innovazione sociale e dell’artigianato urbano, puntando su metodologie pratiche, trasversali e condivise.</p><p>È in questo contesto che Cantieri Spaziali ha preso forma: un programma di formazione e collaborazione tra organizzazioni, pensato per far evolvere ciò che negli anni si era costruito. Il progetto ha coinvolto le realtà che abitano Spazio13 fin dalle origini, nuove associazioni e cooperative del quartiere, insieme a partner esterni radicati sul territorio.</p><p>I partner di progetto sono stati <a href=\"/@/page/studvahg7g5qbvkx\" target=\"_blank\">Tou.Play</a> (capofila), <a href=\"/@/page/kgpxcztzwafpsxwv\" target=\"_blank\">Opificio Sociale delle Idee</a><strong>, </strong><a href=\"/@/page/edgyh9ophg98tyiw\" target=\"_blank\"><strong>LAN</strong></a><strong>, </strong><a href=\"/@/page/fplufo8mdinmyock\" target=\"_blank\"><strong>Etnie</strong></a><strong>, </strong><a href=\"/@/page/afq3mqpbuxu0zsqv\" target=\"_blank\"><strong>AL.i.c.e</strong></a><strong>, </strong><a href=\"/@/page/kryzt3ektbqmqcbj\" target=\"_blank\"><strong>GEP</strong></a><strong>, Istituto Salesiano Redentore</strong> e il <strong>CSV San Nicola</strong>.</p>"},"id":"8c3c4e7d-db4d-4b4b-ab09-f3db1b1b3bee","isHidden":false,"type":"text"}],"id":"1e580a8a-495e-4a28-be48-b4a1f28f1997","width":"1/3"},{"blocks":[],"id":"a1349137-0643-4e7c-bfaf-b080be9b3cf8","width":"1/3"}],"id":"c1a7bfbb-1ec0-4ad6-9fd9-098f2c117190"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://j3u5090z2infs3r8"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"89798649-6299-4be9-8a59-0edfebed83ef","isHidden":false,"type":"image"}],"id":"fe622431-8333-4a45-966c-25f266b7d9a5","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://4jfi8faf3agd9wig"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"dd5733b7-0ea4-416a-a41f-592f791ac014","isHidden":false,"type":"image"}],"id":"aa7bc709-0146-431a-9648-936e50fffc2c","width":"1/2"}],"id":"d38cccf2-ed67-4f19-b882-0d817799ea4d"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://yfstazyzeptiaveu"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"9150a08e-e54b-428e-8095-45504bd21a4b","isHidden":false,"type":"image"}],"id":"fe622431-8333-4a45-966c-25f266b7d9a5","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://tyir75kndtf8gn5p"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"cdf7c733-9c87-4ef7-8268-a6c6d53d7a56","isHidden":false,"type":"image"}],"id":"aa7bc709-0146-431a-9648-936e50fffc2c","width":"1/2"}],"id":"dbb416d1-c723-415a-b6d7-242feff3abf9"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://0jgthkacgcdbr7pb"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"35739615-cfdf-4078-923e-4a32cec0798e","isHidden":false,"type":"image"}],"id":"0094012b-0d41-4a97-aa3a-a23d95c533db","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://nxxjbw2pb2jkq93i"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"8758bd57-1d6a-4495-9406-b8db18cddad5","isHidden":false,"type":"image"}],"id":"52a68354-5920-42dc-8ab2-872e6fe57617","width":"1/2"}],"id":"462c6418-7f44-4671-beff-fbc1d5bdbef0"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://r1w0mql7jlva0iko"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"eb150d17-040f-449b-9e56-d058f59103e7","isHidden":false,"type":"image"}],"id":"49e95c76-9737-48c9-8b3e-6004e5a8c77c","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://zfyrluyuhtmr7yhg"],"src":"","alt":"","caption":"","link":"","ratio":"16/9","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"e37d0760-f2d0-4f58-ba2f-1b47b09c04cd","isHidden":false,"type":"image"}],"id":"fe02484e-30cd-4790-ab26-bcd527f3d3a2","width":"1/2"}],"id":"66840141-42ab-4d08-b162-5522c1e03d63"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: yukuqvxmjwp13sbs

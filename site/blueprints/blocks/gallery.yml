@@ -1,0 +1,9 @@
+name: Gallery
+icon: images
+preview: gallery
+fields:
+  images:
+    label: Images
+    type: files
+    layout: cards
+    size: small

@@ -1,0 +1,121 @@
+Title: Piazza Spazio13
+
+----
+
+Descrizione: Il cortile di Spazio13 non è più solo uno spazio di passaggio.
+
+----
+
+Immagine: - file://7hvhiqjnrims5kys
+
+----
+
+Thumbnail: - file://7hvhiqjnrims5kys
+
+----
+
+Data-di-pubblicazione: 2026-01-14
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: Realizzati
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://qfhmkgtzorh0m8nt"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"61637574-9f9e-4246-8891-49552a144ed6","isHidden":false,"type":"image"}],"id":"6abcf093-bd11-4776-9061-d7041dc771a9","width":"1/2"},{"blocks":[{"content":{"text":"<p>Con il progetto Piazza Spazio13, finanziato dalla misura <strong>Rigenerazioni Creative</strong> del <strong>Comune di Bari</strong> (POC METRO 2014–2020), è diventato un luogo in trasformazione: una piazza costruita con e per la comunità, attraverso pratiche partecipate, autocostruzione e urbanismo tattico.</p><p>L’obiettivo non era solo fisico, ma sociale: restituire al quartiere Libertà uno spazio di relazione, aggregazione e attività, partendo dalle energie già presenti dentro e attorno a Spazio13. Il progetto, curato da <strong>Luigi Falbo</strong> (referente per Spazio13) e <strong>Rossella Ferorelli</strong> (referente scientifica), ha attivato un processo collettivo che ha messo al centro le persone, non solo gli spazi.</p><p>Tutto è cominciato con un forum pubblico, seguito il 7 ottobre 2022 da un evento aperto alla cittadinanza: “Piazza Spazio13… dove una volta c’era un cortile”. È stata l’occasione per presentare l’intervento, il calendario dei laboratori, e condividere esperienze, visioni e buone pratiche di rigenerazione urbana sperimentate tra Bari e Milano, con esempi come Piazze Aperte, Furnish e Sciucuà.</p><p>Attraverso colori, arredi in autocostruzione, piante, giochi e interventi a basso impatto tecnologico, Piazza Spazio13 ha iniziato a cambiare volto. Ma più ancora ha allargato la comunità che lo abita: associazioni, gruppi informali, cittadini e cittadine attivə, coinvolti non solo come fruitori ma come co-progettistə di uno spazio pubblico nuovo.</p><p>Una piazza nata nel cuore di un ex cortile. Un altro passo verso un’idea più viva, collettiva e accessibile di città.</p>"},"id":"8eb8ae90-bc3c-4a76-902e-1b473892f36e","isHidden":false,"type":"text"},{"content":[],"id":"456c8cf1-61d2-43e1-846e-f7db6ac6a85c","isHidden":false,"type":"line"},{"content":{"text":"<p>Più recentemente, nel luglio 2025 grazie a un accordo stipulato tra <a href=\"/@/page/ehxmso0pprd2vnf1\" target=\"_blank\">La Scuola Open Source</a> e <strong>IKEA Bari</strong>, in occasione di <a href=\"/@/page/measszar4edgbbn3\" target=\"_blank\">Bari Città Aperta</a>, abbiamo potuto arredare definitivamente gran parte dello spazio disponibile,</p>"},"id":"e91f6eda-f380-458e-bd14-4de2c8d5cd53","isHidden":false,"type":"text"}],"id":"a4a0f0ff-5dac-4eda-ab66-b7d200c09f83","width":"1/2"}],"id":"d45c98cf-627e-4ef2-a327-ca0903f7b818"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://mufgk8jsropqloc0"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"fafb894b-6218-4646-bb7c-2fed3ac41994","isHidden":false,"type":"image"}],"id":"bc7d8fe6-22a0-4d98-bfde-eac5ac90ec09","width":"1/2"},{"blocks":[{"content":{"location":"kirby","image":["file://4k7ru9ccpoo5eprv"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"41d4d7f1-07b1-48f3-9718-6e274793c71b","isHidden":false,"type":"image"}],"id":"a2d971b4-def4-4831-9a16-9f65a9415ff5","width":"1/2"}],"id":"e921a3db-134b-44a5-8570-45e7940fa59f"},{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[{"content":{"location":"kirby","image":["file://7563wtycyldelryd"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"true","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"7ce70d90-d932-4e95-a733-682b84f75b2f","isHidden":false,"type":"image"}],"id":"b5ccddea-f86a-4a1f-b01f-f66a57dd479e","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://ay2llfsvtksocngc"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"2b699560-ba20-4a13-aabe-3e859ca71c6b","isHidden":false,"type":"image"}],"id":"8fb673e2-41e7-41b3-ae79-5780b37cc2d8","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://8kvpcoa0yiulfa8v"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"ed513b56-4979-4859-a657-7546c3e721ef","isHidden":false,"type":"image"}],"id":"f15bcdb4-b25b-4479-832a-e2ee91710323","width":"1/4"},{"blocks":[{"content":{"location":"kirby","image":["file://ncsc4pawetukf5l3"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false","min_height":"unset","min_width":"unset","max_height":"unset","max_width":"unset"},"id":"0bad278a-d2d8-4094-81b7-d0b48590ebcb","isHidden":false,"type":"image"}],"id":"1965b519-8c3a-4f65-8c29-9e229282d3d7","width":"1/4"}],"id":"22192c02-cc3c-4f95-9aaa-29ce8399f21b"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: hh7rjfru3qq2txjj

@@ -1,0 +1,121 @@
+Title: Galattica
+
+----
+
+Descrizione: Spazio13 è il nodo Galattica della città di Bari, parte di una rete regionale diffusa in tutta la Puglia.
+
+----
+
+Immagine: - file://gca8v2x0sfnlzt9w
+
+----
+
+Thumbnail: - file://gca8v2x0sfnlzt9w
+
+----
+
+Data-di-pubblicazione: 2026-01-14
+
+----
+
+Dove: 
+
+----
+
+Child-category-selector: In corso
+
+----
+
+Parent-category-manager: 
+
+----
+
+Appuntamenti: 
+
+----
+
+Deadline: 
+
+----
+
+Num-max: 
+
+----
+
+Correlati: 
+
+----
+
+Team: 
+
+----
+
+Default-marker: 
+
+----
+
+Locator: 
+
+----
+
+Zoom-mappa: 
+
+----
+
+Centro-mappa: 
+
+----
+
+Map-style: mapbox://styles/mapbox/light-v11
+
+----
+
+Map-key: pk.eyJ1IjoiZGF2aWRlZ2lvcmdldHRhIiwiYSI6ImNtMjk1MmFubTAyMXQycXF1ZXVyaTYyMjYifQ.d87xqkbSyGWG8s0xJFfIKg
+
+----
+
+Collection-pagination-prev: contenuti precedenti
+
+----
+
+Collection-pagination-number: 9
+
+----
+
+Collection-pagination-next: altri contenuti
+
+----
+
+Keywords: 
+
+----
+
+Contenuto: [{"attrs":{"custom_css":"","sticky":"false","sticky_offset":100,"custom_id":"","anchor":"false","anchor_name":"","scadenza":"false"},"columns":[{"blocks":[],"id":"07ccc12a-2e62-49a4-8836-a206a1687aa8","width":"1/3"},{"blocks":[{"content":{"text":"<p>Galattica è un progetto che nasce per ascoltare, orientare e accompagnare i giovani. </p><p>A Bari, prende forma dentro e attorno a Spazio13, coinvolgendo la community, le reti locali e nuovi protagonisti.</p><p>Al centro c’è uno sportello di ascolto: un punto d’incontro informale dove i giovani possono raccontare chi sono, cosa cercano, quali strumenti gli mancano. Da lì partono percorsi su misura, costruiti insieme: laboratori, momenti formativi, eventi, tutoraggi, supporto alla progettazione, alla creazione d’impresa e all’accesso ai programmi europei.</p><p>L’Hub dei Talenti non propone soluzioni calate dall’alto. Aiuta a mettere a fuoco competenze, interessi, possibilità. E lo fa attraverso l’esperienza di orientatrici e formatori che lavorano a partire dai bisogni reali. L’approccio è pratico, ibrido, orizzontale. Le attività si muovono tra innovazione sociale, produzione culturale, making, cittadinanza attiva.</p><p>Il progetto è gestito da <a href=\"/@/page/studvahg7g5qbvkx\" target=\"_blank\">Tou.Play</a>. </p><p>È in continuità con esperienze già attive nello spazio, come <a href=\"/@/page/yukuqvxmjwp13sbs\" target=\"_blank\">Cantieri Spaziali</a>, e rafforza il ruolo dell’hub come luogo dove i giovani non solo partecipano, ma progettano il proprio futuro.</p>"},"id":"064fb16b-fc4c-47f6-8501-6866a5e23d4f","isHidden":false,"type":"text"}],"id":"ef96fe88-2f10-4693-8296-d26c66595ae9","width":"1/3"},{"blocks":[],"id":"429a909d-8566-4b24-b22d-efff4fdab3b9","width":"1/3"}],"id":"b62d5eff-5744-48ce-9583-f8f28406d98b"}]
+
+----
+
+Parent-collection-options: blog
+
+----
+
+Parent-categories-toggle: true
+
+----
+
+Collection-toggle: false
+
+----
+
+Collection-options: 
+
+----
+
+Collection-categories-manager-toggle: false
+
+----
+
+Collection-pagination: false
+
+----
+
+Uuid: lddazcebbur1fonv

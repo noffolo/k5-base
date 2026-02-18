@@ -1,0 +1,12 @@
+.img-base {
+    width: 100%;
+    display: block;
+
+    &.cover {
+        object-fit: cover;
+    }
+
+    &.contain {
+        object-fit: contain;
+    }
+}

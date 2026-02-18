@@ -4,6 +4,11 @@ icon: box
 columns:
   - width: 1/1
     fields:
+      csv_status:
+        label: Stato Sorgente
+        type: info
+        theme: info
+        text: "{{ page.csvHealth }}"
       csv_url:
         label: URL CSV
         type: url
