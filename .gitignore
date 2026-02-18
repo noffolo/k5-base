@@ -1,7 +1,21 @@
-/content
+# Kirby exclusions
 /site/cache
 /site/sessions
 /media
+/assets/build
+
+# Config exclusions
 .logins
 site/accounts/.logins
-/assets/build
+
+# Dependencies
+/node_modules
+/vendor
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+.env
